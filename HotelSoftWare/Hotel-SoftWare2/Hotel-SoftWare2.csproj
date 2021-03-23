@@ -1,0 +1,423 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{4FEBF186-8C8E-49ED-8EFC-62F97CA62E06}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>Hotel_SoftWare2</RootNamespace>
+    <AssemblyName>Hotel-SoftWare2</AssemblyName>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Microsoft.VisualBasic" />
+    <Reference Include="Microsoft.VisualBasic.PowerPacks, Version=9.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL" />
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Design" />
+    <Reference Include="System.Runtime.Serialization" />
+    <Reference Include="System.Security" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="billForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="billForm.Designer.cs">
+      <DependentUpon>billForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ChangePassForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ChangePassForm.Designer.cs">
+      <DependentUpon>ChangePassForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ChiTietDatPhongForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ChiTietDatPhongForm.Designer.cs">
+      <DependentUpon>ChiTietDatPhongForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ChiTietPhieuThue.cs">
+      <DependentUpon>MyDbContext.tt</DependentUpon>
+    </Compile>
+    <Compile Include="CustomersForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="CustomersForm.Designer.cs">
+      <DependentUpon>CustomersForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="DatPhongForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="DatPhongForm.Designer.cs">
+      <DependentUpon>DatPhongForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="DichVu.cs">
+      <DependentUpon>MyDbContext.tt</DependentUpon>
+    </Compile>
+    <Compile Include="DoanhThuForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="DoanhThuForm.Designer.cs">
+      <DependentUpon>DoanhThuForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="DSDichVu_Result.cs">
+      <DependentUpon>MyDbContext.tt</DependentUpon>
+    </Compile>
+    <Compile Include="DSLoaiDichVu_Result.cs">
+      <DependentUpon>MyDbContext.tt</DependentUpon>
+    </Compile>
+    <Compile Include="DSLoaiPhong_Result.cs">
+      <DependentUpon>MyDbContext.tt</DependentUpon>
+    </Compile>
+    <Compile Include="DSPhong_Result.cs">
+      <DependentUpon>MyDbContext.tt</DependentUpon>
+    </Compile>
+    <Compile Include="DsSDDV_Result.cs">
+      <DependentUpon>MyDbContext.tt</DependentUpon>
+    </Compile>
+    <Compile Include="EmployeesForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="EmployeesForm.Designer.cs">
+      <DependentUpon>EmployeesForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Encrypt.cs" />
+    <Compile Include="ExportBill.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ExportBill.Designer.cs">
+      <DependentUpon>ExportBill.cs</DependentUpon>
+    </Compile>
+    <Compile Include="getAcc1_Result.cs">
+      <DependentUpon>MyDbContext.tt</DependentUpon>
+    </Compile>
+    <Compile Include="getallCus_Result.cs">
+      <DependentUpon>MyDbContext.tt</DependentUpon>
+    </Compile>
+    <Compile Include="getallEmp_Result.cs">
+      <DependentUpon>MyDbContext.tt</DependentUpon>
+    </Compile>
+    <Compile Include="getAll_CTPT_Result.cs">
+      <DependentUpon>MyDbContext.tt</DependentUpon>
+    </Compile>
+    <Compile Include="getCTPT_FrIdPT_Result.cs">
+      <DependentUpon>MyDbContext.tt</DependentUpon>
+    </Compile>
+    <Compile Include="getDoanhThuTienDV_Result.cs">
+      <DependentUpon>MyDbContext.tt</DependentUpon>
+    </Compile>
+    <Compile Include="getDoanhThuTienPhong_Result.cs">
+      <DependentUpon>MyDbContext.tt</DependentUpon>
+    </Compile>
+    <Compile Include="getFreeRoom_Result.cs">
+      <DependentUpon>MyDbContext.tt</DependentUpon>
+    </Compile>
+    <Compile Include="getlistBill_Result.cs">
+      <DependentUpon>MyDbContext.tt</DependentUpon>
+    </Compile>
+    <Compile Include="getPhieuThue2_Result.cs">
+      <DependentUpon>MyDbContext.tt</DependentUpon>
+    </Compile>
+    <Compile Include="HinhThucThanhToan.cs">
+      <DependentUpon>MyDbContext.tt</DependentUpon>
+    </Compile>
+    <Compile Include="HoaDon.cs">
+      <DependentUpon>MyDbContext.tt</DependentUpon>
+    </Compile>
+    <Compile Include="KhachHang.cs">
+      <DependentUpon>MyDbContext.tt</DependentUpon>
+    </Compile>
+    <Compile Include="ViewMoney.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ViewMoney.Designer.cs">
+      <DependentUpon>ViewMoney.cs</DependentUpon>
+    </Compile>
+    <Compile Include="LoaiDichVu.cs">
+      <DependentUpon>MyDbContext.tt</DependentUpon>
+    </Compile>
+    <Compile Include="LoaiDichVuForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="LoaiDichVuForm.Designer.cs">
+      <DependentUpon>LoaiDichVuForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="LoaiPhong.cs">
+      <DependentUpon>MyDbContext.tt</DependentUpon>
+    </Compile>
+    <Compile Include="LoaiPhongForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="LoaiPhongForm.Designer.cs">
+      <DependentUpon>LoaiPhongForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="LoginForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="LoginForm.Designer.cs">
+      <DependentUpon>LoginForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="MainForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MainForm.Designer.cs">
+      <DependentUpon>MainForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="MyDbContext.Context.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>MyDbContext.Context.tt</DependentUpon>
+    </Compile>
+    <Compile Include="MyDbContext.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>MyDbContext.tt</DependentUpon>
+    </Compile>
+    <Compile Include="MyDbContext.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>MyDbContext.edmx</DependentUpon>
+    </Compile>
+    <Compile Include="NhanVien.cs">
+      <DependentUpon>MyDbContext.tt</DependentUpon>
+    </Compile>
+    <Compile Include="PhieuThuePhong.cs">
+      <DependentUpon>MyDbContext.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Phong.cs">
+      <DependentUpon>MyDbContext.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Phong_Thue_Result.cs">
+      <DependentUpon>MyDbContext.tt</DependentUpon>
+    </Compile>
+    <Compile Include="QLServiceForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="QLServiceForm.Designer.cs">
+      <DependentUpon>QLServiceForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Search_MaCtpt_Result.cs">
+      <DependentUpon>MyDbContext.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Search_MaPhong_Result.cs">
+      <DependentUpon>MyDbContext.tt</DependentUpon>
+    </Compile>
+    <Compile Include="ServiceRoomForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ServiceRoomForm.Designer.cs">
+      <DependentUpon>ServiceRoomForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="SuDungDichVu.cs">
+      <DependentUpon>MyDbContext.tt</DependentUpon>
+    </Compile>
+    <Compile Include="sysdiagram.cs">
+      <DependentUpon>MyDbContext.tt</DependentUpon>
+    </Compile>
+    <Compile Include="tienDvDetail_Result.cs">
+      <DependentUpon>MyDbContext.tt</DependentUpon>
+    </Compile>
+    <Compile Include="tienphongDetail_Result.cs">
+      <DependentUpon>MyDbContext.tt</DependentUpon>
+    </Compile>
+    <Compile Include="TKPhong_Result.cs">
+      <DependentUpon>MyDbContext.tt</DependentUpon>
+    </Compile>
+    <Compile Include="TKService_Result.cs">
+      <DependentUpon>MyDbContext.tt</DependentUpon>
+    </Compile>
+    <Compile Include="TKtypeRoom_Result.cs">
+      <DependentUpon>MyDbContext.tt</DependentUpon>
+    </Compile>
+    <Compile Include="TKtypeService_Result.cs">
+      <DependentUpon>MyDbContext.tt</DependentUpon>
+    </Compile>
+    <Compile Include="TraPhong.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="TraPhong.Designer.cs">
+      <DependentUpon>TraPhong.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="QlyPhong.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="QlyPhong.Designer.cs">
+      <DependentUpon>QlyPhong.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UsersForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UsersForm.Designer.cs">
+      <DependentUpon>UsersForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ViewDoanhThuTheoSoTienNhap_Result.cs">
+      <DependentUpon>MyDbContext.tt</DependentUpon>
+    </Compile>
+    <Compile Include="ViewTienDV_Result.cs">
+      <DependentUpon>MyDbContext.tt</DependentUpon>
+    </Compile>
+    <Compile Include="ViewTienPhong_Result.cs">
+      <DependentUpon>MyDbContext.tt</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="billForm.resx">
+      <DependentUpon>billForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ChangePassForm.resx">
+      <DependentUpon>ChangePassForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ChiTietDatPhongForm.resx">
+      <DependentUpon>ChiTietDatPhongForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CustomersForm.resx">
+      <DependentUpon>CustomersForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DatPhongForm.resx">
+      <DependentUpon>DatPhongForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DoanhThuForm.resx">
+      <DependentUpon>DoanhThuForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="EmployeesForm.resx">
+      <DependentUpon>EmployeesForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ExportBill.resx">
+      <DependentUpon>ExportBill.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ViewMoney.resx">
+      <DependentUpon>ViewMoney.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="LoaiDichVuForm.resx">
+      <DependentUpon>LoaiDichVuForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="LoaiPhongForm.resx">
+      <DependentUpon>LoaiPhongForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="LoginForm.resx">
+      <DependentUpon>LoginForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MainForm.resx">
+      <DependentUpon>MainForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <EmbeddedResource Include="QLServiceForm.resx">
+      <DependentUpon>QLServiceForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="QlyPhong.resx">
+      <DependentUpon>QlyPhong.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ReportBill.rdlc" />
+    <EmbeddedResource Include="ServiceRoomForm.resx">
+      <DependentUpon>ServiceRoomForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="TraPhong.resx">
+      <DependentUpon>TraPhong.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UsersForm.resx">
+      <DependentUpon>UsersForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EntityDeploy Include="MyDbContext.edmx">
+      <Generator>EntityModelCodeGenerator</Generator>
+      <LastGenOutput>MyDbContext.Designer.cs</LastGenOutput>
+    </EntityDeploy>
+    <None Include="MyDbContext.edmx.diagram">
+      <DependentUpon>MyDbContext.edmx</DependentUpon>
+    </None>
+    <None Include="Properties\DataSources\ChiTietTienDV.datasource" />
+    <None Include="Properties\DataSources\ChiTietTienPhong.datasource" />
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <PackageReference Include="EntityFramework">
+      <Version>6.2.0</Version>
+    </PackageReference>
+    <PackageReference Include="EPPlus">
+      <Version>5.1.1</Version>
+    </PackageReference>
+    <PackageReference Include="FontAwesome">
+      <Version>4.7.0</Version>
+    </PackageReference>
+    <PackageReference Include="FontAwesome.Sharp">
+      <Version>5.12.1</Version>
+    </PackageReference>
+    <PackageReference Include="Microsoft.ReportingServices.ReportViewerControl.Winforms">
+      <Version>150.1404.0</Version>
+    </PackageReference>
+    <PackageReference Include="Microsoft.SqlServer.Types">
+      <Version>14.0.1016.290</Version>
+    </PackageReference>
+  </ItemGroup>
+  <ItemGroup>
+    <Service Include="{508349B6-6B84-4DF5-91F0-309BEEBAD82D}" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\LogoHotel1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="MyDbContext.Context.tt">
+      <Generator>TextTemplatingFileGenerator</Generator>
+      <DependentUpon>MyDbContext.edmx</DependentUpon>
+      <LastGenOutput>MyDbContext.Context.cs</LastGenOutput>
+    </Content>
+    <Content Include="MyDbContext.tt">
+      <Generator>TextTemplatingFileGenerator</Generator>
+      <DependentUpon>MyDbContext.edmx</DependentUpon>
+      <LastGenOutput>MyDbContext.cs</LastGenOutput>
+    </Content>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>

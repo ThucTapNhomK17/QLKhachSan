@@ -1,0 +1,608 @@
+D:\Ki2_Năm3\Db-Practice\Git\UI_26\UI_26\Hotel-SoftWare2\bin\Debug\Hotel-SoftWare2.exe.config
+D:\Ki2_Năm3\Db-Practice\Git\UI_26\UI_26\Hotel-SoftWare2\bin\Debug\Hotel-SoftWare2.exe
+D:\Ki2_Năm3\Db-Practice\Git\UI_26\UI_26\Hotel-SoftWare2\bin\Debug\Hotel-SoftWare2.pdb
+D:\Ki2_Năm3\Db-Practice\Git\UI_26\UI_26\Hotel-SoftWare2\bin\Debug\FontAwesome.Sharp.dll
+D:\Ki2_Năm3\Db-Practice\Git\UI_26\UI_26\Hotel-SoftWare2\obj\Debug\Hotel-SoftWare2.csprojAssemblyReference.cache
+D:\Ki2_Năm3\Db-Practice\Git\UI_26\UI_26\Hotel-SoftWare2\obj\Debug\Hotel_SoftWare2.MainForm.resources
+D:\Ki2_Năm3\Db-Practice\Git\UI_26\UI_26\Hotel-SoftWare2\obj\Debug\Hotel_SoftWare2.Properties.Resources.resources
+D:\Ki2_Năm3\Db-Practice\Git\UI_26\UI_26\Hotel-SoftWare2\obj\Debug\Hotel-SoftWare2.csproj.GenerateResource.cache
+D:\Ki2_Năm3\Db-Practice\Git\UI_26\UI_26\Hotel-SoftWare2\obj\Debug\Hotel-SoftWare2.csproj.CoreCompileInputs.cache
+D:\Ki2_Năm3\Db-Practice\Git\UI_26\UI_26\Hotel-SoftWare2\obj\Debug\Hotel-SoftWare2.csproj.CopyComplete
+D:\Ki2_Năm3\Db-Practice\Git\UI_26\UI_26\Hotel-SoftWare2\obj\Debug\Hotel-SoftWare2.exe
+D:\Ki2_Năm3\Db-Practice\Git\UI_26\UI_26\Hotel-SoftWare2\obj\Debug\Hotel-SoftWare2.pdb
+D:\Ki2_Năm3\Db-Practice\Git\UI_together\Hotel-SoftWare2\bin\Debug\Hotel-SoftWare2.exe.config
+D:\Ki2_Năm3\Db-Practice\Git\UI_together\Hotel-SoftWare2\bin\Debug\Hotel-SoftWare2.exe
+D:\Ki2_Năm3\Db-Practice\Git\UI_together\Hotel-SoftWare2\bin\Debug\Hotel-SoftWare2.pdb
+D:\Ki2_Năm3\Db-Practice\Git\UI_together\Hotel-SoftWare2\bin\Debug\FontAwesome.Sharp.dll
+D:\Ki2_Năm3\Db-Practice\Git\UI_together\Hotel-SoftWare2\obj\Debug\Hotel-SoftWare2.csprojAssemblyReference.cache
+D:\Ki2_Năm3\Db-Practice\Git\UI_together\Hotel-SoftWare2\obj\Debug\Hotel_SoftWare2.MainForm.resources
+D:\Ki2_Năm3\Db-Practice\Git\UI_together\Hotel-SoftWare2\obj\Debug\Hotel_SoftWare2.Properties.Resources.resources
+D:\Ki2_Năm3\Db-Practice\Git\UI_together\Hotel-SoftWare2\obj\Debug\Hotel-SoftWare2.csproj.GenerateResource.cache
+D:\Ki2_Năm3\Db-Practice\Git\UI_together\Hotel-SoftWare2\obj\Debug\Hotel-SoftWare2.csproj.CoreCompileInputs.cache
+D:\Ki2_Năm3\Db-Practice\Git\UI_together\Hotel-SoftWare2\obj\Debug\Hotel-SoftWare2.csproj.CopyComplete
+D:\Ki2_Năm3\Db-Practice\Git\UI_together\Hotel-SoftWare2\obj\Debug\Hotel-SoftWare2.exe
+D:\Ki2_Năm3\Db-Practice\Git\UI_together\Hotel-SoftWare2\obj\Debug\Hotel-SoftWare2.pdb
+D:\Ki2_Năm3\Db-Practice\Git\UI_together\UI_together\Hotel-SoftWare2\bin\Debug\Hotel-SoftWare2.exe.config
+D:\Ki2_Năm3\Db-Practice\Git\UI_together\UI_together\Hotel-SoftWare2\bin\Debug\Hotel-SoftWare2.exe
+D:\Ki2_Năm3\Db-Practice\Git\UI_together\UI_together\Hotel-SoftWare2\bin\Debug\Hotel-SoftWare2.pdb
+D:\Ki2_Năm3\Db-Practice\Git\UI_together\UI_together\Hotel-SoftWare2\bin\Debug\FontAwesome.Sharp.dll
+D:\Ki2_Năm3\Db-Practice\Git\UI_together\UI_together\Hotel-SoftWare2\obj\Debug\Hotel_SoftWare2.MainForm.resources
+D:\Ki2_Năm3\Db-Practice\Git\UI_together\UI_together\Hotel-SoftWare2\obj\Debug\Hotel_SoftWare2.Properties.Resources.resources
+D:\Ki2_Năm3\Db-Practice\Git\UI_together\UI_together\Hotel-SoftWare2\obj\Debug\Hotel-SoftWare2.csproj.GenerateResource.cache
+D:\Ki2_Năm3\Db-Practice\Git\UI_together\UI_together\Hotel-SoftWare2\obj\Debug\Hotel-SoftWare2.csproj.CoreCompileInputs.cache
+D:\Ki2_Năm3\Db-Practice\Git\UI_together\UI_together\Hotel-SoftWare2\obj\Debug\Hotel-SoftWare2.csproj.CopyComplete
+D:\Ki2_Năm3\Db-Practice\Git\UI_together\UI_together\Hotel-SoftWare2\obj\Debug\Hotel-SoftWare2.exe
+D:\Ki2_Năm3\Db-Practice\Git\UI_together\UI_together\Hotel-SoftWare2\obj\Debug\Hotel-SoftWare2.pdb
+D:\Ki2_Năm3\Db-Practice\Git\UI_together\UI_together\Hotel-SoftWare2\obj\Debug\Hotel_SoftWare2.CustomersForm.resources
+D:\Ki2_Năm3\Db-Practice\Git\UI_together\UI_together\Hotel-SoftWare2\obj\Debug\Hotel_SoftWare2.EmployeesForm.resources
+D:\Ki2_Năm3\Db-Practice\Git\UI_together\UI_together\Hotel-SoftWare2\obj\Debug\Hotel_SoftWare2.UsersForm.resources
+C:\Users\THUY LINH\Documents\GitHub\UI_together\Hotel-SoftWare2\bin\Debug\Hotel-SoftWare2.exe.config
+C:\Users\THUY LINH\Documents\GitHub\UI_together\Hotel-SoftWare2\bin\Debug\Hotel-SoftWare2.exe
+C:\Users\THUY LINH\Documents\GitHub\UI_together\Hotel-SoftWare2\bin\Debug\Hotel-SoftWare2.pdb
+C:\Users\THUY LINH\Documents\GitHub\UI_together\Hotel-SoftWare2\bin\Debug\FontAwesome.Sharp.dll
+C:\Users\THUY LINH\Documents\GitHub\UI_together\Hotel-SoftWare2\obj\Debug\Hotel-SoftWare2.csprojAssemblyReference.cache
+C:\Users\THUY LINH\Documents\GitHub\UI_together\Hotel-SoftWare2\obj\Debug\Hotel_SoftWare2.AddCusForm.resources
+C:\Users\THUY LINH\Documents\GitHub\UI_together\Hotel-SoftWare2\obj\Debug\Hotel_SoftWare2.CustomersForm.resources
+C:\Users\THUY LINH\Documents\GitHub\UI_together\Hotel-SoftWare2\obj\Debug\Hotel_SoftWare2.EmployeesForm.resources
+C:\Users\THUY LINH\Documents\GitHub\UI_together\Hotel-SoftWare2\obj\Debug\Hotel_SoftWare2.MainForm.resources
+C:\Users\THUY LINH\Documents\GitHub\UI_together\Hotel-SoftWare2\obj\Debug\Hotel_SoftWare2.Properties.Resources.resources
+C:\Users\THUY LINH\Documents\GitHub\UI_together\Hotel-SoftWare2\obj\Debug\Hotel_SoftWare2.UsersForm.resources
+C:\Users\THUY LINH\Documents\GitHub\UI_together\Hotel-SoftWare2\obj\Debug\Hotel-SoftWare2.csproj.GenerateResource.cache
+C:\Users\THUY LINH\Documents\GitHub\UI_together\Hotel-SoftWare2\obj\Debug\Hotel-SoftWare2.csproj.CoreCompileInputs.cache
+C:\Users\THUY LINH\Documents\GitHub\UI_together\Hotel-SoftWare2\obj\Debug\Hotel-SoftWare2.csproj.CopyComplete
+C:\Users\THUY LINH\Documents\GitHub\UI_together\Hotel-SoftWare2\obj\Debug\Hotel-SoftWare2.exe
+C:\Users\THUY LINH\Documents\GitHub\UI_together\Hotel-SoftWare2\obj\Debug\Hotel-SoftWare2.pdb
+C:\Users\THUY LINH\Documents\GitHub\UI_together\Hotel-SoftWare2\obj\Debug\Hotel_SoftWare2.DatPhongForm.resources
+C:\Users\THUY LINH\Documents\GitHub\UI_together\Hotel-SoftWare2\obj\Debug\Hotel_SoftWare2.QlyPhong.resources
+C:\Users\THUY LINH\Documents\GitHub\UI_together\Hotel-SoftWare2\obj\Debug\Hotel_SoftWare2.Huyphong.resources
+C:\Users\THUY LINH\Documents\GitHub\UI_together\Hotel-SoftWare2\obj\Debug\Hotel_SoftWare2.NhanPhongForm.resources
+C:\Users\THUY LINH\Documents\GitHub\UI_together\Hotel-SoftWare2\obj\Debug\Hotel_SoftWare2.TraPhong.resources
+C:\Users\FPTSHOP\Documents\Visual Studio 2019\UI_together\Hotel-SoftWare2\bin\Debug\Hotel-SoftWare2.exe.config
+C:\Users\FPTSHOP\Documents\Visual Studio 2019\UI_together\Hotel-SoftWare2\bin\Debug\Hotel-SoftWare2.exe
+C:\Users\FPTSHOP\Documents\Visual Studio 2019\UI_together\Hotel-SoftWare2\bin\Debug\Hotel-SoftWare2.pdb
+C:\Users\FPTSHOP\Documents\Visual Studio 2019\UI_together\Hotel-SoftWare2\bin\Debug\FontAwesome.Sharp.dll
+C:\Users\FPTSHOP\Documents\Visual Studio 2019\UI_together\Hotel-SoftWare2\obj\Debug\Hotel_SoftWare2.AddCusForm.resources
+C:\Users\FPTSHOP\Documents\Visual Studio 2019\UI_together\Hotel-SoftWare2\obj\Debug\Hotel_SoftWare2.CustomersForm.resources
+C:\Users\FPTSHOP\Documents\Visual Studio 2019\UI_together\Hotel-SoftWare2\obj\Debug\Hotel_SoftWare2.DatPhongForm.resources
+C:\Users\FPTSHOP\Documents\Visual Studio 2019\UI_together\Hotel-SoftWare2\obj\Debug\Hotel_SoftWare2.EmployeesForm.resources
+C:\Users\FPTSHOP\Documents\Visual Studio 2019\UI_together\Hotel-SoftWare2\obj\Debug\Hotel_SoftWare2.Huyphong.resources
+C:\Users\FPTSHOP\Documents\Visual Studio 2019\UI_together\Hotel-SoftWare2\obj\Debug\Hotel_SoftWare2.MainForm.resources
+C:\Users\FPTSHOP\Documents\Visual Studio 2019\UI_together\Hotel-SoftWare2\obj\Debug\Hotel_SoftWare2.Properties.Resources.resources
+C:\Users\FPTSHOP\Documents\Visual Studio 2019\UI_together\Hotel-SoftWare2\obj\Debug\Hotel_SoftWare2.QlyPhong.resources
+C:\Users\FPTSHOP\Documents\Visual Studio 2019\UI_together\Hotel-SoftWare2\obj\Debug\Hotel_SoftWare2.NhanPhongForm.resources
+C:\Users\FPTSHOP\Documents\Visual Studio 2019\UI_together\Hotel-SoftWare2\obj\Debug\Hotel_SoftWare2.TraPhong.resources
+C:\Users\FPTSHOP\Documents\Visual Studio 2019\UI_together\Hotel-SoftWare2\obj\Debug\Hotel_SoftWare2.UsersForm.resources
+C:\Users\FPTSHOP\Documents\Visual Studio 2019\UI_together\Hotel-SoftWare2\obj\Debug\Hotel-SoftWare2.csproj.GenerateResource.cache
+C:\Users\FPTSHOP\Documents\Visual Studio 2019\UI_together\Hotel-SoftWare2\obj\Debug\Hotel-SoftWare2.csproj.CoreCompileInputs.cache
+C:\Users\FPTSHOP\Documents\Visual Studio 2019\UI_together\Hotel-SoftWare2\obj\Debug\Hotel-SoftWare2.csproj.CopyComplete
+C:\Users\FPTSHOP\Documents\Visual Studio 2019\UI_together\Hotel-SoftWare2\obj\Debug\Hotel-SoftWare2.exe
+C:\Users\FPTSHOP\Documents\Visual Studio 2019\UI_together\Hotel-SoftWare2\obj\Debug\Hotel-SoftWare2.pdb
+C:\Users\THUY LINH\Documents\GitHub\UI_together\Hotel-SoftWare2\obj\Debug\Hotel_SoftWare2.AddEmpForm.resources
+C:\Users\THUY LINH\Documents\GitHub\UI_together\Hotel-SoftWare2\obj\Debug\Hotel_SoftWare2.AddUsersForm.resources
+C:\Users\THUY LINH\Documents\GitHub\UI_together\Hotel-SoftWare2\obj\Debug\Hotel_SoftWare2.LoginForm.resources
+D:\Ki2_Năm3\Db-Practice\Git\UI_together\UI_together\Hotel-SoftWare2\bin\Debug\Microsoft.VisualBasic.PowerPacks.dll
+D:\Ki2_Năm3\Db-Practice\Git\UI_together\UI_together\Hotel-SoftWare2\bin\Debug\Microsoft.VisualBasic.PowerPacks.xml
+D:\Ki2_Năm3\Db-Practice\Git\UI_together\UI_together\Hotel-SoftWare2\obj\Debug\Hotel_SoftWare2.DatPhongForm.resources
+D:\Ki2_Năm3\Db-Practice\Git\UI_together\UI_together\Hotel-SoftWare2\obj\Debug\Hotel_SoftWare2.LoginForm.resources
+D:\Ki2_Năm3\Db-Practice\Git\UI_together\UI_together\Hotel-SoftWare2\obj\Debug\Hotel_SoftWare2.Huyphong.resources
+D:\Ki2_Năm3\Db-Practice\Git\UI_together\UI_together\Hotel-SoftWare2\obj\Debug\Hotel_SoftWare2.QlyPhong.resources
+D:\Ki2_Năm3\Db-Practice\Git\UI_together\UI_together\Hotel-SoftWare2\obj\Debug\Hotel_SoftWare2.NhanPhongForm.resources
+D:\Ki2_Năm3\Db-Practice\Git\UI_together\UI_together\Hotel-SoftWare2\obj\Debug\Hotel_SoftWare2.TraPhong.resources
+D:\Ki2_Năm3\Db-Practice\Git\UI_together\UI_together\Hotel-SoftWare2\obj\Debug\Hotel_SoftWare2.ChangePassForm.resources
+C:\Users\FPTSHOP\Documents\Visual Studio 2019\UI_together\Hotel-SoftWare2\bin\Debug\Microsoft.VisualBasic.PowerPacks.dll
+C:\Users\FPTSHOP\Documents\Visual Studio 2019\UI_together\Hotel-SoftWare2\bin\Debug\Microsoft.VisualBasic.PowerPacks.xml
+C:\Users\FPTSHOP\Documents\Visual Studio 2019\UI_together\Hotel-SoftWare2\obj\Debug\Hotel_SoftWare2.AddEmpForm.resources
+C:\Users\FPTSHOP\Documents\Visual Studio 2019\UI_together\Hotel-SoftWare2\obj\Debug\Hotel_SoftWare2.AddUsersForm.resources
+C:\Users\FPTSHOP\Documents\Visual Studio 2019\UI_together\Hotel-SoftWare2\obj\Debug\Hotel_SoftWare2.LoginForm.resources
+C:\Users\FPTSHOP\Documents\Visual Studio 2019\UI_together\Hotel-SoftWare2\obj\Debug\Hotel-SoftWare2.csprojAssemblyReference.cache
+C:\Users\FPTSHOP\Documents\Visual Studio 2019\UI_together\Hotel-SoftWare2\obj\Debug\Hotel_SoftWare2.QLServiceForm.resources
+C:\Users\FPTSHOP\Documents\Visual Studio 2019\UI_together\Hotel-SoftWare2\obj\Debug\Hotel_SoftWare2.ServiceRoomForm.resources
+C:\Users\FPTSHOP\Documents\Visual Studio 2019\UI_together\Hotel-SoftWare2\obj\Debug\Hotel_SoftWare2.ChangePassForm.resources
+D:\Ki2_Năm3\Db-Practice\Git\UI_together\UI_together\Hotel-SoftWare2\obj\Debug\Hotel_SoftWare2.QLServiceForm.resources
+D:\Ki2_Năm3\Db-Practice\Git\UI_together\UI_together\Hotel-SoftWare2\obj\Debug\Hotel_SoftWare2.ServiceRoomForm.resources
+C:\Users\THUY LINH\Documents\GitHub\UI_together\Hotel-SoftWare2\obj\Debug\Hotel_SoftWare2.ChangePassForm.resources
+C:\Users\THUY LINH\Documents\GitHub\UI_together\Hotel-SoftWare2\obj\Debug\Hotel_SoftWare2.QLServiceForm.resources
+C:\Users\THUY LINH\Documents\GitHub\UI_together\Hotel-SoftWare2\obj\Debug\Hotel_SoftWare2.ServiceRoomForm.resources
+C:\Users\THUY LINH\Documents\GitHub\UI_together\Hotel-SoftWare2\obj\Debug\Hotel_SoftWare2.ttKhachHang.resources
+C:\Users\THUY LINH\Documents\GitHub\UI_together\Hotel-SoftWare2\obj\Debug\Hotel_SoftWare2.ThemsuaxoaPhong.resources
+C:\Users\FPTSHOP\Documents\Visual Studio 2019\UI_together\Hotel-SoftWare2\obj\Debug\Hotel_SoftWare2.ThemsuaxoaPhong.resources
+C:\Users\FPTSHOP\Documents\Visual Studio 2019\UI_together\Hotel-SoftWare2\obj\Debug\Hotel_SoftWare2.ttKhachHang.resources
+D:\Ki2_Năm3\Db-Practice\Git\UI_together\UI_together\Hotel-SoftWare2\obj\Debug\Hotel_SoftWare2.DoanhThuForm.resources
+D:\Ki2_Năm3\Db-Practice\Git\UI_together\UI_together\Hotel-SoftWare2\bin\Debug\EntityFramework.SqlServer.dll
+D:\Ki2_Năm3\Db-Practice\Git\UI_together\UI_together\Hotel-SoftWare2\bin\Debug\EntityFramework.dll
+D:\Ki2_Năm3\Db-Practice\Git\UI_together\UI_together\Hotel-SoftWare2\obj\Debug\Hotel_SoftWare2.LoaiDichVuForm.resources
+D:\Ki2_Năm3\Db-Practice\Git\UI_together\UI_together\Hotel-SoftWare2\obj\Debug\Hotel_SoftWare2.LoaiPhongForm.resources
+D:\Ki2_Năm3\Db-Practice\Git\UI_together\UI_together\Hotel-SoftWare2\bin\Debug\EPPlus.dll
+C:\Users\datproqhna\Downloads\ks\Hotel-SoftWare2\bin\Debug\Hotel-SoftWare2.exe.config
+C:\Users\datproqhna\Downloads\ks\Hotel-SoftWare2\bin\Debug\Hotel-SoftWare2.exe
+C:\Users\datproqhna\Downloads\ks\Hotel-SoftWare2\bin\Debug\Hotel-SoftWare2.pdb
+C:\Users\datproqhna\Downloads\ks\Hotel-SoftWare2\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\datproqhna\Downloads\ks\Hotel-SoftWare2\bin\Debug\EntityFramework.dll
+C:\Users\datproqhna\Downloads\ks\Hotel-SoftWare2\bin\Debug\EPPlus.dll
+C:\Users\datproqhna\Downloads\ks\Hotel-SoftWare2\bin\Debug\FontAwesome.Sharp.dll
+C:\Users\datproqhna\Downloads\ks\Hotel-SoftWare2\bin\Debug\Microsoft.VisualBasic.PowerPacks.dll
+C:\Users\datproqhna\Downloads\ks\Hotel-SoftWare2\bin\Debug\Microsoft.VisualBasic.PowerPacks.xml
+C:\Users\datproqhna\Downloads\ks\Hotel-SoftWare2\obj\Debug\Hotel_SoftWare2.billForm.resources
+C:\Users\datproqhna\Downloads\ks\Hotel-SoftWare2\obj\Debug\Hotel_SoftWare2.ChangePassForm.resources
+C:\Users\datproqhna\Downloads\ks\Hotel-SoftWare2\obj\Debug\Hotel_SoftWare2.CustomersForm.resources
+C:\Users\datproqhna\Downloads\ks\Hotel-SoftWare2\obj\Debug\Hotel_SoftWare2.DatPhongForm.resources
+C:\Users\datproqhna\Downloads\ks\Hotel-SoftWare2\obj\Debug\Hotel_SoftWare2.DoanhThuForm.resources
+C:\Users\datproqhna\Downloads\ks\Hotel-SoftWare2\obj\Debug\Hotel_SoftWare2.EmployeesForm.resources
+C:\Users\datproqhna\Downloads\ks\Hotel-SoftWare2\obj\Debug\Hotel_SoftWare2.listCustomer.resources
+C:\Users\datproqhna\Downloads\ks\Hotel-SoftWare2\obj\Debug\Hotel_SoftWare2.LoaiDichVuForm.resources
+C:\Users\datproqhna\Downloads\ks\Hotel-SoftWare2\obj\Debug\Hotel_SoftWare2.LoaiPhongForm.resources
+C:\Users\datproqhna\Downloads\ks\Hotel-SoftWare2\obj\Debug\Hotel_SoftWare2.LoginForm.resources
+C:\Users\datproqhna\Downloads\ks\Hotel-SoftWare2\obj\Debug\Hotel_SoftWare2.Huyphong.resources
+C:\Users\datproqhna\Downloads\ks\Hotel-SoftWare2\obj\Debug\Hotel_SoftWare2.MainForm.resources
+C:\Users\datproqhna\Downloads\ks\Hotel-SoftWare2\obj\Debug\Hotel_SoftWare2.Properties.Resources.resources
+C:\Users\datproqhna\Downloads\ks\Hotel-SoftWare2\obj\Debug\Hotel_SoftWare2.QLServiceForm.resources
+C:\Users\datproqhna\Downloads\ks\Hotel-SoftWare2\obj\Debug\Hotel_SoftWare2.QlyPhong.resources
+C:\Users\datproqhna\Downloads\ks\Hotel-SoftWare2\obj\Debug\Hotel_SoftWare2.NhanPhongForm.resources
+C:\Users\datproqhna\Downloads\ks\Hotel-SoftWare2\obj\Debug\Hotel_SoftWare2.ServiceRoomForm.resources
+C:\Users\datproqhna\Downloads\ks\Hotel-SoftWare2\obj\Debug\Hotel_SoftWare2.TraPhong.resources
+C:\Users\datproqhna\Downloads\ks\Hotel-SoftWare2\obj\Debug\Hotel_SoftWare2.UsersForm.resources
+C:\Users\datproqhna\Downloads\ks\Hotel-SoftWare2\obj\Debug\Hotel-SoftWare2.csproj.GenerateResource.cache
+C:\Users\datproqhna\Downloads\ks\Hotel-SoftWare2\obj\Debug\Hotel-SoftWare2.csproj.CoreCompileInputs.cache
+C:\Users\datproqhna\Downloads\ks\Hotel-SoftWare2\obj\Debug\Hotel-SoftWare2.csproj.CopyComplete
+C:\Users\datproqhna\Downloads\ks\Hotel-SoftWare2\obj\Debug\Hotel-SoftWare2.exe
+C:\Users\datproqhna\Downloads\ks\Hotel-SoftWare2\obj\Debug\Hotel-SoftWare2.pdb
+C:\Users\datproqhna\Downloads\ks\Hotel-SoftWare2\obj\Debug\Hotel-SoftWare2.csprojAssemblyReference.cache
+C:\Users\datproqhna\Downloads\ks\Hotel-SoftWare2\obj\Debug\Hotel_SoftWare2.ChiTietDatPhongForm.resources
+D:\Ki2_Năm3\Db-Practice\Git\UI_together\UI_together\Hotel-SoftWare2\obj\Debug\Hotel_SoftWare2.ChiTietDatPhongForm.resources
+D:\Ki2_Năm3\Db-Practice\Git\UI_together\UI_together\Hotel-SoftWare2\obj\Debug\Hotel_SoftWare2.listCustomer.resources
+D:\Ki2_Năm3\Db-Practice\Git\UI_together\UI_together\Hotel-SoftWare2\bin\Debug\Microsoft.ReportViewer.WinForms.dll
+D:\Ki2_Năm3\Db-Practice\Git\UI_together\UI_together\Hotel-SoftWare2\obj\Debug\RdlCompile.cache
+D:\Ki2_Năm3\Db-Practice\Git\UI_together\UI_together\Hotel-SoftWare2\obj\Debug\RdlCompile.compiled
+D:\Ki2_Năm3\Db-Practice\Git\UI_together\UI_together\Hotel-SoftWare2\obj\Debug\Hotel_SoftWare2.ExportBill.resources
+D:\Ki2_Năm3\Db-Practice\Git\UI_together\UI_together\Hotel-SoftWare2\bin\Debug\Microsoft.ReportViewer.Common.dll
+D:\Ki2_Năm3\Db-Practice\Git\UI_together\UI_together\Hotel-SoftWare2\bin\Debug\Microsoft.ReportViewer.DataVisualization.dll
+D:\Ki2_Năm3\Db-Practice\Git\UI_together\UI_together\Hotel-SoftWare2\bin\Debug\Microsoft.ReportViewer.Design.dll
+D:\Ki2_Năm3\Db-Practice\Git\UI_together\UI_together\Hotel-SoftWare2\bin\Debug\Microsoft.ReportViewer.ProcessingObjectModel.dll
+D:\Ki2_Năm3\Db-Practice\Git\UI_together\UI_together\Hotel-SoftWare2\bin\Debug\de\Microsoft.ReportViewer.Common.resources.dll
+D:\Ki2_Năm3\Db-Practice\Git\UI_together\UI_together\Hotel-SoftWare2\bin\Debug\de\Microsoft.ReportViewer.DataVisualization.resources.dll
+D:\Ki2_Năm3\Db-Practice\Git\UI_together\UI_together\Hotel-SoftWare2\bin\Debug\de\Microsoft.ReportViewer.Design.resources.dll
+D:\Ki2_Năm3\Db-Practice\Git\UI_together\UI_together\Hotel-SoftWare2\bin\Debug\de\Microsoft.ReportViewer.WinForms.resources.dll
+D:\Ki2_Năm3\Db-Practice\Git\UI_together\UI_together\Hotel-SoftWare2\bin\Debug\es\Microsoft.ReportViewer.Common.resources.dll
+D:\Ki2_Năm3\Db-Practice\Git\UI_together\UI_together\Hotel-SoftWare2\bin\Debug\es\Microsoft.ReportViewer.DataVisualization.resources.dll
+D:\Ki2_Năm3\Db-Practice\Git\UI_together\UI_together\Hotel-SoftWare2\bin\Debug\es\Microsoft.ReportViewer.Design.resources.dll
+D:\Ki2_Năm3\Db-Practice\Git\UI_together\UI_together\Hotel-SoftWare2\bin\Debug\es\Microsoft.ReportViewer.WinForms.resources.dll
+D:\Ki2_Năm3\Db-Practice\Git\UI_together\UI_together\Hotel-SoftWare2\bin\Debug\fr\Microsoft.ReportViewer.Common.resources.dll
+D:\Ki2_Năm3\Db-Practice\Git\UI_together\UI_together\Hotel-SoftWare2\bin\Debug\fr\Microsoft.ReportViewer.DataVisualization.resources.dll
+D:\Ki2_Năm3\Db-Practice\Git\UI_together\UI_together\Hotel-SoftWare2\bin\Debug\fr\Microsoft.ReportViewer.Design.resources.dll
+D:\Ki2_Năm3\Db-Practice\Git\UI_together\UI_together\Hotel-SoftWare2\bin\Debug\fr\Microsoft.ReportViewer.WinForms.resources.dll
+D:\Ki2_Năm3\Db-Practice\Git\UI_together\UI_together\Hotel-SoftWare2\bin\Debug\it\Microsoft.ReportViewer.Common.resources.dll
+D:\Ki2_Năm3\Db-Practice\Git\UI_together\UI_together\Hotel-SoftWare2\bin\Debug\it\Microsoft.ReportViewer.DataVisualization.resources.dll
+D:\Ki2_Năm3\Db-Practice\Git\UI_together\UI_together\Hotel-SoftWare2\bin\Debug\it\Microsoft.ReportViewer.Design.resources.dll
+D:\Ki2_Năm3\Db-Practice\Git\UI_together\UI_together\Hotel-SoftWare2\bin\Debug\it\Microsoft.ReportViewer.WinForms.resources.dll
+D:\Ki2_Năm3\Db-Practice\Git\UI_together\UI_together\Hotel-SoftWare2\bin\Debug\ja\Microsoft.ReportViewer.Common.resources.dll
+D:\Ki2_Năm3\Db-Practice\Git\UI_together\UI_together\Hotel-SoftWare2\bin\Debug\ja\Microsoft.ReportViewer.DataVisualization.resources.dll
+D:\Ki2_Năm3\Db-Practice\Git\UI_together\UI_together\Hotel-SoftWare2\bin\Debug\ja\Microsoft.ReportViewer.Design.resources.dll
+D:\Ki2_Năm3\Db-Practice\Git\UI_together\UI_together\Hotel-SoftWare2\bin\Debug\ja\Microsoft.ReportViewer.WinForms.resources.dll
+D:\Ki2_Năm3\Db-Practice\Git\UI_together\UI_together\Hotel-SoftWare2\bin\Debug\ko\Microsoft.ReportViewer.Common.resources.dll
+D:\Ki2_Năm3\Db-Practice\Git\UI_together\UI_together\Hotel-SoftWare2\bin\Debug\ko\Microsoft.ReportViewer.DataVisualization.resources.dll
+D:\Ki2_Năm3\Db-Practice\Git\UI_together\UI_together\Hotel-SoftWare2\bin\Debug\ko\Microsoft.ReportViewer.Design.resources.dll
+D:\Ki2_Năm3\Db-Practice\Git\UI_together\UI_together\Hotel-SoftWare2\bin\Debug\ko\Microsoft.ReportViewer.WinForms.resources.dll
+D:\Ki2_Năm3\Db-Practice\Git\UI_together\UI_together\Hotel-SoftWare2\bin\Debug\pt\Microsoft.ReportViewer.Common.resources.dll
+D:\Ki2_Năm3\Db-Practice\Git\UI_together\UI_together\Hotel-SoftWare2\bin\Debug\pt\Microsoft.ReportViewer.DataVisualization.resources.dll
+D:\Ki2_Năm3\Db-Practice\Git\UI_together\UI_together\Hotel-SoftWare2\bin\Debug\pt\Microsoft.ReportViewer.Design.resources.dll
+D:\Ki2_Năm3\Db-Practice\Git\UI_together\UI_together\Hotel-SoftWare2\bin\Debug\pt\Microsoft.ReportViewer.WinForms.resources.dll
+D:\Ki2_Năm3\Db-Practice\Git\UI_together\UI_together\Hotel-SoftWare2\bin\Debug\ru\Microsoft.ReportViewer.Common.resources.dll
+D:\Ki2_Năm3\Db-Practice\Git\UI_together\UI_together\Hotel-SoftWare2\bin\Debug\ru\Microsoft.ReportViewer.DataVisualization.resources.dll
+D:\Ki2_Năm3\Db-Practice\Git\UI_together\UI_together\Hotel-SoftWare2\bin\Debug\ru\Microsoft.ReportViewer.Design.resources.dll
+D:\Ki2_Năm3\Db-Practice\Git\UI_together\UI_together\Hotel-SoftWare2\bin\Debug\ru\Microsoft.ReportViewer.WinForms.resources.dll
+D:\Ki2_Năm3\Db-Practice\Git\UI_together\UI_together\Hotel-SoftWare2\bin\Debug\zh-CHS\Microsoft.ReportViewer.Common.resources.dll
+D:\Ki2_Năm3\Db-Practice\Git\UI_together\UI_together\Hotel-SoftWare2\bin\Debug\zh-CHS\Microsoft.ReportViewer.DataVisualization.resources.dll
+D:\Ki2_Năm3\Db-Practice\Git\UI_together\UI_together\Hotel-SoftWare2\bin\Debug\zh-CHS\Microsoft.ReportViewer.Design.resources.dll
+D:\Ki2_Năm3\Db-Practice\Git\UI_together\UI_together\Hotel-SoftWare2\bin\Debug\zh-CHS\Microsoft.ReportViewer.WinForms.resources.dll
+D:\Ki2_Năm3\Db-Practice\Git\UI_together\UI_together\Hotel-SoftWare2\bin\Debug\zh-CHT\Microsoft.ReportViewer.Common.resources.dll
+D:\Ki2_Năm3\Db-Practice\Git\UI_together\UI_together\Hotel-SoftWare2\bin\Debug\zh-CHT\Microsoft.ReportViewer.DataVisualization.resources.dll
+D:\Ki2_Năm3\Db-Practice\Git\UI_together\UI_together\Hotel-SoftWare2\bin\Debug\zh-CHT\Microsoft.ReportViewer.Design.resources.dll
+D:\Ki2_Năm3\Db-Practice\Git\UI_together\UI_together\Hotel-SoftWare2\bin\Debug\zh-CHT\Microsoft.ReportViewer.WinForms.resources.dll
+D:\Ki2_Năm3\Db-Practice\Git\UI_together\UI_together\Hotel-SoftWare2\bin\Debug\Microsoft.SqlServer.Types.dll
+D:\Ki2_Năm3\Db-Practice\Git\UI_together\UI_together\Hotel-SoftWare2\obj\Debug\Hotel-SoftWare2.csprojAssemblyReference.cache
+D:\Ki2_Năm3\Db-Practice\Git\UI_together\UI_together\Hotel-SoftWare2\obj\Debug\Hotel_SoftWare2.InForCus.resources
+F:\dat\UI_together-master\Hotel-SoftWare2\bin\Debug\Hotel-SoftWare2.exe.config
+F:\dat\UI_together-master\Hotel-SoftWare2\bin\Debug\Hotel-SoftWare2.exe
+F:\dat\UI_together-master\Hotel-SoftWare2\bin\Debug\Hotel-SoftWare2.pdb
+F:\dat\UI_together-master\Hotel-SoftWare2\bin\Debug\EntityFramework.SqlServer.dll
+F:\dat\UI_together-master\Hotel-SoftWare2\bin\Debug\EntityFramework.dll
+F:\dat\UI_together-master\Hotel-SoftWare2\bin\Debug\EPPlus.dll
+F:\dat\UI_together-master\Hotel-SoftWare2\bin\Debug\FontAwesome.Sharp.dll
+F:\dat\UI_together-master\Hotel-SoftWare2\bin\Debug\Microsoft.ReportViewer.Common.dll
+F:\dat\UI_together-master\Hotel-SoftWare2\bin\Debug\Microsoft.ReportViewer.DataVisualization.dll
+F:\dat\UI_together-master\Hotel-SoftWare2\bin\Debug\Microsoft.ReportViewer.Design.dll
+F:\dat\UI_together-master\Hotel-SoftWare2\bin\Debug\Microsoft.ReportViewer.ProcessingObjectModel.dll
+F:\dat\UI_together-master\Hotel-SoftWare2\bin\Debug\Microsoft.ReportViewer.WinForms.dll
+F:\dat\UI_together-master\Hotel-SoftWare2\bin\Debug\de\Microsoft.ReportViewer.Common.resources.dll
+F:\dat\UI_together-master\Hotel-SoftWare2\bin\Debug\de\Microsoft.ReportViewer.DataVisualization.resources.dll
+F:\dat\UI_together-master\Hotel-SoftWare2\bin\Debug\de\Microsoft.ReportViewer.Design.resources.dll
+F:\dat\UI_together-master\Hotel-SoftWare2\bin\Debug\de\Microsoft.ReportViewer.WinForms.resources.dll
+F:\dat\UI_together-master\Hotel-SoftWare2\bin\Debug\es\Microsoft.ReportViewer.Common.resources.dll
+F:\dat\UI_together-master\Hotel-SoftWare2\bin\Debug\es\Microsoft.ReportViewer.DataVisualization.resources.dll
+F:\dat\UI_together-master\Hotel-SoftWare2\bin\Debug\es\Microsoft.ReportViewer.Design.resources.dll
+F:\dat\UI_together-master\Hotel-SoftWare2\bin\Debug\es\Microsoft.ReportViewer.WinForms.resources.dll
+F:\dat\UI_together-master\Hotel-SoftWare2\bin\Debug\fr\Microsoft.ReportViewer.Common.resources.dll
+F:\dat\UI_together-master\Hotel-SoftWare2\bin\Debug\fr\Microsoft.ReportViewer.DataVisualization.resources.dll
+F:\dat\UI_together-master\Hotel-SoftWare2\bin\Debug\fr\Microsoft.ReportViewer.Design.resources.dll
+F:\dat\UI_together-master\Hotel-SoftWare2\bin\Debug\fr\Microsoft.ReportViewer.WinForms.resources.dll
+F:\dat\UI_together-master\Hotel-SoftWare2\bin\Debug\it\Microsoft.ReportViewer.Common.resources.dll
+F:\dat\UI_together-master\Hotel-SoftWare2\bin\Debug\it\Microsoft.ReportViewer.DataVisualization.resources.dll
+F:\dat\UI_together-master\Hotel-SoftWare2\bin\Debug\it\Microsoft.ReportViewer.Design.resources.dll
+F:\dat\UI_together-master\Hotel-SoftWare2\bin\Debug\it\Microsoft.ReportViewer.WinForms.resources.dll
+F:\dat\UI_together-master\Hotel-SoftWare2\bin\Debug\ja\Microsoft.ReportViewer.Common.resources.dll
+F:\dat\UI_together-master\Hotel-SoftWare2\bin\Debug\ja\Microsoft.ReportViewer.DataVisualization.resources.dll
+F:\dat\UI_together-master\Hotel-SoftWare2\bin\Debug\ja\Microsoft.ReportViewer.Design.resources.dll
+F:\dat\UI_together-master\Hotel-SoftWare2\bin\Debug\ja\Microsoft.ReportViewer.WinForms.resources.dll
+F:\dat\UI_together-master\Hotel-SoftWare2\bin\Debug\ko\Microsoft.ReportViewer.Common.resources.dll
+F:\dat\UI_together-master\Hotel-SoftWare2\bin\Debug\ko\Microsoft.ReportViewer.DataVisualization.resources.dll
+F:\dat\UI_together-master\Hotel-SoftWare2\bin\Debug\ko\Microsoft.ReportViewer.Design.resources.dll
+F:\dat\UI_together-master\Hotel-SoftWare2\bin\Debug\ko\Microsoft.ReportViewer.WinForms.resources.dll
+F:\dat\UI_together-master\Hotel-SoftWare2\bin\Debug\pt\Microsoft.ReportViewer.Common.resources.dll
+F:\dat\UI_together-master\Hotel-SoftWare2\bin\Debug\pt\Microsoft.ReportViewer.DataVisualization.resources.dll
+F:\dat\UI_together-master\Hotel-SoftWare2\bin\Debug\pt\Microsoft.ReportViewer.Design.resources.dll
+F:\dat\UI_together-master\Hotel-SoftWare2\bin\Debug\pt\Microsoft.ReportViewer.WinForms.resources.dll
+F:\dat\UI_together-master\Hotel-SoftWare2\bin\Debug\ru\Microsoft.ReportViewer.Common.resources.dll
+F:\dat\UI_together-master\Hotel-SoftWare2\bin\Debug\ru\Microsoft.ReportViewer.DataVisualization.resources.dll
+F:\dat\UI_together-master\Hotel-SoftWare2\bin\Debug\ru\Microsoft.ReportViewer.Design.resources.dll
+F:\dat\UI_together-master\Hotel-SoftWare2\bin\Debug\ru\Microsoft.ReportViewer.WinForms.resources.dll
+F:\dat\UI_together-master\Hotel-SoftWare2\bin\Debug\zh-CHS\Microsoft.ReportViewer.Common.resources.dll
+F:\dat\UI_together-master\Hotel-SoftWare2\bin\Debug\zh-CHS\Microsoft.ReportViewer.DataVisualization.resources.dll
+F:\dat\UI_together-master\Hotel-SoftWare2\bin\Debug\zh-CHS\Microsoft.ReportViewer.Design.resources.dll
+F:\dat\UI_together-master\Hotel-SoftWare2\bin\Debug\zh-CHS\Microsoft.ReportViewer.WinForms.resources.dll
+F:\dat\UI_together-master\Hotel-SoftWare2\bin\Debug\zh-CHT\Microsoft.ReportViewer.Common.resources.dll
+F:\dat\UI_together-master\Hotel-SoftWare2\bin\Debug\zh-CHT\Microsoft.ReportViewer.DataVisualization.resources.dll
+F:\dat\UI_together-master\Hotel-SoftWare2\bin\Debug\zh-CHT\Microsoft.ReportViewer.Design.resources.dll
+F:\dat\UI_together-master\Hotel-SoftWare2\bin\Debug\zh-CHT\Microsoft.ReportViewer.WinForms.resources.dll
+F:\dat\UI_together-master\Hotel-SoftWare2\bin\Debug\Microsoft.SqlServer.Types.dll
+F:\dat\UI_together-master\Hotel-SoftWare2\bin\Debug\Microsoft.VisualBasic.PowerPacks.dll
+F:\dat\UI_together-master\Hotel-SoftWare2\bin\Debug\Microsoft.VisualBasic.PowerPacks.xml
+F:\dat\UI_together-master\Hotel-SoftWare2\obj\Debug\Hotel_SoftWare2.billForm.resources
+F:\dat\UI_together-master\Hotel-SoftWare2\obj\Debug\Hotel_SoftWare2.ChangePassForm.resources
+F:\dat\UI_together-master\Hotel-SoftWare2\obj\Debug\Hotel_SoftWare2.ChiTietDatPhongForm.resources
+F:\dat\UI_together-master\Hotel-SoftWare2\obj\Debug\Hotel_SoftWare2.CustomersForm.resources
+F:\dat\UI_together-master\Hotel-SoftWare2\obj\Debug\Hotel_SoftWare2.DatPhongForm.resources
+F:\dat\UI_together-master\Hotel-SoftWare2\obj\Debug\Hotel_SoftWare2.DoanhThuForm.resources
+F:\dat\UI_together-master\Hotel-SoftWare2\obj\Debug\Hotel_SoftWare2.EmployeesForm.resources
+F:\dat\UI_together-master\Hotel-SoftWare2\obj\Debug\Hotel_SoftWare2.ExportBill.resources
+F:\dat\UI_together-master\Hotel-SoftWare2\obj\Debug\Hotel_SoftWare2.listCustomer.resources
+F:\dat\UI_together-master\Hotel-SoftWare2\obj\Debug\Hotel_SoftWare2.LoaiDichVuForm.resources
+F:\dat\UI_together-master\Hotel-SoftWare2\obj\Debug\Hotel_SoftWare2.LoaiPhongForm.resources
+F:\dat\UI_together-master\Hotel-SoftWare2\obj\Debug\Hotel_SoftWare2.LoginForm.resources
+F:\dat\UI_together-master\Hotel-SoftWare2\obj\Debug\Hotel_SoftWare2.Huyphong.resources
+F:\dat\UI_together-master\Hotel-SoftWare2\obj\Debug\Hotel_SoftWare2.MainForm.resources
+F:\dat\UI_together-master\Hotel-SoftWare2\obj\Debug\Hotel_SoftWare2.Properties.Resources.resources
+F:\dat\UI_together-master\Hotel-SoftWare2\obj\Debug\Hotel_SoftWare2.QLServiceForm.resources
+F:\dat\UI_together-master\Hotel-SoftWare2\obj\Debug\Hotel_SoftWare2.QlyPhong.resources
+F:\dat\UI_together-master\Hotel-SoftWare2\obj\Debug\Hotel_SoftWare2.NhanPhongForm.resources
+F:\dat\UI_together-master\Hotel-SoftWare2\obj\Debug\Hotel_SoftWare2.ServiceRoomForm.resources
+F:\dat\UI_together-master\Hotel-SoftWare2\obj\Debug\Hotel_SoftWare2.TraPhong.resources
+F:\dat\UI_together-master\Hotel-SoftWare2\obj\Debug\Hotel_SoftWare2.UsersForm.resources
+F:\dat\UI_together-master\Hotel-SoftWare2\obj\Debug\Hotel-SoftWare2.csproj.GenerateResource.cache
+F:\dat\UI_together-master\Hotel-SoftWare2\obj\Debug\Hotel-SoftWare2.csproj.CoreCompileInputs.cache
+F:\dat\UI_together-master\Hotel-SoftWare2\obj\Debug\Hotel-SoftWare2.csproj.CopyComplete
+F:\dat\UI_together-master\Hotel-SoftWare2\obj\Debug\Hotel-SoftWare2.exe
+F:\dat\UI_together-master\Hotel-SoftWare2\obj\Debug\Hotel-SoftWare2.pdb
+F:\dat\UI_together-master\Hotel-SoftWare2\obj\Debug\Hotel-SoftWare2.csprojAssemblyReference.cache
+F:\Oke\dat\UI_together-master\Hotel-SoftWare2\obj\Debug\Hotel-SoftWare2.csprojAssemblyReference.cache
+F:\Oke\dat\UI_together-master\Hotel-SoftWare2\obj\Debug\Hotel_SoftWare2.billForm.resources
+F:\Oke\dat\UI_together-master\Hotel-SoftWare2\obj\Debug\Hotel_SoftWare2.ChangePassForm.resources
+F:\Oke\dat\UI_together-master\Hotel-SoftWare2\obj\Debug\Hotel_SoftWare2.ChiTietDatPhongForm.resources
+F:\Oke\dat\UI_together-master\Hotel-SoftWare2\obj\Debug\Hotel_SoftWare2.CustomersForm.resources
+F:\Oke\dat\UI_together-master\Hotel-SoftWare2\obj\Debug\Hotel_SoftWare2.DatPhongForm.resources
+F:\Oke\dat\UI_together-master\Hotel-SoftWare2\obj\Debug\Hotel_SoftWare2.DoanhThuForm.resources
+F:\Oke\dat\UI_together-master\Hotel-SoftWare2\obj\Debug\Hotel_SoftWare2.EmployeesForm.resources
+F:\Oke\dat\UI_together-master\Hotel-SoftWare2\obj\Debug\Hotel_SoftWare2.ExportBill.resources
+F:\Oke\dat\UI_together-master\Hotel-SoftWare2\obj\Debug\Hotel_SoftWare2.listCustomer.resources
+F:\Oke\dat\UI_together-master\Hotel-SoftWare2\obj\Debug\Hotel_SoftWare2.LoaiDichVuForm.resources
+F:\Oke\dat\UI_together-master\Hotel-SoftWare2\obj\Debug\Hotel_SoftWare2.LoaiPhongForm.resources
+F:\Oke\dat\UI_together-master\Hotel-SoftWare2\obj\Debug\Hotel_SoftWare2.LoginForm.resources
+F:\Oke\dat\UI_together-master\Hotel-SoftWare2\obj\Debug\Hotel_SoftWare2.MainForm.resources
+F:\Oke\dat\UI_together-master\Hotel-SoftWare2\obj\Debug\Hotel_SoftWare2.QLServiceForm.resources
+F:\Oke\dat\UI_together-master\Hotel-SoftWare2\obj\Debug\Hotel_SoftWare2.QlyPhong.resources
+F:\Oke\dat\UI_together-master\Hotel-SoftWare2\obj\Debug\Hotel_SoftWare2.ServiceRoomForm.resources
+F:\Oke\dat\UI_together-master\Hotel-SoftWare2\obj\Debug\Hotel_SoftWare2.TraPhong.resources
+F:\Oke\dat\UI_together-master\Hotel-SoftWare2\obj\Debug\Hotel_SoftWare2.UsersForm.resources
+F:\Oke\dat\UI_together-master\Hotel-SoftWare2\obj\Debug\Hotel-SoftWare2.csproj.GenerateResource.cache
+F:\Oke\dat\UI_together-master\Hotel-SoftWare2\obj\Debug\Hotel-SoftWare2.exe
+F:\Oke\dat\UI_together-master\Hotel-SoftWare2\obj\Debug\Hotel-SoftWare2.pdb
+F:\Oke\dat\UI_together-master\Hotel-SoftWare2\obj\Debug\Hotel_SoftWare2.Properties.Resources.resources
+F:\Oke\dat\UI_together-master\Hotel-SoftWare2\obj\Debug\Hotel-SoftWare2.csproj.CoreCompileInputs.cache
+F:\Oke\dat\UI_together-master\Hotel-SoftWare2\bin\Debug\Hotel-SoftWare2.exe.config
+F:\Oke\dat\UI_together-master\Hotel-SoftWare2\bin\Debug\Hotel-SoftWare2.exe
+F:\Oke\dat\UI_together-master\Hotel-SoftWare2\bin\Debug\Hotel-SoftWare2.pdb
+F:\Oke\dat\UI_together-master\Hotel-SoftWare2\bin\Debug\EntityFramework.SqlServer.dll
+F:\Oke\dat\UI_together-master\Hotel-SoftWare2\bin\Debug\EntityFramework.dll
+F:\Oke\dat\UI_together-master\Hotel-SoftWare2\bin\Debug\EPPlus.dll
+F:\Oke\dat\UI_together-master\Hotel-SoftWare2\bin\Debug\FontAwesome.Sharp.dll
+F:\Oke\dat\UI_together-master\Hotel-SoftWare2\bin\Debug\Microsoft.ReportViewer.Common.dll
+F:\Oke\dat\UI_together-master\Hotel-SoftWare2\bin\Debug\Microsoft.ReportViewer.DataVisualization.dll
+F:\Oke\dat\UI_together-master\Hotel-SoftWare2\bin\Debug\Microsoft.ReportViewer.Design.dll
+F:\Oke\dat\UI_together-master\Hotel-SoftWare2\bin\Debug\Microsoft.ReportViewer.ProcessingObjectModel.dll
+F:\Oke\dat\UI_together-master\Hotel-SoftWare2\bin\Debug\Microsoft.ReportViewer.WinForms.dll
+F:\Oke\dat\UI_together-master\Hotel-SoftWare2\bin\Debug\de\Microsoft.ReportViewer.Common.resources.dll
+F:\Oke\dat\UI_together-master\Hotel-SoftWare2\bin\Debug\de\Microsoft.ReportViewer.DataVisualization.resources.dll
+F:\Oke\dat\UI_together-master\Hotel-SoftWare2\bin\Debug\de\Microsoft.ReportViewer.Design.resources.dll
+F:\Oke\dat\UI_together-master\Hotel-SoftWare2\bin\Debug\de\Microsoft.ReportViewer.WinForms.resources.dll
+F:\Oke\dat\UI_together-master\Hotel-SoftWare2\bin\Debug\es\Microsoft.ReportViewer.Common.resources.dll
+F:\Oke\dat\UI_together-master\Hotel-SoftWare2\bin\Debug\es\Microsoft.ReportViewer.DataVisualization.resources.dll
+F:\Oke\dat\UI_together-master\Hotel-SoftWare2\bin\Debug\es\Microsoft.ReportViewer.Design.resources.dll
+F:\Oke\dat\UI_together-master\Hotel-SoftWare2\bin\Debug\es\Microsoft.ReportViewer.WinForms.resources.dll
+F:\Oke\dat\UI_together-master\Hotel-SoftWare2\bin\Debug\fr\Microsoft.ReportViewer.Common.resources.dll
+F:\Oke\dat\UI_together-master\Hotel-SoftWare2\bin\Debug\fr\Microsoft.ReportViewer.DataVisualization.resources.dll
+F:\Oke\dat\UI_together-master\Hotel-SoftWare2\bin\Debug\fr\Microsoft.ReportViewer.Design.resources.dll
+F:\Oke\dat\UI_together-master\Hotel-SoftWare2\bin\Debug\fr\Microsoft.ReportViewer.WinForms.resources.dll
+F:\Oke\dat\UI_together-master\Hotel-SoftWare2\bin\Debug\it\Microsoft.ReportViewer.Common.resources.dll
+F:\Oke\dat\UI_together-master\Hotel-SoftWare2\bin\Debug\it\Microsoft.ReportViewer.DataVisualization.resources.dll
+F:\Oke\dat\UI_together-master\Hotel-SoftWare2\bin\Debug\it\Microsoft.ReportViewer.Design.resources.dll
+F:\Oke\dat\UI_together-master\Hotel-SoftWare2\bin\Debug\it\Microsoft.ReportViewer.WinForms.resources.dll
+F:\Oke\dat\UI_together-master\Hotel-SoftWare2\bin\Debug\ja\Microsoft.ReportViewer.Common.resources.dll
+F:\Oke\dat\UI_together-master\Hotel-SoftWare2\bin\Debug\ja\Microsoft.ReportViewer.DataVisualization.resources.dll
+F:\Oke\dat\UI_together-master\Hotel-SoftWare2\bin\Debug\ja\Microsoft.ReportViewer.Design.resources.dll
+F:\Oke\dat\UI_together-master\Hotel-SoftWare2\bin\Debug\ja\Microsoft.ReportViewer.WinForms.resources.dll
+F:\Oke\dat\UI_together-master\Hotel-SoftWare2\bin\Debug\ko\Microsoft.ReportViewer.Common.resources.dll
+F:\Oke\dat\UI_together-master\Hotel-SoftWare2\bin\Debug\ko\Microsoft.ReportViewer.DataVisualization.resources.dll
+F:\Oke\dat\UI_together-master\Hotel-SoftWare2\bin\Debug\ko\Microsoft.ReportViewer.Design.resources.dll
+F:\Oke\dat\UI_together-master\Hotel-SoftWare2\bin\Debug\ko\Microsoft.ReportViewer.WinForms.resources.dll
+F:\Oke\dat\UI_together-master\Hotel-SoftWare2\bin\Debug\pt\Microsoft.ReportViewer.Common.resources.dll
+F:\Oke\dat\UI_together-master\Hotel-SoftWare2\bin\Debug\pt\Microsoft.ReportViewer.DataVisualization.resources.dll
+F:\Oke\dat\UI_together-master\Hotel-SoftWare2\bin\Debug\pt\Microsoft.ReportViewer.Design.resources.dll
+F:\Oke\dat\UI_together-master\Hotel-SoftWare2\bin\Debug\pt\Microsoft.ReportViewer.WinForms.resources.dll
+F:\Oke\dat\UI_together-master\Hotel-SoftWare2\bin\Debug\ru\Microsoft.ReportViewer.Common.resources.dll
+F:\Oke\dat\UI_together-master\Hotel-SoftWare2\bin\Debug\ru\Microsoft.ReportViewer.DataVisualization.resources.dll
+F:\Oke\dat\UI_together-master\Hotel-SoftWare2\bin\Debug\ru\Microsoft.ReportViewer.Design.resources.dll
+F:\Oke\dat\UI_together-master\Hotel-SoftWare2\bin\Debug\ru\Microsoft.ReportViewer.WinForms.resources.dll
+F:\Oke\dat\UI_together-master\Hotel-SoftWare2\bin\Debug\zh-CHS\Microsoft.ReportViewer.Common.resources.dll
+F:\Oke\dat\UI_together-master\Hotel-SoftWare2\bin\Debug\zh-CHS\Microsoft.ReportViewer.DataVisualization.resources.dll
+F:\Oke\dat\UI_together-master\Hotel-SoftWare2\bin\Debug\zh-CHS\Microsoft.ReportViewer.Design.resources.dll
+F:\Oke\dat\UI_together-master\Hotel-SoftWare2\bin\Debug\zh-CHS\Microsoft.ReportViewer.WinForms.resources.dll
+F:\Oke\dat\UI_together-master\Hotel-SoftWare2\bin\Debug\zh-CHT\Microsoft.ReportViewer.Common.resources.dll
+F:\Oke\dat\UI_together-master\Hotel-SoftWare2\bin\Debug\zh-CHT\Microsoft.ReportViewer.DataVisualization.resources.dll
+F:\Oke\dat\UI_together-master\Hotel-SoftWare2\bin\Debug\zh-CHT\Microsoft.ReportViewer.Design.resources.dll
+F:\Oke\dat\UI_together-master\Hotel-SoftWare2\bin\Debug\zh-CHT\Microsoft.ReportViewer.WinForms.resources.dll
+F:\Oke\dat\UI_together-master\Hotel-SoftWare2\bin\Debug\Microsoft.SqlServer.Types.dll
+F:\Oke\dat\UI_together-master\Hotel-SoftWare2\bin\Debug\Microsoft.VisualBasic.PowerPacks.dll
+F:\Oke\dat\UI_together-master\Hotel-SoftWare2\bin\Debug\Microsoft.VisualBasic.PowerPacks.xml
+F:\Oke\dat\UI_together-master\Hotel-SoftWare2\obj\Debug\Hotel-SoftWare2.csproj.CopyComplete
+C:\Users\datproqhna\Downloads\Oke\dat\UI_together-master\Hotel-SoftWare2\bin\Debug\Hotel-SoftWare2.exe.config
+C:\Users\datproqhna\Downloads\Oke\dat\UI_together-master\Hotel-SoftWare2\bin\Debug\Hotel-SoftWare2.exe
+C:\Users\datproqhna\Downloads\Oke\dat\UI_together-master\Hotel-SoftWare2\bin\Debug\Hotel-SoftWare2.pdb
+C:\Users\datproqhna\Downloads\Oke\dat\UI_together-master\Hotel-SoftWare2\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\datproqhna\Downloads\Oke\dat\UI_together-master\Hotel-SoftWare2\bin\Debug\EntityFramework.dll
+C:\Users\datproqhna\Downloads\Oke\dat\UI_together-master\Hotel-SoftWare2\bin\Debug\EPPlus.dll
+C:\Users\datproqhna\Downloads\Oke\dat\UI_together-master\Hotel-SoftWare2\bin\Debug\FontAwesome.Sharp.dll
+C:\Users\datproqhna\Downloads\Oke\dat\UI_together-master\Hotel-SoftWare2\bin\Debug\Microsoft.ReportViewer.Common.dll
+C:\Users\datproqhna\Downloads\Oke\dat\UI_together-master\Hotel-SoftWare2\bin\Debug\Microsoft.ReportViewer.DataVisualization.dll
+C:\Users\datproqhna\Downloads\Oke\dat\UI_together-master\Hotel-SoftWare2\bin\Debug\Microsoft.ReportViewer.Design.dll
+C:\Users\datproqhna\Downloads\Oke\dat\UI_together-master\Hotel-SoftWare2\bin\Debug\Microsoft.ReportViewer.ProcessingObjectModel.dll
+C:\Users\datproqhna\Downloads\Oke\dat\UI_together-master\Hotel-SoftWare2\bin\Debug\Microsoft.ReportViewer.WinForms.dll
+C:\Users\datproqhna\Downloads\Oke\dat\UI_together-master\Hotel-SoftWare2\bin\Debug\de\Microsoft.ReportViewer.Common.resources.dll
+C:\Users\datproqhna\Downloads\Oke\dat\UI_together-master\Hotel-SoftWare2\bin\Debug\de\Microsoft.ReportViewer.DataVisualization.resources.dll
+C:\Users\datproqhna\Downloads\Oke\dat\UI_together-master\Hotel-SoftWare2\bin\Debug\de\Microsoft.ReportViewer.Design.resources.dll
+C:\Users\datproqhna\Downloads\Oke\dat\UI_together-master\Hotel-SoftWare2\bin\Debug\de\Microsoft.ReportViewer.WinForms.resources.dll
+C:\Users\datproqhna\Downloads\Oke\dat\UI_together-master\Hotel-SoftWare2\bin\Debug\es\Microsoft.ReportViewer.Common.resources.dll
+C:\Users\datproqhna\Downloads\Oke\dat\UI_together-master\Hotel-SoftWare2\bin\Debug\es\Microsoft.ReportViewer.DataVisualization.resources.dll
+C:\Users\datproqhna\Downloads\Oke\dat\UI_together-master\Hotel-SoftWare2\bin\Debug\es\Microsoft.ReportViewer.Design.resources.dll
+C:\Users\datproqhna\Downloads\Oke\dat\UI_together-master\Hotel-SoftWare2\bin\Debug\es\Microsoft.ReportViewer.WinForms.resources.dll
+C:\Users\datproqhna\Downloads\Oke\dat\UI_together-master\Hotel-SoftWare2\bin\Debug\fr\Microsoft.ReportViewer.Common.resources.dll
+C:\Users\datproqhna\Downloads\Oke\dat\UI_together-master\Hotel-SoftWare2\bin\Debug\fr\Microsoft.ReportViewer.DataVisualization.resources.dll
+C:\Users\datproqhna\Downloads\Oke\dat\UI_together-master\Hotel-SoftWare2\bin\Debug\fr\Microsoft.ReportViewer.Design.resources.dll
+C:\Users\datproqhna\Downloads\Oke\dat\UI_together-master\Hotel-SoftWare2\bin\Debug\fr\Microsoft.ReportViewer.WinForms.resources.dll
+C:\Users\datproqhna\Downloads\Oke\dat\UI_together-master\Hotel-SoftWare2\bin\Debug\it\Microsoft.ReportViewer.Common.resources.dll
+C:\Users\datproqhna\Downloads\Oke\dat\UI_together-master\Hotel-SoftWare2\bin\Debug\it\Microsoft.ReportViewer.DataVisualization.resources.dll
+C:\Users\datproqhna\Downloads\Oke\dat\UI_together-master\Hotel-SoftWare2\bin\Debug\it\Microsoft.ReportViewer.Design.resources.dll
+C:\Users\datproqhna\Downloads\Oke\dat\UI_together-master\Hotel-SoftWare2\bin\Debug\it\Microsoft.ReportViewer.WinForms.resources.dll
+C:\Users\datproqhna\Downloads\Oke\dat\UI_together-master\Hotel-SoftWare2\bin\Debug\ja\Microsoft.ReportViewer.Common.resources.dll
+C:\Users\datproqhna\Downloads\Oke\dat\UI_together-master\Hotel-SoftWare2\bin\Debug\ja\Microsoft.ReportViewer.DataVisualization.resources.dll
+C:\Users\datproqhna\Downloads\Oke\dat\UI_together-master\Hotel-SoftWare2\bin\Debug\ja\Microsoft.ReportViewer.Design.resources.dll
+C:\Users\datproqhna\Downloads\Oke\dat\UI_together-master\Hotel-SoftWare2\bin\Debug\ja\Microsoft.ReportViewer.WinForms.resources.dll
+C:\Users\datproqhna\Downloads\Oke\dat\UI_together-master\Hotel-SoftWare2\bin\Debug\ko\Microsoft.ReportViewer.Common.resources.dll
+C:\Users\datproqhna\Downloads\Oke\dat\UI_together-master\Hotel-SoftWare2\bin\Debug\ko\Microsoft.ReportViewer.DataVisualization.resources.dll
+C:\Users\datproqhna\Downloads\Oke\dat\UI_together-master\Hotel-SoftWare2\bin\Debug\ko\Microsoft.ReportViewer.Design.resources.dll
+C:\Users\datproqhna\Downloads\Oke\dat\UI_together-master\Hotel-SoftWare2\bin\Debug\ko\Microsoft.ReportViewer.WinForms.resources.dll
+C:\Users\datproqhna\Downloads\Oke\dat\UI_together-master\Hotel-SoftWare2\bin\Debug\pt\Microsoft.ReportViewer.Common.resources.dll
+C:\Users\datproqhna\Downloads\Oke\dat\UI_together-master\Hotel-SoftWare2\bin\Debug\pt\Microsoft.ReportViewer.DataVisualization.resources.dll
+C:\Users\datproqhna\Downloads\Oke\dat\UI_together-master\Hotel-SoftWare2\bin\Debug\pt\Microsoft.ReportViewer.Design.resources.dll
+C:\Users\datproqhna\Downloads\Oke\dat\UI_together-master\Hotel-SoftWare2\bin\Debug\pt\Microsoft.ReportViewer.WinForms.resources.dll
+C:\Users\datproqhna\Downloads\Oke\dat\UI_together-master\Hotel-SoftWare2\bin\Debug\ru\Microsoft.ReportViewer.Common.resources.dll
+C:\Users\datproqhna\Downloads\Oke\dat\UI_together-master\Hotel-SoftWare2\bin\Debug\ru\Microsoft.ReportViewer.DataVisualization.resources.dll
+C:\Users\datproqhna\Downloads\Oke\dat\UI_together-master\Hotel-SoftWare2\bin\Debug\ru\Microsoft.ReportViewer.Design.resources.dll
+C:\Users\datproqhna\Downloads\Oke\dat\UI_together-master\Hotel-SoftWare2\bin\Debug\ru\Microsoft.ReportViewer.WinForms.resources.dll
+C:\Users\datproqhna\Downloads\Oke\dat\UI_together-master\Hotel-SoftWare2\bin\Debug\zh-CHS\Microsoft.ReportViewer.Common.resources.dll
+C:\Users\datproqhna\Downloads\Oke\dat\UI_together-master\Hotel-SoftWare2\bin\Debug\zh-CHS\Microsoft.ReportViewer.DataVisualization.resources.dll
+C:\Users\datproqhna\Downloads\Oke\dat\UI_together-master\Hotel-SoftWare2\bin\Debug\zh-CHS\Microsoft.ReportViewer.Design.resources.dll
+C:\Users\datproqhna\Downloads\Oke\dat\UI_together-master\Hotel-SoftWare2\bin\Debug\zh-CHS\Microsoft.ReportViewer.WinForms.resources.dll
+C:\Users\datproqhna\Downloads\Oke\dat\UI_together-master\Hotel-SoftWare2\bin\Debug\zh-CHT\Microsoft.ReportViewer.Common.resources.dll
+C:\Users\datproqhna\Downloads\Oke\dat\UI_together-master\Hotel-SoftWare2\bin\Debug\zh-CHT\Microsoft.ReportViewer.DataVisualization.resources.dll
+C:\Users\datproqhna\Downloads\Oke\dat\UI_together-master\Hotel-SoftWare2\bin\Debug\zh-CHT\Microsoft.ReportViewer.Design.resources.dll
+C:\Users\datproqhna\Downloads\Oke\dat\UI_together-master\Hotel-SoftWare2\bin\Debug\zh-CHT\Microsoft.ReportViewer.WinForms.resources.dll
+C:\Users\datproqhna\Downloads\Oke\dat\UI_together-master\Hotel-SoftWare2\bin\Debug\Microsoft.SqlServer.Types.dll
+C:\Users\datproqhna\Downloads\Oke\dat\UI_together-master\Hotel-SoftWare2\bin\Debug\Microsoft.VisualBasic.PowerPacks.dll
+C:\Users\datproqhna\Downloads\Oke\dat\UI_together-master\Hotel-SoftWare2\bin\Debug\Microsoft.VisualBasic.PowerPacks.xml
+C:\Users\datproqhna\Downloads\Oke\dat\UI_together-master\Hotel-SoftWare2\obj\Debug\Hotel_SoftWare2.billForm.resources
+C:\Users\datproqhna\Downloads\Oke\dat\UI_together-master\Hotel-SoftWare2\obj\Debug\Hotel_SoftWare2.ChangePassForm.resources
+C:\Users\datproqhna\Downloads\Oke\dat\UI_together-master\Hotel-SoftWare2\obj\Debug\Hotel_SoftWare2.ChiTietDatPhongForm.resources
+C:\Users\datproqhna\Downloads\Oke\dat\UI_together-master\Hotel-SoftWare2\obj\Debug\Hotel_SoftWare2.CustomersForm.resources
+C:\Users\datproqhna\Downloads\Oke\dat\UI_together-master\Hotel-SoftWare2\obj\Debug\Hotel_SoftWare2.DatPhongForm.resources
+C:\Users\datproqhna\Downloads\Oke\dat\UI_together-master\Hotel-SoftWare2\obj\Debug\Hotel_SoftWare2.DoanhThuForm.resources
+C:\Users\datproqhna\Downloads\Oke\dat\UI_together-master\Hotel-SoftWare2\obj\Debug\Hotel_SoftWare2.EmployeesForm.resources
+C:\Users\datproqhna\Downloads\Oke\dat\UI_together-master\Hotel-SoftWare2\obj\Debug\Hotel_SoftWare2.ExportBill.resources
+C:\Users\datproqhna\Downloads\Oke\dat\UI_together-master\Hotel-SoftWare2\obj\Debug\Hotel_SoftWare2.LoaiDichVuForm.resources
+C:\Users\datproqhna\Downloads\Oke\dat\UI_together-master\Hotel-SoftWare2\obj\Debug\Hotel_SoftWare2.LoaiPhongForm.resources
+C:\Users\datproqhna\Downloads\Oke\dat\UI_together-master\Hotel-SoftWare2\obj\Debug\Hotel_SoftWare2.LoginForm.resources
+C:\Users\datproqhna\Downloads\Oke\dat\UI_together-master\Hotel-SoftWare2\obj\Debug\Hotel_SoftWare2.MainForm.resources
+C:\Users\datproqhna\Downloads\Oke\dat\UI_together-master\Hotel-SoftWare2\obj\Debug\Hotel_SoftWare2.Properties.Resources.resources
+C:\Users\datproqhna\Downloads\Oke\dat\UI_together-master\Hotel-SoftWare2\obj\Debug\Hotel_SoftWare2.QLServiceForm.resources
+C:\Users\datproqhna\Downloads\Oke\dat\UI_together-master\Hotel-SoftWare2\obj\Debug\Hotel_SoftWare2.QlyPhong.resources
+C:\Users\datproqhna\Downloads\Oke\dat\UI_together-master\Hotel-SoftWare2\obj\Debug\Hotel_SoftWare2.ServiceRoomForm.resources
+C:\Users\datproqhna\Downloads\Oke\dat\UI_together-master\Hotel-SoftWare2\obj\Debug\Hotel_SoftWare2.TraPhong.resources
+C:\Users\datproqhna\Downloads\Oke\dat\UI_together-master\Hotel-SoftWare2\obj\Debug\Hotel_SoftWare2.UsersForm.resources
+C:\Users\datproqhna\Downloads\Oke\dat\UI_together-master\Hotel-SoftWare2\obj\Debug\Hotel-SoftWare2.csproj.GenerateResource.cache
+C:\Users\datproqhna\Downloads\Oke\dat\UI_together-master\Hotel-SoftWare2\obj\Debug\RdlCompile.cache
+C:\Users\datproqhna\Downloads\Oke\dat\UI_together-master\Hotel-SoftWare2\obj\Debug\RdlCompile.compiled
+C:\Users\datproqhna\Downloads\Oke\dat\UI_together-master\Hotel-SoftWare2\obj\Debug\Hotel-SoftWare2.csproj.CoreCompileInputs.cache
+C:\Users\datproqhna\Downloads\Oke\dat\UI_together-master\Hotel-SoftWare2\obj\Debug\Hotel-SoftWare2.csproj.CopyComplete
+C:\Users\datproqhna\Downloads\Oke\dat\UI_together-master\Hotel-SoftWare2\obj\Debug\Hotel-SoftWare2.exe
+C:\Users\datproqhna\Downloads\Oke\dat\UI_together-master\Hotel-SoftWare2\obj\Debug\Hotel-SoftWare2.pdb
+C:\Users\datproqhna\Downloads\Oke\dat\UI_together-master\Hotel-SoftWare2\obj\Debug\Hotel-SoftWare2.csprojAssemblyReference.cache
+C:\Users\datproqhna\Downloads\Oke\dat\UI_together-master\Hotel-SoftWare2\obj\Debug\Hotel_SoftWare2.ViewMoney.resources
+C:\Users\datproqhna\Desktop\TTCSDL_NHOM7_QLKS\HotelSoftWare\Hotel-SoftWare2\bin\Debug\Hotel-SoftWare2.exe.config
+C:\Users\datproqhna\Desktop\TTCSDL_NHOM7_QLKS\HotelSoftWare\Hotel-SoftWare2\bin\Debug\Hotel-SoftWare2.exe
+C:\Users\datproqhna\Desktop\TTCSDL_NHOM7_QLKS\HotelSoftWare\Hotel-SoftWare2\bin\Debug\Hotel-SoftWare2.pdb
+C:\Users\datproqhna\Desktop\TTCSDL_NHOM7_QLKS\HotelSoftWare\Hotel-SoftWare2\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\datproqhna\Desktop\TTCSDL_NHOM7_QLKS\HotelSoftWare\Hotel-SoftWare2\bin\Debug\EntityFramework.dll
+C:\Users\datproqhna\Desktop\TTCSDL_NHOM7_QLKS\HotelSoftWare\Hotel-SoftWare2\bin\Debug\EPPlus.dll
+C:\Users\datproqhna\Desktop\TTCSDL_NHOM7_QLKS\HotelSoftWare\Hotel-SoftWare2\bin\Debug\FontAwesome.Sharp.dll
+C:\Users\datproqhna\Desktop\TTCSDL_NHOM7_QLKS\HotelSoftWare\Hotel-SoftWare2\bin\Debug\Microsoft.ReportViewer.Common.dll
+C:\Users\datproqhna\Desktop\TTCSDL_NHOM7_QLKS\HotelSoftWare\Hotel-SoftWare2\bin\Debug\Microsoft.ReportViewer.DataVisualization.dll
+C:\Users\datproqhna\Desktop\TTCSDL_NHOM7_QLKS\HotelSoftWare\Hotel-SoftWare2\bin\Debug\Microsoft.ReportViewer.Design.dll
+C:\Users\datproqhna\Desktop\TTCSDL_NHOM7_QLKS\HotelSoftWare\Hotel-SoftWare2\bin\Debug\Microsoft.ReportViewer.ProcessingObjectModel.dll
+C:\Users\datproqhna\Desktop\TTCSDL_NHOM7_QLKS\HotelSoftWare\Hotel-SoftWare2\bin\Debug\Microsoft.ReportViewer.WinForms.dll
+C:\Users\datproqhna\Desktop\TTCSDL_NHOM7_QLKS\HotelSoftWare\Hotel-SoftWare2\bin\Debug\de\Microsoft.ReportViewer.Common.resources.dll
+C:\Users\datproqhna\Desktop\TTCSDL_NHOM7_QLKS\HotelSoftWare\Hotel-SoftWare2\bin\Debug\de\Microsoft.ReportViewer.DataVisualization.resources.dll
+C:\Users\datproqhna\Desktop\TTCSDL_NHOM7_QLKS\HotelSoftWare\Hotel-SoftWare2\bin\Debug\de\Microsoft.ReportViewer.Design.resources.dll
+C:\Users\datproqhna\Desktop\TTCSDL_NHOM7_QLKS\HotelSoftWare\Hotel-SoftWare2\bin\Debug\de\Microsoft.ReportViewer.WinForms.resources.dll
+C:\Users\datproqhna\Desktop\TTCSDL_NHOM7_QLKS\HotelSoftWare\Hotel-SoftWare2\bin\Debug\es\Microsoft.ReportViewer.Common.resources.dll
+C:\Users\datproqhna\Desktop\TTCSDL_NHOM7_QLKS\HotelSoftWare\Hotel-SoftWare2\bin\Debug\es\Microsoft.ReportViewer.DataVisualization.resources.dll
+C:\Users\datproqhna\Desktop\TTCSDL_NHOM7_QLKS\HotelSoftWare\Hotel-SoftWare2\bin\Debug\es\Microsoft.ReportViewer.Design.resources.dll
+C:\Users\datproqhna\Desktop\TTCSDL_NHOM7_QLKS\HotelSoftWare\Hotel-SoftWare2\bin\Debug\es\Microsoft.ReportViewer.WinForms.resources.dll
+C:\Users\datproqhna\Desktop\TTCSDL_NHOM7_QLKS\HotelSoftWare\Hotel-SoftWare2\bin\Debug\fr\Microsoft.ReportViewer.Common.resources.dll
+C:\Users\datproqhna\Desktop\TTCSDL_NHOM7_QLKS\HotelSoftWare\Hotel-SoftWare2\bin\Debug\fr\Microsoft.ReportViewer.DataVisualization.resources.dll
+C:\Users\datproqhna\Desktop\TTCSDL_NHOM7_QLKS\HotelSoftWare\Hotel-SoftWare2\bin\Debug\fr\Microsoft.ReportViewer.Design.resources.dll
+C:\Users\datproqhna\Desktop\TTCSDL_NHOM7_QLKS\HotelSoftWare\Hotel-SoftWare2\bin\Debug\fr\Microsoft.ReportViewer.WinForms.resources.dll
+C:\Users\datproqhna\Desktop\TTCSDL_NHOM7_QLKS\HotelSoftWare\Hotel-SoftWare2\bin\Debug\it\Microsoft.ReportViewer.Common.resources.dll
+C:\Users\datproqhna\Desktop\TTCSDL_NHOM7_QLKS\HotelSoftWare\Hotel-SoftWare2\bin\Debug\it\Microsoft.ReportViewer.DataVisualization.resources.dll
+C:\Users\datproqhna\Desktop\TTCSDL_NHOM7_QLKS\HotelSoftWare\Hotel-SoftWare2\bin\Debug\it\Microsoft.ReportViewer.Design.resources.dll
+C:\Users\datproqhna\Desktop\TTCSDL_NHOM7_QLKS\HotelSoftWare\Hotel-SoftWare2\bin\Debug\it\Microsoft.ReportViewer.WinForms.resources.dll
+C:\Users\datproqhna\Desktop\TTCSDL_NHOM7_QLKS\HotelSoftWare\Hotel-SoftWare2\bin\Debug\ja\Microsoft.ReportViewer.Common.resources.dll
+C:\Users\datproqhna\Desktop\TTCSDL_NHOM7_QLKS\HotelSoftWare\Hotel-SoftWare2\bin\Debug\ja\Microsoft.ReportViewer.DataVisualization.resources.dll
+C:\Users\datproqhna\Desktop\TTCSDL_NHOM7_QLKS\HotelSoftWare\Hotel-SoftWare2\bin\Debug\ja\Microsoft.ReportViewer.Design.resources.dll
+C:\Users\datproqhna\Desktop\TTCSDL_NHOM7_QLKS\HotelSoftWare\Hotel-SoftWare2\bin\Debug\ja\Microsoft.ReportViewer.WinForms.resources.dll
+C:\Users\datproqhna\Desktop\TTCSDL_NHOM7_QLKS\HotelSoftWare\Hotel-SoftWare2\bin\Debug\ko\Microsoft.ReportViewer.Common.resources.dll
+C:\Users\datproqhna\Desktop\TTCSDL_NHOM7_QLKS\HotelSoftWare\Hotel-SoftWare2\bin\Debug\ko\Microsoft.ReportViewer.DataVisualization.resources.dll
+C:\Users\datproqhna\Desktop\TTCSDL_NHOM7_QLKS\HotelSoftWare\Hotel-SoftWare2\bin\Debug\ko\Microsoft.ReportViewer.Design.resources.dll
+C:\Users\datproqhna\Desktop\TTCSDL_NHOM7_QLKS\HotelSoftWare\Hotel-SoftWare2\bin\Debug\ko\Microsoft.ReportViewer.WinForms.resources.dll
+C:\Users\datproqhna\Desktop\TTCSDL_NHOM7_QLKS\HotelSoftWare\Hotel-SoftWare2\bin\Debug\pt\Microsoft.ReportViewer.Common.resources.dll
+C:\Users\datproqhna\Desktop\TTCSDL_NHOM7_QLKS\HotelSoftWare\Hotel-SoftWare2\bin\Debug\pt\Microsoft.ReportViewer.DataVisualization.resources.dll
+C:\Users\datproqhna\Desktop\TTCSDL_NHOM7_QLKS\HotelSoftWare\Hotel-SoftWare2\bin\Debug\pt\Microsoft.ReportViewer.Design.resources.dll
+C:\Users\datproqhna\Desktop\TTCSDL_NHOM7_QLKS\HotelSoftWare\Hotel-SoftWare2\bin\Debug\pt\Microsoft.ReportViewer.WinForms.resources.dll
+C:\Users\datproqhna\Desktop\TTCSDL_NHOM7_QLKS\HotelSoftWare\Hotel-SoftWare2\bin\Debug\ru\Microsoft.ReportViewer.Common.resources.dll
+C:\Users\datproqhna\Desktop\TTCSDL_NHOM7_QLKS\HotelSoftWare\Hotel-SoftWare2\bin\Debug\ru\Microsoft.ReportViewer.DataVisualization.resources.dll
+C:\Users\datproqhna\Desktop\TTCSDL_NHOM7_QLKS\HotelSoftWare\Hotel-SoftWare2\bin\Debug\ru\Microsoft.ReportViewer.Design.resources.dll
+C:\Users\datproqhna\Desktop\TTCSDL_NHOM7_QLKS\HotelSoftWare\Hotel-SoftWare2\bin\Debug\ru\Microsoft.ReportViewer.WinForms.resources.dll
+C:\Users\datproqhna\Desktop\TTCSDL_NHOM7_QLKS\HotelSoftWare\Hotel-SoftWare2\bin\Debug\zh-CHS\Microsoft.ReportViewer.Common.resources.dll
+C:\Users\datproqhna\Desktop\TTCSDL_NHOM7_QLKS\HotelSoftWare\Hotel-SoftWare2\bin\Debug\zh-CHS\Microsoft.ReportViewer.DataVisualization.resources.dll
+C:\Users\datproqhna\Desktop\TTCSDL_NHOM7_QLKS\HotelSoftWare\Hotel-SoftWare2\bin\Debug\zh-CHS\Microsoft.ReportViewer.Design.resources.dll
+C:\Users\datproqhna\Desktop\TTCSDL_NHOM7_QLKS\HotelSoftWare\Hotel-SoftWare2\bin\Debug\zh-CHS\Microsoft.ReportViewer.WinForms.resources.dll
+C:\Users\datproqhna\Desktop\TTCSDL_NHOM7_QLKS\HotelSoftWare\Hotel-SoftWare2\bin\Debug\zh-CHT\Microsoft.ReportViewer.Common.resources.dll
+C:\Users\datproqhna\Desktop\TTCSDL_NHOM7_QLKS\HotelSoftWare\Hotel-SoftWare2\bin\Debug\zh-CHT\Microsoft.ReportViewer.DataVisualization.resources.dll
+C:\Users\datproqhna\Desktop\TTCSDL_NHOM7_QLKS\HotelSoftWare\Hotel-SoftWare2\bin\Debug\zh-CHT\Microsoft.ReportViewer.Design.resources.dll
+C:\Users\datproqhna\Desktop\TTCSDL_NHOM7_QLKS\HotelSoftWare\Hotel-SoftWare2\bin\Debug\zh-CHT\Microsoft.ReportViewer.WinForms.resources.dll
+C:\Users\datproqhna\Desktop\TTCSDL_NHOM7_QLKS\HotelSoftWare\Hotel-SoftWare2\bin\Debug\Microsoft.SqlServer.Types.dll
+C:\Users\datproqhna\Desktop\TTCSDL_NHOM7_QLKS\HotelSoftWare\Hotel-SoftWare2\bin\Debug\Microsoft.VisualBasic.PowerPacks.dll
+C:\Users\datproqhna\Desktop\TTCSDL_NHOM7_QLKS\HotelSoftWare\Hotel-SoftWare2\bin\Debug\Microsoft.VisualBasic.PowerPacks.xml
+C:\Users\datproqhna\Desktop\TTCSDL_NHOM7_QLKS\HotelSoftWare\Hotel-SoftWare2\obj\Debug\Hotel-SoftWare2.csprojAssemblyReference.cache
+C:\Users\datproqhna\Desktop\TTCSDL_NHOM7_QLKS\HotelSoftWare\Hotel-SoftWare2\obj\Debug\Hotel_SoftWare2.billForm.resources
+C:\Users\datproqhna\Desktop\TTCSDL_NHOM7_QLKS\HotelSoftWare\Hotel-SoftWare2\obj\Debug\Hotel_SoftWare2.ChangePassForm.resources
+C:\Users\datproqhna\Desktop\TTCSDL_NHOM7_QLKS\HotelSoftWare\Hotel-SoftWare2\obj\Debug\Hotel_SoftWare2.ChiTietDatPhongForm.resources
+C:\Users\datproqhna\Desktop\TTCSDL_NHOM7_QLKS\HotelSoftWare\Hotel-SoftWare2\obj\Debug\Hotel_SoftWare2.CustomersForm.resources
+C:\Users\datproqhna\Desktop\TTCSDL_NHOM7_QLKS\HotelSoftWare\Hotel-SoftWare2\obj\Debug\Hotel_SoftWare2.DatPhongForm.resources
+C:\Users\datproqhna\Desktop\TTCSDL_NHOM7_QLKS\HotelSoftWare\Hotel-SoftWare2\obj\Debug\Hotel_SoftWare2.DoanhThuForm.resources
+C:\Users\datproqhna\Desktop\TTCSDL_NHOM7_QLKS\HotelSoftWare\Hotel-SoftWare2\obj\Debug\Hotel_SoftWare2.EmployeesForm.resources
+C:\Users\datproqhna\Desktop\TTCSDL_NHOM7_QLKS\HotelSoftWare\Hotel-SoftWare2\obj\Debug\Hotel_SoftWare2.ExportBill.resources
+C:\Users\datproqhna\Desktop\TTCSDL_NHOM7_QLKS\HotelSoftWare\Hotel-SoftWare2\obj\Debug\Hotel_SoftWare2.ViewMoney.resources
+C:\Users\datproqhna\Desktop\TTCSDL_NHOM7_QLKS\HotelSoftWare\Hotel-SoftWare2\obj\Debug\Hotel_SoftWare2.LoaiDichVuForm.resources
+C:\Users\datproqhna\Desktop\TTCSDL_NHOM7_QLKS\HotelSoftWare\Hotel-SoftWare2\obj\Debug\Hotel_SoftWare2.LoaiPhongForm.resources
+C:\Users\datproqhna\Desktop\TTCSDL_NHOM7_QLKS\HotelSoftWare\Hotel-SoftWare2\obj\Debug\Hotel_SoftWare2.LoginForm.resources
+C:\Users\datproqhna\Desktop\TTCSDL_NHOM7_QLKS\HotelSoftWare\Hotel-SoftWare2\obj\Debug\Hotel_SoftWare2.MainForm.resources
+C:\Users\datproqhna\Desktop\TTCSDL_NHOM7_QLKS\HotelSoftWare\Hotel-SoftWare2\obj\Debug\Hotel_SoftWare2.Properties.Resources.resources
+C:\Users\datproqhna\Desktop\TTCSDL_NHOM7_QLKS\HotelSoftWare\Hotel-SoftWare2\obj\Debug\Hotel_SoftWare2.QLServiceForm.resources
+C:\Users\datproqhna\Desktop\TTCSDL_NHOM7_QLKS\HotelSoftWare\Hotel-SoftWare2\obj\Debug\Hotel_SoftWare2.QlyPhong.resources
+C:\Users\datproqhna\Desktop\TTCSDL_NHOM7_QLKS\HotelSoftWare\Hotel-SoftWare2\obj\Debug\Hotel_SoftWare2.ServiceRoomForm.resources
+C:\Users\datproqhna\Desktop\TTCSDL_NHOM7_QLKS\HotelSoftWare\Hotel-SoftWare2\obj\Debug\Hotel_SoftWare2.TraPhong.resources
+C:\Users\datproqhna\Desktop\TTCSDL_NHOM7_QLKS\HotelSoftWare\Hotel-SoftWare2\obj\Debug\Hotel_SoftWare2.UsersForm.resources
+C:\Users\datproqhna\Desktop\TTCSDL_NHOM7_QLKS\HotelSoftWare\Hotel-SoftWare2\obj\Debug\Hotel-SoftWare2.csproj.GenerateResource.cache
+C:\Users\datproqhna\Desktop\TTCSDL_NHOM7_QLKS\HotelSoftWare\Hotel-SoftWare2\obj\Debug\RdlCompile.cache
+C:\Users\datproqhna\Desktop\TTCSDL_NHOM7_QLKS\HotelSoftWare\Hotel-SoftWare2\obj\Debug\RdlCompile.compiled
+C:\Users\datproqhna\Desktop\TTCSDL_NHOM7_QLKS\HotelSoftWare\Hotel-SoftWare2\obj\Debug\Hotel-SoftWare2.csproj.CoreCompileInputs.cache
+C:\Users\datproqhna\Desktop\TTCSDL_NHOM7_QLKS\HotelSoftWare\Hotel-SoftWare2\obj\Debug\Hotel-SoftWare2.csproj.CopyComplete
+C:\Users\datproqhna\Desktop\TTCSDL_NHOM7_QLKS\HotelSoftWare\Hotel-SoftWare2\obj\Debug\Hotel-SoftWare2.exe
+C:\Users\datproqhna\Desktop\TTCSDL_NHOM7_QLKS\HotelSoftWare\Hotel-SoftWare2\obj\Debug\Hotel-SoftWare2.pdb
+C:\Users\ICG51\Downloads\TTCSDL_NHOM7_QLKS\TTCSDL_NHOM7_QLKS\HotelSoftWare\Hotel-SoftWare2\bin\Debug\Hotel-SoftWare2.exe.config
+C:\Users\ICG51\Downloads\TTCSDL_NHOM7_QLKS\TTCSDL_NHOM7_QLKS\HotelSoftWare\Hotel-SoftWare2\bin\Debug\Hotel-SoftWare2.exe
+C:\Users\ICG51\Downloads\TTCSDL_NHOM7_QLKS\TTCSDL_NHOM7_QLKS\HotelSoftWare\Hotel-SoftWare2\bin\Debug\Hotel-SoftWare2.pdb
+C:\Users\ICG51\Downloads\TTCSDL_NHOM7_QLKS\TTCSDL_NHOM7_QLKS\HotelSoftWare\Hotel-SoftWare2\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\ICG51\Downloads\TTCSDL_NHOM7_QLKS\TTCSDL_NHOM7_QLKS\HotelSoftWare\Hotel-SoftWare2\bin\Debug\EntityFramework.dll
+C:\Users\ICG51\Downloads\TTCSDL_NHOM7_QLKS\TTCSDL_NHOM7_QLKS\HotelSoftWare\Hotel-SoftWare2\bin\Debug\EPPlus.dll
+C:\Users\ICG51\Downloads\TTCSDL_NHOM7_QLKS\TTCSDL_NHOM7_QLKS\HotelSoftWare\Hotel-SoftWare2\bin\Debug\FontAwesome.Sharp.dll
+C:\Users\ICG51\Downloads\TTCSDL_NHOM7_QLKS\TTCSDL_NHOM7_QLKS\HotelSoftWare\Hotel-SoftWare2\bin\Debug\Microsoft.ReportViewer.Common.dll
+C:\Users\ICG51\Downloads\TTCSDL_NHOM7_QLKS\TTCSDL_NHOM7_QLKS\HotelSoftWare\Hotel-SoftWare2\bin\Debug\Microsoft.ReportViewer.DataVisualization.dll
+C:\Users\ICG51\Downloads\TTCSDL_NHOM7_QLKS\TTCSDL_NHOM7_QLKS\HotelSoftWare\Hotel-SoftWare2\bin\Debug\Microsoft.ReportViewer.Design.dll
+C:\Users\ICG51\Downloads\TTCSDL_NHOM7_QLKS\TTCSDL_NHOM7_QLKS\HotelSoftWare\Hotel-SoftWare2\bin\Debug\Microsoft.ReportViewer.ProcessingObjectModel.dll
+C:\Users\ICG51\Downloads\TTCSDL_NHOM7_QLKS\TTCSDL_NHOM7_QLKS\HotelSoftWare\Hotel-SoftWare2\bin\Debug\Microsoft.ReportViewer.WinForms.dll
+C:\Users\ICG51\Downloads\TTCSDL_NHOM7_QLKS\TTCSDL_NHOM7_QLKS\HotelSoftWare\Hotel-SoftWare2\bin\Debug\de\Microsoft.ReportViewer.Common.resources.dll
+C:\Users\ICG51\Downloads\TTCSDL_NHOM7_QLKS\TTCSDL_NHOM7_QLKS\HotelSoftWare\Hotel-SoftWare2\bin\Debug\de\Microsoft.ReportViewer.DataVisualization.resources.dll
+C:\Users\ICG51\Downloads\TTCSDL_NHOM7_QLKS\TTCSDL_NHOM7_QLKS\HotelSoftWare\Hotel-SoftWare2\bin\Debug\de\Microsoft.ReportViewer.Design.resources.dll
+C:\Users\ICG51\Downloads\TTCSDL_NHOM7_QLKS\TTCSDL_NHOM7_QLKS\HotelSoftWare\Hotel-SoftWare2\bin\Debug\de\Microsoft.ReportViewer.WinForms.resources.dll
+C:\Users\ICG51\Downloads\TTCSDL_NHOM7_QLKS\TTCSDL_NHOM7_QLKS\HotelSoftWare\Hotel-SoftWare2\bin\Debug\es\Microsoft.ReportViewer.Common.resources.dll
+C:\Users\ICG51\Downloads\TTCSDL_NHOM7_QLKS\TTCSDL_NHOM7_QLKS\HotelSoftWare\Hotel-SoftWare2\bin\Debug\es\Microsoft.ReportViewer.DataVisualization.resources.dll
+C:\Users\ICG51\Downloads\TTCSDL_NHOM7_QLKS\TTCSDL_NHOM7_QLKS\HotelSoftWare\Hotel-SoftWare2\bin\Debug\es\Microsoft.ReportViewer.Design.resources.dll
+C:\Users\ICG51\Downloads\TTCSDL_NHOM7_QLKS\TTCSDL_NHOM7_QLKS\HotelSoftWare\Hotel-SoftWare2\bin\Debug\es\Microsoft.ReportViewer.WinForms.resources.dll
+C:\Users\ICG51\Downloads\TTCSDL_NHOM7_QLKS\TTCSDL_NHOM7_QLKS\HotelSoftWare\Hotel-SoftWare2\bin\Debug\fr\Microsoft.ReportViewer.Common.resources.dll
+C:\Users\ICG51\Downloads\TTCSDL_NHOM7_QLKS\TTCSDL_NHOM7_QLKS\HotelSoftWare\Hotel-SoftWare2\bin\Debug\fr\Microsoft.ReportViewer.DataVisualization.resources.dll
+C:\Users\ICG51\Downloads\TTCSDL_NHOM7_QLKS\TTCSDL_NHOM7_QLKS\HotelSoftWare\Hotel-SoftWare2\bin\Debug\fr\Microsoft.ReportViewer.Design.resources.dll
+C:\Users\ICG51\Downloads\TTCSDL_NHOM7_QLKS\TTCSDL_NHOM7_QLKS\HotelSoftWare\Hotel-SoftWare2\bin\Debug\fr\Microsoft.ReportViewer.WinForms.resources.dll
+C:\Users\ICG51\Downloads\TTCSDL_NHOM7_QLKS\TTCSDL_NHOM7_QLKS\HotelSoftWare\Hotel-SoftWare2\bin\Debug\it\Microsoft.ReportViewer.Common.resources.dll
+C:\Users\ICG51\Downloads\TTCSDL_NHOM7_QLKS\TTCSDL_NHOM7_QLKS\HotelSoftWare\Hotel-SoftWare2\bin\Debug\it\Microsoft.ReportViewer.DataVisualization.resources.dll
+C:\Users\ICG51\Downloads\TTCSDL_NHOM7_QLKS\TTCSDL_NHOM7_QLKS\HotelSoftWare\Hotel-SoftWare2\bin\Debug\it\Microsoft.ReportViewer.Design.resources.dll
+C:\Users\ICG51\Downloads\TTCSDL_NHOM7_QLKS\TTCSDL_NHOM7_QLKS\HotelSoftWare\Hotel-SoftWare2\bin\Debug\it\Microsoft.ReportViewer.WinForms.resources.dll
+C:\Users\ICG51\Downloads\TTCSDL_NHOM7_QLKS\TTCSDL_NHOM7_QLKS\HotelSoftWare\Hotel-SoftWare2\bin\Debug\ja\Microsoft.ReportViewer.Common.resources.dll
+C:\Users\ICG51\Downloads\TTCSDL_NHOM7_QLKS\TTCSDL_NHOM7_QLKS\HotelSoftWare\Hotel-SoftWare2\bin\Debug\ja\Microsoft.ReportViewer.DataVisualization.resources.dll
+C:\Users\ICG51\Downloads\TTCSDL_NHOM7_QLKS\TTCSDL_NHOM7_QLKS\HotelSoftWare\Hotel-SoftWare2\bin\Debug\ja\Microsoft.ReportViewer.Design.resources.dll
+C:\Users\ICG51\Downloads\TTCSDL_NHOM7_QLKS\TTCSDL_NHOM7_QLKS\HotelSoftWare\Hotel-SoftWare2\bin\Debug\ja\Microsoft.ReportViewer.WinForms.resources.dll
+C:\Users\ICG51\Downloads\TTCSDL_NHOM7_QLKS\TTCSDL_NHOM7_QLKS\HotelSoftWare\Hotel-SoftWare2\bin\Debug\ko\Microsoft.ReportViewer.Common.resources.dll
+C:\Users\ICG51\Downloads\TTCSDL_NHOM7_QLKS\TTCSDL_NHOM7_QLKS\HotelSoftWare\Hotel-SoftWare2\bin\Debug\ko\Microsoft.ReportViewer.DataVisualization.resources.dll
+C:\Users\ICG51\Downloads\TTCSDL_NHOM7_QLKS\TTCSDL_NHOM7_QLKS\HotelSoftWare\Hotel-SoftWare2\bin\Debug\ko\Microsoft.ReportViewer.Design.resources.dll
+C:\Users\ICG51\Downloads\TTCSDL_NHOM7_QLKS\TTCSDL_NHOM7_QLKS\HotelSoftWare\Hotel-SoftWare2\bin\Debug\ko\Microsoft.ReportViewer.WinForms.resources.dll
+C:\Users\ICG51\Downloads\TTCSDL_NHOM7_QLKS\TTCSDL_NHOM7_QLKS\HotelSoftWare\Hotel-SoftWare2\bin\Debug\pt\Microsoft.ReportViewer.Common.resources.dll
+C:\Users\ICG51\Downloads\TTCSDL_NHOM7_QLKS\TTCSDL_NHOM7_QLKS\HotelSoftWare\Hotel-SoftWare2\bin\Debug\pt\Microsoft.ReportViewer.DataVisualization.resources.dll
+C:\Users\ICG51\Downloads\TTCSDL_NHOM7_QLKS\TTCSDL_NHOM7_QLKS\HotelSoftWare\Hotel-SoftWare2\bin\Debug\pt\Microsoft.ReportViewer.Design.resources.dll
+C:\Users\ICG51\Downloads\TTCSDL_NHOM7_QLKS\TTCSDL_NHOM7_QLKS\HotelSoftWare\Hotel-SoftWare2\bin\Debug\pt\Microsoft.ReportViewer.WinForms.resources.dll
+C:\Users\ICG51\Downloads\TTCSDL_NHOM7_QLKS\TTCSDL_NHOM7_QLKS\HotelSoftWare\Hotel-SoftWare2\bin\Debug\ru\Microsoft.ReportViewer.Common.resources.dll
+C:\Users\ICG51\Downloads\TTCSDL_NHOM7_QLKS\TTCSDL_NHOM7_QLKS\HotelSoftWare\Hotel-SoftWare2\bin\Debug\ru\Microsoft.ReportViewer.DataVisualization.resources.dll
+C:\Users\ICG51\Downloads\TTCSDL_NHOM7_QLKS\TTCSDL_NHOM7_QLKS\HotelSoftWare\Hotel-SoftWare2\bin\Debug\ru\Microsoft.ReportViewer.Design.resources.dll
+C:\Users\ICG51\Downloads\TTCSDL_NHOM7_QLKS\TTCSDL_NHOM7_QLKS\HotelSoftWare\Hotel-SoftWare2\bin\Debug\ru\Microsoft.ReportViewer.WinForms.resources.dll
+C:\Users\ICG51\Downloads\TTCSDL_NHOM7_QLKS\TTCSDL_NHOM7_QLKS\HotelSoftWare\Hotel-SoftWare2\bin\Debug\zh-CHS\Microsoft.ReportViewer.Common.resources.dll
+C:\Users\ICG51\Downloads\TTCSDL_NHOM7_QLKS\TTCSDL_NHOM7_QLKS\HotelSoftWare\Hotel-SoftWare2\bin\Debug\zh-CHS\Microsoft.ReportViewer.DataVisualization.resources.dll
+C:\Users\ICG51\Downloads\TTCSDL_NHOM7_QLKS\TTCSDL_NHOM7_QLKS\HotelSoftWare\Hotel-SoftWare2\bin\Debug\zh-CHS\Microsoft.ReportViewer.Design.resources.dll
+C:\Users\ICG51\Downloads\TTCSDL_NHOM7_QLKS\TTCSDL_NHOM7_QLKS\HotelSoftWare\Hotel-SoftWare2\bin\Debug\zh-CHS\Microsoft.ReportViewer.WinForms.resources.dll
+C:\Users\ICG51\Downloads\TTCSDL_NHOM7_QLKS\TTCSDL_NHOM7_QLKS\HotelSoftWare\Hotel-SoftWare2\bin\Debug\zh-CHT\Microsoft.ReportViewer.Common.resources.dll
+C:\Users\ICG51\Downloads\TTCSDL_NHOM7_QLKS\TTCSDL_NHOM7_QLKS\HotelSoftWare\Hotel-SoftWare2\bin\Debug\zh-CHT\Microsoft.ReportViewer.DataVisualization.resources.dll
+C:\Users\ICG51\Downloads\TTCSDL_NHOM7_QLKS\TTCSDL_NHOM7_QLKS\HotelSoftWare\Hotel-SoftWare2\bin\Debug\zh-CHT\Microsoft.ReportViewer.Design.resources.dll
+C:\Users\ICG51\Downloads\TTCSDL_NHOM7_QLKS\TTCSDL_NHOM7_QLKS\HotelSoftWare\Hotel-SoftWare2\bin\Debug\zh-CHT\Microsoft.ReportViewer.WinForms.resources.dll
+C:\Users\ICG51\Downloads\TTCSDL_NHOM7_QLKS\TTCSDL_NHOM7_QLKS\HotelSoftWare\Hotel-SoftWare2\bin\Debug\Microsoft.SqlServer.Types.dll
+C:\Users\ICG51\Downloads\TTCSDL_NHOM7_QLKS\TTCSDL_NHOM7_QLKS\HotelSoftWare\Hotel-SoftWare2\bin\Debug\Microsoft.VisualBasic.PowerPacks.xml
+C:\Users\ICG51\Downloads\TTCSDL_NHOM7_QLKS\TTCSDL_NHOM7_QLKS\HotelSoftWare\Hotel-SoftWare2\obj\Debug\Hotel-SoftWare2.csprojAssemblyReference.cache
+C:\Users\ICG51\Downloads\TTCSDL_NHOM7_QLKS\TTCSDL_NHOM7_QLKS\HotelSoftWare\Hotel-SoftWare2\obj\Debug\Hotel_SoftWare2.billForm.resources
+C:\Users\ICG51\Downloads\TTCSDL_NHOM7_QLKS\TTCSDL_NHOM7_QLKS\HotelSoftWare\Hotel-SoftWare2\obj\Debug\Hotel_SoftWare2.ChangePassForm.resources
+C:\Users\ICG51\Downloads\TTCSDL_NHOM7_QLKS\TTCSDL_NHOM7_QLKS\HotelSoftWare\Hotel-SoftWare2\obj\Debug\Hotel_SoftWare2.ChiTietDatPhongForm.resources
+C:\Users\ICG51\Downloads\TTCSDL_NHOM7_QLKS\TTCSDL_NHOM7_QLKS\HotelSoftWare\Hotel-SoftWare2\obj\Debug\Hotel_SoftWare2.CustomersForm.resources
+C:\Users\ICG51\Downloads\TTCSDL_NHOM7_QLKS\TTCSDL_NHOM7_QLKS\HotelSoftWare\Hotel-SoftWare2\obj\Debug\Hotel_SoftWare2.DatPhongForm.resources
+C:\Users\ICG51\Downloads\TTCSDL_NHOM7_QLKS\TTCSDL_NHOM7_QLKS\HotelSoftWare\Hotel-SoftWare2\obj\Debug\Hotel_SoftWare2.DoanhThuForm.resources
+C:\Users\ICG51\Downloads\TTCSDL_NHOM7_QLKS\TTCSDL_NHOM7_QLKS\HotelSoftWare\Hotel-SoftWare2\obj\Debug\Hotel_SoftWare2.EmployeesForm.resources
+C:\Users\ICG51\Downloads\TTCSDL_NHOM7_QLKS\TTCSDL_NHOM7_QLKS\HotelSoftWare\Hotel-SoftWare2\obj\Debug\Hotel_SoftWare2.ExportBill.resources
+C:\Users\ICG51\Downloads\TTCSDL_NHOM7_QLKS\TTCSDL_NHOM7_QLKS\HotelSoftWare\Hotel-SoftWare2\obj\Debug\Hotel_SoftWare2.ViewMoney.resources
+C:\Users\ICG51\Downloads\TTCSDL_NHOM7_QLKS\TTCSDL_NHOM7_QLKS\HotelSoftWare\Hotel-SoftWare2\obj\Debug\Hotel_SoftWare2.LoaiDichVuForm.resources
+C:\Users\ICG51\Downloads\TTCSDL_NHOM7_QLKS\TTCSDL_NHOM7_QLKS\HotelSoftWare\Hotel-SoftWare2\obj\Debug\Hotel_SoftWare2.LoaiPhongForm.resources
+C:\Users\ICG51\Downloads\TTCSDL_NHOM7_QLKS\TTCSDL_NHOM7_QLKS\HotelSoftWare\Hotel-SoftWare2\obj\Debug\Hotel_SoftWare2.LoginForm.resources
+C:\Users\ICG51\Downloads\TTCSDL_NHOM7_QLKS\TTCSDL_NHOM7_QLKS\HotelSoftWare\Hotel-SoftWare2\obj\Debug\Hotel_SoftWare2.MainForm.resources
+C:\Users\ICG51\Downloads\TTCSDL_NHOM7_QLKS\TTCSDL_NHOM7_QLKS\HotelSoftWare\Hotel-SoftWare2\obj\Debug\Hotel_SoftWare2.Properties.Resources.resources
+C:\Users\ICG51\Downloads\TTCSDL_NHOM7_QLKS\TTCSDL_NHOM7_QLKS\HotelSoftWare\Hotel-SoftWare2\obj\Debug\Hotel_SoftWare2.QLServiceForm.resources
+C:\Users\ICG51\Downloads\TTCSDL_NHOM7_QLKS\TTCSDL_NHOM7_QLKS\HotelSoftWare\Hotel-SoftWare2\obj\Debug\Hotel_SoftWare2.QlyPhong.resources
+C:\Users\ICG51\Downloads\TTCSDL_NHOM7_QLKS\TTCSDL_NHOM7_QLKS\HotelSoftWare\Hotel-SoftWare2\obj\Debug\Hotel_SoftWare2.ServiceRoomForm.resources
+C:\Users\ICG51\Downloads\TTCSDL_NHOM7_QLKS\TTCSDL_NHOM7_QLKS\HotelSoftWare\Hotel-SoftWare2\obj\Debug\Hotel_SoftWare2.TraPhong.resources
+C:\Users\ICG51\Downloads\TTCSDL_NHOM7_QLKS\TTCSDL_NHOM7_QLKS\HotelSoftWare\Hotel-SoftWare2\obj\Debug\Hotel_SoftWare2.UsersForm.resources
+C:\Users\ICG51\Downloads\TTCSDL_NHOM7_QLKS\TTCSDL_NHOM7_QLKS\HotelSoftWare\Hotel-SoftWare2\obj\Debug\Hotel-SoftWare2.csproj.GenerateResource.cache
+C:\Users\ICG51\Downloads\TTCSDL_NHOM7_QLKS\TTCSDL_NHOM7_QLKS\HotelSoftWare\Hotel-SoftWare2\obj\Debug\Hotel-SoftWare2.csproj.CoreCompileInputs.cache
+C:\Users\ICG51\Downloads\TTCSDL_NHOM7_QLKS\TTCSDL_NHOM7_QLKS\HotelSoftWare\Hotel-SoftWare2\obj\Debug\Hotel-SoftWare2.csproj.CopyComplete
+C:\Users\ICG51\Downloads\TTCSDL_NHOM7_QLKS\TTCSDL_NHOM7_QLKS\HotelSoftWare\Hotel-SoftWare2\obj\Debug\Hotel-SoftWare2.exe
+C:\Users\ICG51\Downloads\TTCSDL_NHOM7_QLKS\TTCSDL_NHOM7_QLKS\HotelSoftWare\Hotel-SoftWare2\obj\Debug\Hotel-SoftWare2.pdb

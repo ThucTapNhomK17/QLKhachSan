@@ -1,0 +1,791 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="MyDbContext" Alias="Self" annotation:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+  <EntityType Name="ChiTietPhieuThue">
+    <Key>
+      <PropertyRef Name="MaChiTietPhieuThue" />
+    </Key>
+    <Property Name="MaChiTietPhieuThue" Type="String" MaxLength="8" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="NgayVao" Type="DateTime" Precision="0" />
+    <Property Name="NgayRa" Type="DateTime" Precision="0" />
+    <Property Name="HinhThucThue" Type="Boolean" />
+    <Property Name="SoLuongKhach" Type="String" MaxLength="1" FixedLength="true" Unicode="false" />
+    <Property Name="MaPhong" Type="String" MaxLength="8" FixedLength="false" Unicode="false" />
+    <Property Name="MaPhieuThuePhong" Type="String" MaxLength="8" FixedLength="false" Unicode="false" />
+    <NavigationProperty Name="PhieuThuePhong" Relationship="Self.FK__ChiTietPh__MaPhi__7A3223E8" FromRole="ChiTietPhieuThue" ToRole="PhieuThuePhong" />
+    <NavigationProperty Name="Phong" Relationship="Self.FK__ChiTietPh__MaPho__7B264821" FromRole="ChiTietPhieuThue" ToRole="Phong" />
+    <NavigationProperty Name="SuDungDichVus" Relationship="Self.FK__SuDungDic__MaChi__01D345B0" FromRole="ChiTietPhieuThue" ToRole="SuDungDichVu" />
+  </EntityType>
+  <EntityType Name="DichVu">
+    <Key>
+      <PropertyRef Name="MaDV" />
+    </Key>
+    <Property Name="MaDV" Type="String" MaxLength="8" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="TenDV" Type="String" MaxLength="20" FixedLength="false" Unicode="true" />
+    <Property Name="DonGia" Type="Double" />
+    <Property Name="MaLoaiDV" Type="String" MaxLength="8" FixedLength="false" Unicode="false" />
+    <NavigationProperty Name="LoaiDichVu" Relationship="Self.FK__DichVu__MaLoaiDV__7C1A6C5A" FromRole="DichVu" ToRole="LoaiDichVu" />
+    <NavigationProperty Name="SuDungDichVus" Relationship="Self.FK__SuDungDich__MaDV__02C769E9" FromRole="DichVu" ToRole="SuDungDichVu" />
+  </EntityType>
+  <EntityType Name="HinhThucThanhToan">
+    <Key>
+      <PropertyRef Name="MaHTTT" />
+    </Key>
+    <Property Name="MaHTTT" Type="String" MaxLength="8" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="TenHTTT" Type="Boolean" />
+    <NavigationProperty Name="HoaDons" Relationship="Self.FK__HoaDon__MaHTTT__7E02B4CC" FromRole="HinhThucThanhToan" ToRole="HoaDon" />
+  </EntityType>
+  <EntityType Name="HoaDon">
+    <Key>
+      <PropertyRef Name="MaHoaDon" />
+    </Key>
+    <Property Name="MaHoaDon" Type="String" MaxLength="8" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="TienPhong" Type="Double" />
+    <Property Name="TienDV" Type="Double" />
+    <Property Name="TongTien" Type="Double" />
+    <Property Name="NgayThanhToan" Type="DateTime" Precision="0" />
+    <Property Name="GhiChu" Type="String" MaxLength="500" FixedLength="false" Unicode="true" />
+    <Property Name="MaPhieuThuePhong" Type="String" MaxLength="8" FixedLength="false" Unicode="false" />
+    <Property Name="MaHTTT" Type="String" MaxLength="8" FixedLength="false" Unicode="false" />
+    <NavigationProperty Name="HinhThucThanhToan" Relationship="Self.FK__HoaDon__MaHTTT__7E02B4CC" FromRole="HoaDon" ToRole="HinhThucThanhToan" />
+    <NavigationProperty Name="PhieuThuePhong" Relationship="Self.FK__HoaDon__MaPhieuT__7D0E9093" FromRole="HoaDon" ToRole="PhieuThuePhong" />
+  </EntityType>
+  <EntityType Name="KhachHang">
+    <Key>
+      <PropertyRef Name="MaKH" />
+    </Key>
+    <Property Name="MaKH" Type="String" MaxLength="8" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="TenKH" Type="String" MaxLength="30" FixedLength="false" Unicode="true" />
+    <Property Name="SoCMND" Type="String" MaxLength="12" FixedLength="true" Unicode="false" />
+    <Property Name="DiaChi" Type="String" MaxLength="20" FixedLength="false" Unicode="true" />
+    <Property Name="SDT" Type="String" MaxLength="12" FixedLength="true" Unicode="false" />
+    <NavigationProperty Name="PhieuThuePhongs" Relationship="Self.FK__PhieuThueP__MaKH__7EF6D905" FromRole="KhachHang" ToRole="PhieuThuePhong" />
+  </EntityType>
+  <EntityType Name="LoaiDichVu">
+    <Key>
+      <PropertyRef Name="MaLoaiDV" />
+    </Key>
+    <Property Name="MaLoaiDV" Type="String" MaxLength="8" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="TenLoaiDV" Type="String" MaxLength="20" FixedLength="false" Unicode="true" />
+    <NavigationProperty Name="DichVus" Relationship="Self.FK__DichVu__MaLoaiDV__7C1A6C5A" FromRole="LoaiDichVu" ToRole="DichVu" />
+  </EntityType>
+  <EntityType Name="LoaiPhong">
+    <Key>
+      <PropertyRef Name="MaLoai" />
+    </Key>
+    <Property Name="MaLoai" Type="String" MaxLength="8" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="TenLoai" Type="String" MaxLength="30" FixedLength="false" Unicode="true" />
+    <Property Name="SoNguoi" Type="String" MaxLength="1" FixedLength="true" Unicode="false" />
+    <Property Name="GhiChu" Type="String" MaxLength="250" FixedLength="false" Unicode="true" />
+    <NavigationProperty Name="Phongs" Relationship="Self.FK__Phong__MaLoai__00DF2177" FromRole="LoaiPhong" ToRole="Phong" />
+  </EntityType>
+  <EntityType Name="NhanVien">
+    <Key>
+      <PropertyRef Name="MaNV" />
+    </Key>
+    <Property Name="MaNV" Type="String" MaxLength="8" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="TenTk" Type="String" MaxLength="30" FixedLength="false" Unicode="false" />
+    <Property Name="MatKhau" Type="String" MaxLength="30" FixedLength="false" Unicode="false" />
+    <Property Name="Quyen" Type="Boolean" />
+    <Property Name="HoTen" Type="String" MaxLength="30" FixedLength="false" Unicode="true" />
+    <Property Name="NgaySinh" Type="DateTime" Precision="0" />
+    <Property Name="SDT" Type="String" MaxLength="12" FixedLength="true" Unicode="false" />
+    <NavigationProperty Name="PhieuThuePhongs" Relationship="Self.FK__PhieuThueP__MaNV__7FEAFD3E" FromRole="NhanVien" ToRole="PhieuThuePhong" />
+  </EntityType>
+  <EntityType Name="PhieuThuePhong">
+    <Key>
+      <PropertyRef Name="MaPhieuThuePhong" />
+    </Key>
+    <Property Name="MaPhieuThuePhong" Type="String" MaxLength="8" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="GhiChu" Type="String" MaxLength="250" FixedLength="false" Unicode="true" />
+    <Property Name="MaKH" Type="String" MaxLength="8" FixedLength="false" Unicode="false" />
+    <Property Name="MaNV" Type="String" MaxLength="8" FixedLength="false" Unicode="false" />
+    <NavigationProperty Name="ChiTietPhieuThues" Relationship="Self.FK__ChiTietPh__MaPhi__7A3223E8" FromRole="PhieuThuePhong" ToRole="ChiTietPhieuThue" />
+    <NavigationProperty Name="HoaDons" Relationship="Self.FK__HoaDon__MaPhieuT__7D0E9093" FromRole="PhieuThuePhong" ToRole="HoaDon" />
+    <NavigationProperty Name="KhachHang" Relationship="Self.FK__PhieuThueP__MaKH__7EF6D905" FromRole="PhieuThuePhong" ToRole="KhachHang" />
+    <NavigationProperty Name="NhanVien" Relationship="Self.FK__PhieuThueP__MaNV__7FEAFD3E" FromRole="PhieuThuePhong" ToRole="NhanVien" />
+  </EntityType>
+  <EntityType Name="Phong">
+    <Key>
+      <PropertyRef Name="MaPhong" />
+    </Key>
+    <Property Name="MaPhong" Type="String" MaxLength="8" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="TenPhong" Type="String" MaxLength="20" FixedLength="false" Unicode="true" />
+    <Property Name="TinhTrang" Type="Boolean" />
+    <Property Name="DienTich" Type="String" MaxLength="3" FixedLength="true" Unicode="false" />
+    <Property Name="GiaThue" Type="Double" />
+    <Property Name="MaLoai" Type="String" MaxLength="8" FixedLength="false" Unicode="false" />
+    <NavigationProperty Name="ChiTietPhieuThues" Relationship="Self.FK__ChiTietPh__MaPho__7B264821" FromRole="Phong" ToRole="ChiTietPhieuThue" />
+    <NavigationProperty Name="LoaiPhong" Relationship="Self.FK__Phong__MaLoai__00DF2177" FromRole="Phong" ToRole="LoaiPhong" />
+  </EntityType>
+  <EntityType Name="SuDungDichVu">
+    <Key>
+      <PropertyRef Name="MaSD" />
+    </Key>
+    <Property Name="MaSD" Type="String" MaxLength="8" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="NgaySD" Type="DateTime" Precision="0" />
+    <Property Name="SoLuong" Type="String" MaxLength="4" FixedLength="true" Unicode="false" />
+    <Property Name="GiaTien" Type="Double" />
+    <Property Name="MaChiTietPhieuThue" Type="String" MaxLength="8" FixedLength="false" Unicode="false" />
+    <Property Name="MaDV" Type="String" MaxLength="8" FixedLength="false" Unicode="false" />
+    <NavigationProperty Name="ChiTietPhieuThue" Relationship="Self.FK__SuDungDic__MaChi__01D345B0" FromRole="SuDungDichVu" ToRole="ChiTietPhieuThue" />
+    <NavigationProperty Name="DichVu" Relationship="Self.FK__SuDungDich__MaDV__02C769E9" FromRole="SuDungDichVu" ToRole="DichVu" />
+  </EntityType>
+  <EntityType Name="sysdiagram">
+    <Key>
+      <PropertyRef Name="diagram_id" />
+    </Key>
+    <Property Name="name" Type="String" MaxLength="128" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="principal_id" Type="Int32" Nullable="false" />
+    <Property Name="diagram_id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="version" Type="Int32" />
+    <Property Name="definition" Type="Binary" MaxLength="Max" FixedLength="false" />
+  </EntityType>
+  <Association Name="FK__ChiTietPh__MaPhi__7A3223E8">
+    <End Role="PhieuThuePhong" Type="Self.PhieuThuePhong" Multiplicity="0..1" />
+    <End Role="ChiTietPhieuThue" Type="Self.ChiTietPhieuThue" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="PhieuThuePhong">
+        <PropertyRef Name="MaPhieuThuePhong" />
+      </Principal>
+      <Dependent Role="ChiTietPhieuThue">
+        <PropertyRef Name="MaPhieuThuePhong" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__ChiTietPh__MaPho__7B264821">
+    <End Role="Phong" Type="Self.Phong" Multiplicity="0..1" />
+    <End Role="ChiTietPhieuThue" Type="Self.ChiTietPhieuThue" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Phong">
+        <PropertyRef Name="MaPhong" />
+      </Principal>
+      <Dependent Role="ChiTietPhieuThue">
+        <PropertyRef Name="MaPhong" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__SuDungDic__MaChi__01D345B0">
+    <End Role="ChiTietPhieuThue" Type="Self.ChiTietPhieuThue" Multiplicity="0..1" />
+    <End Role="SuDungDichVu" Type="Self.SuDungDichVu" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="ChiTietPhieuThue">
+        <PropertyRef Name="MaChiTietPhieuThue" />
+      </Principal>
+      <Dependent Role="SuDungDichVu">
+        <PropertyRef Name="MaChiTietPhieuThue" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__DichVu__MaLoaiDV__7C1A6C5A">
+    <End Role="LoaiDichVu" Type="Self.LoaiDichVu" Multiplicity="0..1" />
+    <End Role="DichVu" Type="Self.DichVu" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="LoaiDichVu">
+        <PropertyRef Name="MaLoaiDV" />
+      </Principal>
+      <Dependent Role="DichVu">
+        <PropertyRef Name="MaLoaiDV" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__SuDungDich__MaDV__02C769E9">
+    <End Role="DichVu" Type="Self.DichVu" Multiplicity="0..1" />
+    <End Role="SuDungDichVu" Type="Self.SuDungDichVu" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="DichVu">
+        <PropertyRef Name="MaDV" />
+      </Principal>
+      <Dependent Role="SuDungDichVu">
+        <PropertyRef Name="MaDV" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__HoaDon__MaHTTT__7E02B4CC">
+    <End Role="HinhThucThanhToan" Type="Self.HinhThucThanhToan" Multiplicity="0..1" />
+    <End Role="HoaDon" Type="Self.HoaDon" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="HinhThucThanhToan">
+        <PropertyRef Name="MaHTTT" />
+      </Principal>
+      <Dependent Role="HoaDon">
+        <PropertyRef Name="MaHTTT" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__HoaDon__MaPhieuT__7D0E9093">
+    <End Role="PhieuThuePhong" Type="Self.PhieuThuePhong" Multiplicity="0..1" />
+    <End Role="HoaDon" Type="Self.HoaDon" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="PhieuThuePhong">
+        <PropertyRef Name="MaPhieuThuePhong" />
+      </Principal>
+      <Dependent Role="HoaDon">
+        <PropertyRef Name="MaPhieuThuePhong" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__PhieuThueP__MaKH__7EF6D905">
+    <End Role="KhachHang" Type="Self.KhachHang" Multiplicity="0..1" />
+    <End Role="PhieuThuePhong" Type="Self.PhieuThuePhong" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="KhachHang">
+        <PropertyRef Name="MaKH" />
+      </Principal>
+      <Dependent Role="PhieuThuePhong">
+        <PropertyRef Name="MaKH" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__Phong__MaLoai__00DF2177">
+    <End Role="LoaiPhong" Type="Self.LoaiPhong" Multiplicity="0..1" />
+    <End Role="Phong" Type="Self.Phong" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="LoaiPhong">
+        <PropertyRef Name="MaLoai" />
+      </Principal>
+      <Dependent Role="Phong">
+        <PropertyRef Name="MaLoai" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__PhieuThueP__MaNV__7FEAFD3E">
+    <End Role="NhanVien" Type="Self.NhanVien" Multiplicity="0..1" />
+    <End Role="PhieuThuePhong" Type="Self.PhieuThuePhong" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="NhanVien">
+        <PropertyRef Name="MaNV" />
+      </Principal>
+      <Dependent Role="PhieuThuePhong">
+        <PropertyRef Name="MaNV" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <EntityContainer Name="htEntities" annotation:LazyLoadingEnabled="true">
+    <EntitySet Name="ChiTietPhieuThues" EntityType="Self.ChiTietPhieuThue" />
+    <EntitySet Name="DichVus" EntityType="Self.DichVu" />
+    <EntitySet Name="HinhThucThanhToans" EntityType="Self.HinhThucThanhToan" />
+    <EntitySet Name="HoaDons" EntityType="Self.HoaDon" />
+    <EntitySet Name="KhachHangs" EntityType="Self.KhachHang" />
+    <EntitySet Name="LoaiDichVus" EntityType="Self.LoaiDichVu" />
+    <EntitySet Name="LoaiPhongs" EntityType="Self.LoaiPhong" />
+    <EntitySet Name="NhanViens" EntityType="Self.NhanVien" />
+    <EntitySet Name="PhieuThuePhongs" EntityType="Self.PhieuThuePhong" />
+    <EntitySet Name="Phongs" EntityType="Self.Phong" />
+    <EntitySet Name="SuDungDichVus" EntityType="Self.SuDungDichVu" />
+    <EntitySet Name="sysdiagrams" EntityType="Self.sysdiagram" />
+    <AssociationSet Name="FK__ChiTietPh__MaPhi__7A3223E8" Association="Self.FK__ChiTietPh__MaPhi__7A3223E8">
+      <End Role="PhieuThuePhong" EntitySet="PhieuThuePhongs" />
+      <End Role="ChiTietPhieuThue" EntitySet="ChiTietPhieuThues" />
+    </AssociationSet>
+    <AssociationSet Name="FK__ChiTietPh__MaPho__7B264821" Association="Self.FK__ChiTietPh__MaPho__7B264821">
+      <End Role="Phong" EntitySet="Phongs" />
+      <End Role="ChiTietPhieuThue" EntitySet="ChiTietPhieuThues" />
+    </AssociationSet>
+    <AssociationSet Name="FK__SuDungDic__MaChi__01D345B0" Association="Self.FK__SuDungDic__MaChi__01D345B0">
+      <End Role="ChiTietPhieuThue" EntitySet="ChiTietPhieuThues" />
+      <End Role="SuDungDichVu" EntitySet="SuDungDichVus" />
+    </AssociationSet>
+    <AssociationSet Name="FK__DichVu__MaLoaiDV__7C1A6C5A" Association="Self.FK__DichVu__MaLoaiDV__7C1A6C5A">
+      <End Role="LoaiDichVu" EntitySet="LoaiDichVus" />
+      <End Role="DichVu" EntitySet="DichVus" />
+    </AssociationSet>
+    <AssociationSet Name="FK__SuDungDich__MaDV__02C769E9" Association="Self.FK__SuDungDich__MaDV__02C769E9">
+      <End Role="DichVu" EntitySet="DichVus" />
+      <End Role="SuDungDichVu" EntitySet="SuDungDichVus" />
+    </AssociationSet>
+    <AssociationSet Name="FK__HoaDon__MaHTTT__7E02B4CC" Association="Self.FK__HoaDon__MaHTTT__7E02B4CC">
+      <End Role="HinhThucThanhToan" EntitySet="HinhThucThanhToans" />
+      <End Role="HoaDon" EntitySet="HoaDons" />
+    </AssociationSet>
+    <AssociationSet Name="FK__HoaDon__MaPhieuT__7D0E9093" Association="Self.FK__HoaDon__MaPhieuT__7D0E9093">
+      <End Role="PhieuThuePhong" EntitySet="PhieuThuePhongs" />
+      <End Role="HoaDon" EntitySet="HoaDons" />
+    </AssociationSet>
+    <AssociationSet Name="FK__PhieuThueP__MaKH__7EF6D905" Association="Self.FK__PhieuThueP__MaKH__7EF6D905">
+      <End Role="KhachHang" EntitySet="KhachHangs" />
+      <End Role="PhieuThuePhong" EntitySet="PhieuThuePhongs" />
+    </AssociationSet>
+    <AssociationSet Name="FK__Phong__MaLoai__00DF2177" Association="Self.FK__Phong__MaLoai__00DF2177">
+      <End Role="LoaiPhong" EntitySet="LoaiPhongs" />
+      <End Role="Phong" EntitySet="Phongs" />
+    </AssociationSet>
+    <AssociationSet Name="FK__PhieuThueP__MaNV__7FEAFD3E" Association="Self.FK__PhieuThueP__MaNV__7FEAFD3E">
+      <End Role="NhanVien" EntitySet="NhanViens" />
+      <End Role="PhieuThuePhong" EntitySet="PhieuThuePhongs" />
+    </AssociationSet>
+    <FunctionImport Name="add_CTPT">
+      <Parameter Name="mactpt" Mode="In" Type="String" />
+      <Parameter Name="ngayvao" Mode="In" Type="DateTime" />
+      <Parameter Name="htt" Mode="In" Type="Boolean" />
+      <Parameter Name="slk" Mode="In" Type="Byte" />
+      <Parameter Name="maphong" Mode="In" Type="String" />
+      <Parameter Name="mptp" Mode="In" Type="String" />
+    </FunctionImport>
+    <FunctionImport Name="addCus">
+      <Parameter Name="MAKH" Mode="In" Type="String" />
+      <Parameter Name="TENKH" Mode="In" Type="String" />
+      <Parameter Name="CMND" Mode="In" Type="String" />
+      <Parameter Name="DIACHI" Mode="In" Type="String" />
+      <Parameter Name="SDT" Mode="In" Type="String" />
+    </FunctionImport>
+    <FunctionImport Name="addEmp">
+      <Parameter Name="MANV" Mode="In" Type="String" />
+      <Parameter Name="HOTEN" Mode="In" Type="String" />
+      <Parameter Name="NGAYSINH" Mode="In" Type="DateTime" />
+      <Parameter Name="SDT" Mode="In" Type="String" />
+    </FunctionImport>
+    <FunctionImport Name="addPhieuThuePhong">
+      <Parameter Name="mptp" Mode="In" Type="String" />
+      <Parameter Name="ghichu" Mode="In" Type="String" />
+      <Parameter Name="makh" Mode="In" Type="String" />
+      <Parameter Name="manv" Mode="In" Type="String" />
+    </FunctionImport>
+    <FunctionImport Name="addRoom">
+      <Parameter Name="MAPHONG" Mode="In" Type="String" />
+      <Parameter Name="TENPHONG" Mode="In" Type="String" />
+      <Parameter Name="TINHTRANG" Mode="In" Type="Byte" />
+      <Parameter Name="DIENTICH" Mode="In" Type="Int32" />
+      <Parameter Name="GIATHUE" Mode="In" Type="Double" />
+      <Parameter Name="MALOAI" Mode="In" Type="String" />
+    </FunctionImport>
+    <FunctionImport Name="addSer">
+      <Parameter Name="MADV" Mode="In" Type="String" />
+      <Parameter Name="TENDV" Mode="In" Type="String" />
+      <Parameter Name="DONGIA" Mode="In" Type="Double" />
+      <Parameter Name="MALOAIDICHVU" Mode="In" Type="String" />
+    </FunctionImport>
+    <FunctionImport Name="addServiceRoom">
+      <Parameter Name="MASD" Mode="In" Type="String" />
+      <Parameter Name="NGAYSD" Mode="In" Type="DateTime" />
+      <Parameter Name="SOLUONG" Mode="In" Type="Byte" />
+      <Parameter Name="GIATIEN" Mode="In" Type="Double" />
+      <Parameter Name="MADV" Mode="In" Type="String" />
+      <Parameter Name="MACTPT" Mode="In" Type="String" />
+    </FunctionImport>
+    <FunctionImport Name="addTypeRoom">
+      <Parameter Name="MALOAIPHONG" Mode="In" Type="String" />
+      <Parameter Name="TENLOAIPHONG" Mode="In" Type="String" />
+      <Parameter Name="SONGUOI" Mode="In" Type="Byte" />
+      <Parameter Name="GHICHU" Mode="In" Type="String" />
+    </FunctionImport>
+    <FunctionImport Name="addTypeSer">
+      <Parameter Name="MALOAIDV" Mode="In" Type="String" />
+      <Parameter Name="TENLOAIDV" Mode="In" Type="String" />
+    </FunctionImport>
+    <FunctionImport Name="changePass">
+      <Parameter Name="matkhauhientai" Mode="In" Type="String" />
+      <Parameter Name="idnv" Mode="In" Type="String" />
+    </FunctionImport>
+    <FunctionImport Name="changeStatusRoom">
+      <Parameter Name="maphong" Mode="In" Type="String" />
+    </FunctionImport>
+    <FunctionImport Name="creatBill">
+      <Parameter Name="maHD" Mode="In" Type="String" />
+      <Parameter Name="tienphong" Mode="In" Type="Double" />
+      <Parameter Name="tiendv" Mode="In" Type="Double" />
+      <Parameter Name="tongtien" Mode="In" Type="Double" />
+      <Parameter Name="ngaytt" Mode="In" Type="DateTime" />
+      <Parameter Name="ghichu" Mode="In" Type="String" />
+      <Parameter Name="mptp" Mode="In" Type="String" />
+      <Parameter Name="mhttt" Mode="In" Type="String" />
+    </FunctionImport>
+    <FunctionImport Name="delCTPT">
+      <Parameter Name="MaChiTietPhieuThue" Mode="In" Type="String" />
+    </FunctionImport>
+    <FunctionImport Name="delCus">
+      <Parameter Name="MAKH" Mode="In" Type="String" />
+    </FunctionImport>
+    <FunctionImport Name="delEmp">
+      <Parameter Name="MANV" Mode="In" Type="String" />
+    </FunctionImport>
+    <FunctionImport Name="delRoom">
+      <Parameter Name="MAPHONG" Mode="In" Type="String" />
+    </FunctionImport>
+    <FunctionImport Name="delSer">
+      <Parameter Name="MADV" Mode="In" Type="String" />
+    </FunctionImport>
+    <FunctionImport Name="delServiceRoom">
+      <Parameter Name="MASD" Mode="In" Type="String" />
+    </FunctionImport>
+    <FunctionImport Name="delTypeRoom">
+      <Parameter Name="MALOAIPHONG" Mode="In" Type="String" />
+    </FunctionImport>
+    <FunctionImport Name="delTypeSer">
+      <Parameter Name="MALOAIDV" Mode="In" Type="String" />
+    </FunctionImport>
+    <FunctionImport Name="DSDichVu" ReturnType="Collection(MyDbContext.DSDichVu_Result)" />
+    <FunctionImport Name="DSLoaiDichVu" ReturnType="Collection(MyDbContext.DSLoaiDichVu_Result)" />
+    <FunctionImport Name="DSLoaiPhong" ReturnType="Collection(MyDbContext.DSLoaiPhong_Result)" />
+    <FunctionImport Name="DSPhieuSDDV" />
+    <FunctionImport Name="DSPhong" ReturnType="Collection(MyDbContext.DSPhong_Result)" />
+    <FunctionImport Name="DSTenPhongSDDV" ReturnType="Collection(String)" />
+    <FunctionImport Name="getAcc1" ReturnType="Collection(MyDbContext.getAcc1_Result)" />
+    <FunctionImport Name="getAll_CTPT" ReturnType="Collection(MyDbContext.getAll_CTPT_Result)" />
+    <FunctionImport Name="getallCus" ReturnType="Collection(MyDbContext.getallCus_Result)" />
+    <FunctionImport Name="getallEmp" ReturnType="Collection(MyDbContext.getallEmp_Result)" />
+    <FunctionImport Name="getCTPT_FrIdPT" ReturnType="Collection(MyDbContext.getCTPT_FrIdPT_Result)">
+      <Parameter Name="mpt" Mode="In" Type="String" />
+    </FunctionImport>
+    <FunctionImport Name="getCusFrPhieuThue1">
+      <Parameter Name="maphieuthue" Mode="In" Type="String" />
+      <Parameter Name="MaKH" Mode="InOut" Type="String" />
+      <Parameter Name="tenkh" Mode="InOut" Type="String" />
+      <Parameter Name="soCMND" Mode="InOut" Type="String" />
+      <Parameter Name="diachi" Mode="InOut" Type="String" />
+      <Parameter Name="sdt" Mode="InOut" Type="String" />
+      <Parameter Name="tennv" Mode="InOut" Type="String" />
+    </FunctionImport>
+    <FunctionImport Name="getDoanhThuTienDV" ReturnType="Collection(MyDbContext.getDoanhThuTienDV_Result)">
+      <Parameter Name="ngayvaochon" Mode="In" Type="DateTime" />
+      <Parameter Name="ngayrachon" Mode="In" Type="DateTime" />
+    </FunctionImport>
+    <FunctionImport Name="getDoanhThuTienPhong" ReturnType="Collection(MyDbContext.getDoanhThuTienPhong_Result)">
+      <Parameter Name="ngayvaochon" Mode="In" Type="DateTime" />
+      <Parameter Name="ngayrachon" Mode="In" Type="DateTime" />
+    </FunctionImport>
+    <FunctionImport Name="getFreeRoom" ReturnType="Collection(MyDbContext.getFreeRoom_Result)" />
+    <FunctionImport Name="getHTTT" ReturnType="Collection(String)" />
+    <FunctionImport Name="getIdEmpFrAcc" ReturnType="Collection(String)">
+      <Parameter Name="tentk" Mode="In" Type="String" />
+      <Parameter Name="matkhau" Mode="In" Type="String" />
+    </FunctionImport>
+    <FunctionImport Name="getIdNV" ReturnType="Collection(String)">
+      <Parameter Name="TenTk" Mode="In" Type="String" />
+      <Parameter Name="MatKhau" Mode="In" Type="String" />
+    </FunctionImport>
+    <FunctionImport Name="getIdPTFromMaPhong" ReturnType="Collection(String)">
+      <Parameter Name="tenphong" Mode="In" Type="String" />
+    </FunctionImport>
+    <FunctionImport Name="getlistBill" ReturnType="Collection(MyDbContext.getlistBill_Result)" />
+    <FunctionImport Name="getMaDVtoTenDV" ReturnType="Collection(String)">
+      <Parameter Name="TENDV" Mode="In" Type="String" />
+    </FunctionImport>
+    <FunctionImport Name="getPermission" ReturnType="Collection(Boolean)">
+      <Parameter Name="username" Mode="In" Type="String" />
+      <Parameter Name="password" Mode="In" Type="String" />
+    </FunctionImport>
+    <FunctionImport Name="getPhieuThue2" ReturnType="Collection(MyDbContext.getPhieuThue2_Result)" />
+    <FunctionImport Name="GiaTienDV" ReturnType="Collection(Double)">
+      <Parameter Name="madv" Mode="In" Type="String" />
+      <Parameter Name="soluong" Mode="In" Type="Byte" />
+    </FunctionImport>
+    <FunctionImport Name="Phong_Thue" ReturnType="Collection(MyDbContext.Phong_Thue_Result)">
+      <Parameter Name="MaKH" Mode="In" Type="String" />
+    </FunctionImport>
+    <FunctionImport Name="Search_MaCtpt" ReturnType="Collection(MyDbContext.Search_MaCtpt_Result)">
+      <Parameter Name="MaChiTietPhieuThue" Mode="In" Type="String" />
+    </FunctionImport>
+    <FunctionImport Name="Search_MaPhong" ReturnType="Collection(MyDbContext.Search_MaPhong_Result)">
+      <Parameter Name="MaPhong" Mode="In" Type="String" />
+    </FunctionImport>
+    <FunctionImport Name="tienDvDetail" ReturnType="Collection(MyDbContext.tienDvDetail_Result)">
+      <Parameter Name="maptp" Mode="In" Type="String" />
+    </FunctionImport>
+    <FunctionImport Name="tienphongDetail" ReturnType="Collection(MyDbContext.tienphongDetail_Result)">
+      <Parameter Name="mptp" Mode="In" Type="String" />
+    </FunctionImport>
+    <FunctionImport Name="TKidCTPTofRoom" ReturnType="Collection(String)">
+      <Parameter Name="TENPHONG" Mode="In" Type="String" />
+    </FunctionImport>
+    <FunctionImport Name="TKPhong" ReturnType="Collection(MyDbContext.TKPhong_Result)">
+      <Parameter Name="TENPHONG" Mode="In" Type="String" />
+    </FunctionImport>
+    <FunctionImport Name="TKService" ReturnType="Collection(MyDbContext.TKService_Result)">
+      <Parameter Name="TENDV" Mode="In" Type="String" />
+    </FunctionImport>
+    <FunctionImport Name="TKtypeRoom" ReturnType="Collection(MyDbContext.TKtypeRoom_Result)">
+      <Parameter Name="TENLOAIPHONG" Mode="In" Type="String" />
+    </FunctionImport>
+    <FunctionImport Name="TKtypeService" ReturnType="Collection(MyDbContext.TKtypeService_Result)">
+      <Parameter Name="TENLOAIDV" Mode="In" Type="String" />
+    </FunctionImport>
+    <FunctionImport Name="update_CTPT">
+      <Parameter Name="mactpt" Mode="In" Type="String" />
+      <Parameter Name="ngayvao" Mode="In" Type="DateTime" />
+      <Parameter Name="htt" Mode="In" Type="Boolean" />
+      <Parameter Name="slk" Mode="In" Type="Byte" />
+      <Parameter Name="maphong" Mode="In" Type="String" />
+      <Parameter Name="mptp" Mode="In" Type="String" />
+    </FunctionImport>
+    <FunctionImport Name="updateAcc">
+      <Parameter Name="MANV" Mode="In" Type="String" />
+      <Parameter Name="tenTK" Mode="In" Type="String" />
+      <Parameter Name="matkhau" Mode="In" Type="String" />
+      <Parameter Name="quyen" Mode="In" Type="Boolean" />
+    </FunctionImport>
+    <FunctionImport Name="updateCus">
+      <Parameter Name="MAKH" Mode="In" Type="String" />
+      <Parameter Name="TENKH" Mode="In" Type="String" />
+      <Parameter Name="CMND" Mode="In" Type="String" />
+      <Parameter Name="DIACHI" Mode="In" Type="String" />
+      <Parameter Name="SDT" Mode="In" Type="String" />
+    </FunctionImport>
+    <FunctionImport Name="updateEmp">
+      <Parameter Name="MANV" Mode="In" Type="String" />
+      <Parameter Name="HOTEN" Mode="In" Type="String" />
+      <Parameter Name="NGAYSINH" Mode="In" Type="DateTime" />
+      <Parameter Name="SDT" Mode="In" Type="String" />
+    </FunctionImport>
+    <FunctionImport Name="updateNgayRa">
+      <Parameter Name="MaChiTietPhieuThue" Mode="In" Type="String" />
+      <Parameter Name="NgayRa" Mode="In" Type="DateTime" />
+    </FunctionImport>
+    <FunctionImport Name="updateRoom">
+      <Parameter Name="MAPHONG" Mode="In" Type="String" />
+      <Parameter Name="TENPHONG" Mode="In" Type="String" />
+      <Parameter Name="TINHTRANG" Mode="In" Type="Byte" />
+      <Parameter Name="DIENTICH" Mode="In" Type="Int32" />
+      <Parameter Name="GIATHUE" Mode="In" Type="Double" />
+      <Parameter Name="MALOAI" Mode="In" Type="String" />
+    </FunctionImport>
+    <FunctionImport Name="updateSer">
+      <Parameter Name="MADV" Mode="In" Type="String" />
+      <Parameter Name="TENDV" Mode="In" Type="String" />
+      <Parameter Name="DONGIA" Mode="In" Type="Double" />
+      <Parameter Name="MALOAIDICHVU" Mode="In" Type="String" />
+    </FunctionImport>
+    <FunctionImport Name="UpdateServiceRoom">
+      <Parameter Name="MASD" Mode="In" Type="String" />
+      <Parameter Name="NGAYSD" Mode="In" Type="DateTime" />
+      <Parameter Name="SOLUONG" Mode="In" Type="Byte" />
+      <Parameter Name="GIATIEN" Mode="In" Type="Double" />
+      <Parameter Name="MADV" Mode="In" Type="String" />
+      <Parameter Name="MACTPT" Mode="In" Type="String" />
+    </FunctionImport>
+    <FunctionImport Name="updateTypeRoom">
+      <Parameter Name="MALOAIPHONG" Mode="In" Type="String" />
+      <Parameter Name="TENLOAIPHONG" Mode="In" Type="String" />
+      <Parameter Name="SONGUOI" Mode="In" Type="Byte" />
+      <Parameter Name="GHICHU" Mode="In" Type="String" />
+    </FunctionImport>
+    <FunctionImport Name="updateTypeSer">
+      <Parameter Name="MALOAIDV" Mode="In" Type="String" />
+      <Parameter Name="TENLOAIDV" Mode="In" Type="String" />
+    </FunctionImport>
+    <FunctionImport Name="wellCome" ReturnType="Collection(String)">
+      <Parameter Name="TenTk" Mode="In" Type="String" />
+      <Parameter Name="MatKhau" Mode="In" Type="String" />
+    </FunctionImport>
+    <FunctionImport Name="getCusFrPhieuThue2">
+      <Parameter Name="maphieuthue" Mode="In" Type="String" />
+      <Parameter Name="MaKH" Mode="InOut" Type="String" />
+      <Parameter Name="tenkh" Mode="InOut" Type="String" />
+      <Parameter Name="soCMND" Mode="InOut" Type="String" />
+      <Parameter Name="diachi" Mode="InOut" Type="String" />
+      <Parameter Name="sdt" Mode="InOut" Type="String" />
+      <Parameter Name="tennv" Mode="InOut" Type="String" />
+    </FunctionImport>
+    <FunctionImport Name="getCusFrPhieuThue3">
+      <Parameter Name="maphieuthue" Mode="In" Type="String" />
+      <Parameter Name="MaKH" Mode="InOut" Type="String" />
+      <Parameter Name="tenkh" Mode="InOut" Type="String" />
+      <Parameter Name="soCMND" Mode="InOut" Type="String" />
+      <Parameter Name="diachi" Mode="InOut" Type="String" />
+      <Parameter Name="sdt" Mode="InOut" Type="String" />
+      <Parameter Name="tennv" Mode="InOut" Type="String" />
+    </FunctionImport>
+    <FunctionImport Name="getCusFrPhieuThue">
+      <Parameter Name="maphieuthue" Mode="In" Type="String" />
+      <Parameter Name="MaKH" Mode="InOut" Type="String" />
+      <Parameter Name="tenkh" Mode="InOut" Type="String" />
+      <Parameter Name="soCMND" Mode="InOut" Type="String" />
+      <Parameter Name="diachi" Mode="InOut" Type="String" />
+      <Parameter Name="sdt" Mode="InOut" Type="String" />
+      <Parameter Name="tennv" Mode="InOut" Type="String" />
+    </FunctionImport>
+    <FunctionImport Name="ViewDoanhThuTheoSoTienNhap" ReturnType="Collection(MyDbContext.ViewDoanhThuTheoSoTienNhap_Result)">
+      <Parameter Name="ngayvaochon" Mode="In" Type="DateTime" />
+      <Parameter Name="ngayrachon" Mode="In" Type="DateTime" />
+      <Parameter Name="sotien" Mode="In" Type="String" />
+    </FunctionImport>
+    <FunctionImport Name="ViewTienDV" ReturnType="Collection(MyDbContext.ViewTienDV_Result)">
+      <Parameter Name="ngayvaochon" Mode="In" Type="DateTime" />
+      <Parameter Name="ngayrachon" Mode="In" Type="DateTime" />
+    </FunctionImport>
+    <FunctionImport Name="ViewTienPhong" ReturnType="Collection(MyDbContext.ViewTienPhong_Result)">
+      <Parameter Name="ngayvaochon" Mode="In" Type="DateTime" />
+      <Parameter Name="ngayrachon" Mode="In" Type="DateTime" />
+    </FunctionImport>
+    <FunctionImport Name="DsSDDV" ReturnType="Collection(MyDbContext.DsSDDV_Result)" />
+  </EntityContainer>
+  <ComplexType Name="DSDichVu_Result">
+    <Property Type="String" Name="MaDV" Nullable="false" MaxLength="8" />
+    <Property Type="String" Name="TenDV" Nullable="true" MaxLength="20" />
+    <Property Type="Double" Name="DonGia" Nullable="true" />
+    <Property Type="String" Name="MaLoaiDV" Nullable="true" MaxLength="8" />
+  </ComplexType>
+  <ComplexType Name="DSLoaiDichVu_Result">
+    <Property Type="String" Name="MaLoaiDV" Nullable="false" MaxLength="8" />
+    <Property Type="String" Name="TenLoaiDV" Nullable="true" MaxLength="20" />
+  </ComplexType>
+  <ComplexType Name="DSLoaiPhong_Result">
+    <Property Type="String" Name="MaLoai" Nullable="false" MaxLength="8" />
+    <Property Type="String" Name="TenLoai" Nullable="true" MaxLength="30" />
+    <Property Type="String" Name="SoNguoi" Nullable="true" MaxLength="1" />
+    <Property Type="String" Name="GhiChu" Nullable="true" MaxLength="250" />
+  </ComplexType>
+  <ComplexType Name="DSPhong_Result">
+    <Property Type="String" Name="MaPhong" Nullable="false" MaxLength="8" />
+    <Property Type="String" Name="TenPhong" Nullable="true" MaxLength="20" />
+    <Property Type="Boolean" Name="TinhTrang" Nullable="true" />
+    <Property Type="String" Name="DienTich" Nullable="true" MaxLength="3" />
+    <Property Type="Double" Name="GiaThue" Nullable="true" />
+    <Property Type="String" Name="MaLoai" Nullable="true" MaxLength="8" />
+  </ComplexType>
+  <ComplexType Name="getAcc1_Result">
+    <Property Type="String" Name="MaNV" Nullable="false" MaxLength="8" />
+    <Property Type="String" Name="HoTen" Nullable="true" MaxLength="30" />
+    <Property Type="String" Name="TenTk" Nullable="true" MaxLength="30" />
+    <Property Type="String" Name="MatKhau" Nullable="true" MaxLength="30" />
+    <Property Type="String" Name="Quyen" Nullable="true" MaxLength="7" />
+  </ComplexType>
+  <ComplexType Name="getAll_CTPT_Result">
+    <Property Type="String" Name="MaChiTietPhieuThue" Nullable="false" MaxLength="8" />
+    <Property Type="DateTime" Name="NgayVao" Nullable="true" />
+    <Property Type="String" Name="hinhthucthue" Nullable="true" MaxLength="7" />
+    <Property Type="String" Name="SoLuongKhach" Nullable="true" MaxLength="1" />
+    <Property Type="String" Name="MaPhong" Nullable="true" MaxLength="8" />
+    <Property Type="String" Name="MaPhieuThuePhong" Nullable="true" MaxLength="8" />
+  </ComplexType>
+  <ComplexType Name="getallCus_Result">
+    <Property Type="String" Name="MaKH" Nullable="false" MaxLength="8" />
+    <Property Type="String" Name="TenKH" Nullable="true" MaxLength="30" />
+    <Property Type="String" Name="SoCMND" Nullable="true" MaxLength="12" />
+    <Property Type="String" Name="DiaChi" Nullable="true" MaxLength="20" />
+    <Property Type="String" Name="SDT" Nullable="true" MaxLength="12" />
+  </ComplexType>
+  <ComplexType Name="getallEmp_Result">
+    <Property Type="String" Name="MaNV" Nullable="false" MaxLength="8" />
+    <Property Type="String" Name="HoTen" Nullable="true" MaxLength="30" />
+    <Property Type="DateTime" Name="NgaySinh" Nullable="true" />
+    <Property Type="String" Name="SDT" Nullable="true" MaxLength="12" />
+  </ComplexType>
+  <ComplexType Name="getCTPT_FrIdPT_Result">
+    <Property Type="String" Name="MaChiTietPhieuThue" Nullable="false" MaxLength="8" />
+    <Property Type="DateTime" Name="NgayVao" Nullable="true" />
+    <Property Type="DateTime" Name="NgayRa" Nullable="true" />
+    <Property Type="String" Name="hinhthucthue" Nullable="true" MaxLength="7" />
+    <Property Type="String" Name="SoLuongKhach" Nullable="true" MaxLength="1" />
+    <Property Type="String" Name="MaPhong" Nullable="true" MaxLength="8" />
+    <Property Type="String" Name="MaPhieuThuePhong" Nullable="true" MaxLength="8" />
+  </ComplexType>
+  <ComplexType Name="getDoanhThuTienDV_Result">
+    <Property Type="String" Name="TenPhong" Nullable="true" MaxLength="20" />
+    <Property Type="String" Name="TenDV" Nullable="true" MaxLength="20" />
+    <Property Type="DateTime" Name="NgaySD" Nullable="true" />
+    <Property Type="String" Name="SoLuong" Nullable="true" MaxLength="4" />
+    <Property Type="Double" Name="tiendv" Nullable="true" />
+  </ComplexType>
+  <ComplexType Name="getDoanhThuTienPhong_Result">
+    <Property Type="String" Name="TenPhong" Nullable="true" MaxLength="20" />
+    <Property Type="DateTime" Name="NgayVao" Nullable="true" />
+    <Property Type="DateTime" Name="NgayRa" Nullable="true" />
+    <Property Type="Int32" Name="SoNgayO" Nullable="true" />
+    <Property Type="Double" Name="TienPhong" Nullable="true" />
+  </ComplexType>
+  <ComplexType Name="getFreeRoom_Result">
+    <Property Type="String" Name="MaPhong" Nullable="false" MaxLength="8" />
+    <Property Type="String" Name="TenPhong" Nullable="true" MaxLength="20" />
+    <Property Type="String" Name="TenLoai" Nullable="true" MaxLength="30" />
+    <Property Type="String" Name="SoNguoi" Nullable="true" MaxLength="1" />
+    <Property Type="String" Name="DienTich" Nullable="true" MaxLength="3" />
+    <Property Type="Double" Name="GiaThue" Nullable="true" />
+  </ComplexType>
+  <ComplexType Name="getlistBill_Result">
+    <Property Type="String" Name="MaHoaDon" Nullable="false" MaxLength="8" />
+    <Property Type="Double" Name="TienPhong" Nullable="true" />
+    <Property Type="Double" Name="TienDV" Nullable="true" />
+    <Property Type="Double" Name="TongTien" Nullable="true" />
+    <Property Type="String" Name="HinhThucThanhToan" Nullable="true" MaxLength="8" />
+    <Property Type="DateTime" Name="NgayThanhToan" Nullable="true" />
+    <Property Type="String" Name="GhiChu" Nullable="true" MaxLength="500" />
+    <Property Type="String" Name="MaPhieuThuePhong" Nullable="true" MaxLength="8" />
+  </ComplexType>
+  <ComplexType Name="getPhieuThue2_Result">
+    <Property Type="String" Name="MaPhieuThuePhong" Nullable="false" MaxLength="8" />
+    <Property Type="String" Name="MaKH" Nullable="false" MaxLength="8" />
+    <Property Type="String" Name="TenKH" Nullable="true" MaxLength="30" />
+  </ComplexType>
+  <ComplexType Name="Phong_Thue_Result">
+    <Property Type="String" Name="MaPhong" Nullable="false" MaxLength="8" />
+    <Property Type="String" Name="TenPhong" Nullable="true" MaxLength="20" />
+    <Property Type="String" Name="MaLoai" Nullable="true" MaxLength="8" />
+    <Property Type="String" Name="MaChiTietPhieuThue" Nullable="false" MaxLength="8" />
+  </ComplexType>
+  <ComplexType Name="Search_MaCtpt_Result">
+    <Property Type="String" Name="MaChiTietPhieuThue" Nullable="false" MaxLength="8" />
+    <Property Type="DateTime" Name="NgayVao" Nullable="true" />
+    <Property Type="DateTime" Name="NgayRa" Nullable="true" />
+    <Property Type="String" Name="hinhthucthue" Nullable="true" MaxLength="7" />
+    <Property Type="String" Name="SoLuongKhach" Nullable="true" MaxLength="1" />
+    <Property Type="String" Name="MaPhong" Nullable="true" MaxLength="8" />
+    <Property Type="String" Name="MaPhieuThuePhong" Nullable="true" MaxLength="8" />
+  </ComplexType>
+  <ComplexType Name="Search_MaPhong_Result">
+    <Property Type="String" Name="MaChiTietPhieuThue" Nullable="false" MaxLength="8" />
+    <Property Type="DateTime" Name="NgayVao" Nullable="true" />
+    <Property Type="DateTime" Name="NgayRa" Nullable="true" />
+    <Property Type="String" Name="hinhthucthue" Nullable="true" MaxLength="7" />
+    <Property Type="String" Name="SoLuongKhach" Nullable="true" MaxLength="1" />
+    <Property Type="String" Name="MaPhong" Nullable="true" MaxLength="8" />
+    <Property Type="String" Name="MaPhieuThuePhong" Nullable="true" MaxLength="8" />
+  </ComplexType>
+  <ComplexType Name="tienDvDetail_Result">
+    <Property Type="String" Name="TenPhong" Nullable="true" MaxLength="20" />
+    <Property Type="String" Name="TenDV" Nullable="true" MaxLength="20" />
+    <Property Type="DateTime" Name="NgaySD" Nullable="true" />
+    <Property Type="String" Name="SoLuong" Nullable="true" MaxLength="4" />
+    <Property Type="Double" Name="tiendv" Nullable="true" />
+  </ComplexType>
+  <ComplexType Name="tienphongDetail_Result">
+    <Property Type="String" Name="TenPhong" Nullable="true" MaxLength="20" />
+    <Property Type="DateTime" Name="NgayVao" Nullable="true" />
+    <Property Type="DateTime" Name="NgayRa" Nullable="true" />
+    <Property Type="Int32" Name="SoNgayO" Nullable="true" />
+    <Property Type="Double" Name="TienPhong" Nullable="true" />
+  </ComplexType>
+  <ComplexType Name="TKPhong_Result">
+    <Property Type="String" Name="MaPhong" Nullable="false" MaxLength="8" />
+    <Property Type="String" Name="TenPhong" Nullable="true" MaxLength="20" />
+    <Property Type="Boolean" Name="TinhTrang" Nullable="true" />
+    <Property Type="String" Name="DienTich" Nullable="true" MaxLength="3" />
+    <Property Type="Double" Name="GiaThue" Nullable="true" />
+    <Property Type="String" Name="MaLoai" Nullable="true" MaxLength="8" />
+  </ComplexType>
+  <ComplexType Name="TKService_Result">
+    <Property Type="String" Name="MaDV" Nullable="false" MaxLength="8" />
+    <Property Type="String" Name="TenDV" Nullable="true" MaxLength="20" />
+    <Property Type="Double" Name="DonGia" Nullable="true" />
+    <Property Type="String" Name="MaLoaiDV" Nullable="true" MaxLength="8" />
+  </ComplexType>
+  <ComplexType Name="TKtypeRoom_Result">
+    <Property Type="String" Name="MaLoai" Nullable="false" MaxLength="8" />
+    <Property Type="String" Name="TenLoai" Nullable="true" MaxLength="30" />
+    <Property Type="String" Name="SoNguoi" Nullable="true" MaxLength="1" />
+    <Property Type="String" Name="GhiChu" Nullable="true" MaxLength="250" />
+  </ComplexType>
+  <ComplexType Name="TKtypeService_Result">
+    <Property Type="String" Name="MaLoaiDV" Nullable="false" MaxLength="8" />
+    <Property Type="String" Name="TenLoaiDV" Nullable="true" MaxLength="20" />
+  </ComplexType>
+  <ComplexType Name="ViewDoanhThuTheoSoTienNhap_Result">
+    <Property Type="String" Name="TenPhong" Nullable="true" MaxLength="20" />
+    <Property Type="Double" Name="TongTien" Nullable="true" />
+  </ComplexType>
+  <ComplexType Name="ViewTienDV_Result">
+    <Property Type="String" Name="TenPhong" Nullable="true" MaxLength="20" />
+    <Property Type="Double" Name="TongTienDV" Nullable="true" />
+  </ComplexType>
+  <ComplexType Name="ViewTienPhong_Result">
+    <Property Type="String" Name="TenPhong" Nullable="true" MaxLength="20" />
+    <Property Type="Double" Name="TongTienPhong" Nullable="true" />
+  </ComplexType>
+  <ComplexType Name="DsSDDV_Result">
+    <Property Type="String" Name="MaSD" Nullable="false" MaxLength="8" />
+    <Property Type="DateTime" Name="NgaySD" Nullable="true" />
+    <Property Type="String" Name="SoLuong" Nullable="true" MaxLength="4" />
+    <Property Type="Double" Name="GiaTien" Nullable="true" />
+    <Property Type="String" Name="MaChiTietPhieuThue" Nullable="true" MaxLength="8" />
+    <Property Type="String" Name="MaDV" Nullable="true" MaxLength="8" />
+  </ComplexType>
+</Schema>
