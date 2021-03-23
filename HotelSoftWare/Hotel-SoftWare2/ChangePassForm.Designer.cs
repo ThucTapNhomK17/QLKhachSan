@@ -68,6 +68,7 @@
             this.textBoxMkCu.Name = "textBoxMkCu";
             this.textBoxMkCu.Size = new System.Drawing.Size(200, 24);
             this.textBoxMkCu.TabIndex = 5;
+            this.textBoxMkCu.TextChanged += new System.EventHandler(this.textBoxMkCu_TextChanged);
             // 
             // btnCancel
             // 

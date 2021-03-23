@@ -991,11 +991,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\ICG51\\Downloads\\TTCSDL_NHOM7_QLKS\\TTCSDL_NHOM7_QLKS\\HotelSoftWare\\Hotel-SoftWare2\\Hotel-SoftWare2.csproj",
+      "projectUniqueName": "C:\\Users\\ICG51\\Desktop\\QLKhachSan\\HotelSoftWare\\Hotel-SoftWare2\\Hotel-SoftWare2.csproj",
       "projectName": "Hotel-SoftWare2",
-      "projectPath": "C:\\Users\\ICG51\\Downloads\\TTCSDL_NHOM7_QLKS\\TTCSDL_NHOM7_QLKS\\HotelSoftWare\\Hotel-SoftWare2\\Hotel-SoftWare2.csproj",
+      "projectPath": "C:\\Users\\ICG51\\Desktop\\QLKhachSan\\HotelSoftWare\\Hotel-SoftWare2\\Hotel-SoftWare2.csproj",
       "packagesPath": "C:\\Users\\ICG51\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\ICG51\\Downloads\\TTCSDL_NHOM7_QLKS\\TTCSDL_NHOM7_QLKS\\HotelSoftWare\\Hotel-SoftWare2\\obj\\",
+      "outputPath": "C:\\Users\\ICG51\\Desktop\\QLKhachSan\\HotelSoftWare\\Hotel-SoftWare2\\obj\\",
       "projectStyle": "PackageReference",
       "skipContentFileWrite": true,
       "configFilePaths": [

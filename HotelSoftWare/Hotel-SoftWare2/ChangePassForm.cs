@@ -10,6 +10,7 @@ using System.Windows.Forms;
 
 namespace Hotel_SoftWare2
 {
+    
     public partial class ChangePassForm : Form
     {
         Encrypt enc = new Encrypt();
@@ -59,6 +60,11 @@ namespace Hotel_SoftWare2
                     MessageBox.Show("mk cu khong chinh xac");
                 }
             }
+        }
+
+        private void textBoxMkCu_TextChanged(object sender, EventArgs e)
+        {
+
         }
     }
 }
