@@ -1,4 +1,4 @@
-﻿// T4 code generation is enabled for model 'C:\Users\datproqhna\Desktop\TTCSDL_NHOM7_QLKS\HotelSoftWare\Hotel-SoftWare2\MyDbContext.edmx'. 
+﻿// T4 code generation is enabled for model 'C:\Users\ICG51\Desktop\QLKhachSan\HotelSoftWare\Hotel-SoftWare2\MyDbContext.edmx'. 
 // To enable legacy code generation, change the value of the 'Code Generation Strategy' designer
 // property to 'Legacy ObjectContext'. This property is available in the Properties Window when the model
 // is open in the designer.

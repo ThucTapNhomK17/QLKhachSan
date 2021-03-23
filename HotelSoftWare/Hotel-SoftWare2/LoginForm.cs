@@ -108,6 +108,11 @@ namespace Hotel_SoftWare2
             }
         }
 
+        private void textBoxUserName_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
         //public List<Table> LoadTableList()
         //{
         //    List<Table> tableList = new List<Table>();

@@ -875,20 +875,20 @@ namespace Hotel_SoftWare2
     
             return ((IObjectContextAdapter)this).ObjectContext.ExecuteFunction("updateTypeSer", mALOAIDVParameter, tENLOAIDVParameter);
         }
-    
+
         public virtual ObjectResult<string> wellCome(string tenTk, string matKhau)
         {
             var tenTkParameter = tenTk != null ?
                 new ObjectParameter("TenTk", tenTk) :
                 new ObjectParameter("TenTk", typeof(string));
-    
+
             var matKhauParameter = matKhau != null ?
                 new ObjectParameter("MatKhau", matKhau) :
                 new ObjectParameter("MatKhau", typeof(string));
-    
+
             return ((IObjectContextAdapter)this).ObjectContext.ExecuteFunction<string>("wellCome", tenTkParameter, matKhauParameter);
         }
-    
+
         public virtual int getCusFrPhieuThue2(string maphieuthue, ObjectParameter maKH, ObjectParameter tenkh, ObjectParameter soCMND, ObjectParameter diachi, ObjectParameter sdt, ObjectParameter tennv)
         {
             var maphieuthueParameter = maphieuthue != null ?
