@@ -1,21 +1,21 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\ICG51\\Desktop\\QLKhachSan\\HotelSoftWare\\Hotel-SoftWare2\\Hotel-SoftWare2.csproj": {}
+    "D:\\nam3_2\\Thực tập nhóm\\QLKhachSan\\HotelSoftWare\\Hotel-SoftWare2\\Hotel-SoftWare2.csproj": {}
   },
   "projects": {
-    "C:\\Users\\ICG51\\Desktop\\QLKhachSan\\HotelSoftWare\\Hotel-SoftWare2\\Hotel-SoftWare2.csproj": {
+    "D:\\nam3_2\\Thực tập nhóm\\QLKhachSan\\HotelSoftWare\\Hotel-SoftWare2\\Hotel-SoftWare2.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\ICG51\\Desktop\\QLKhachSan\\HotelSoftWare\\Hotel-SoftWare2\\Hotel-SoftWare2.csproj",
+        "projectUniqueName": "D:\\nam3_2\\Thực tập nhóm\\QLKhachSan\\HotelSoftWare\\Hotel-SoftWare2\\Hotel-SoftWare2.csproj",
         "projectName": "Hotel-SoftWare2",
-        "projectPath": "C:\\Users\\ICG51\\Desktop\\QLKhachSan\\HotelSoftWare\\Hotel-SoftWare2\\Hotel-SoftWare2.csproj",
-        "packagesPath": "C:\\Users\\ICG51\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\ICG51\\Desktop\\QLKhachSan\\HotelSoftWare\\Hotel-SoftWare2\\obj\\",
+        "projectPath": "D:\\nam3_2\\Thực tập nhóm\\QLKhachSan\\HotelSoftWare\\Hotel-SoftWare2\\Hotel-SoftWare2.csproj",
+        "packagesPath": "C:\\Users\\Dell\\.nuget\\packages\\",
+        "outputPath": "D:\\nam3_2\\Thực tập nhóm\\QLKhachSan\\HotelSoftWare\\Hotel-SoftWare2\\obj\\",
         "projectStyle": "PackageReference",
         "skipContentFileWrite": true,
         "configFilePaths": [
-          "C:\\Users\\ICG51\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Dell\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
