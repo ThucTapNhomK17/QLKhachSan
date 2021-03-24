@@ -12,6 +12,8 @@ namespace Hotel_SoftWare2
         public string MaHoa(string str)
         {
             //string result = "";
+            //string result = "";
+            //int j =0;
             //int i;
             //byte[] buffer = Encoding.UTF8.GetBytes(str);
             //MD5CryptoServiceProvider md5 = new MD5CryptoServiceProvider();
@@ -20,7 +22,7 @@ namespace Hotel_SoftWare2
             //{
             //    result += buffer[i].ToString("x2");
             //}
-            
+            //int Result = 0;
             //return Result;
             return str;
         }

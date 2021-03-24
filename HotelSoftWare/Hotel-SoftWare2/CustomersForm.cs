@@ -10,6 +10,7 @@ using System.Windows.Forms;
 
 namespace Hotel_SoftWare2
 {
+    //tao form
     public partial class CustomersForm : Form
     {
         htEntities cus = new htEntities();
