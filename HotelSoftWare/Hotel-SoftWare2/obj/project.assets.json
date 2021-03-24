@@ -986,20 +986,20 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\ICG51\\.nuget\\packages\\": {}
+    "C:\\Users\\khue2\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\ICG51\\Desktop\\QLKhachSan\\HotelSoftWare\\Hotel-SoftWare2\\Hotel-SoftWare2.csproj",
+      "projectUniqueName": "D:\\Study\\Thực tập Nhóm\\QLKhachSan\\HotelSoftWare\\Hotel-SoftWare2\\Hotel-SoftWare2.csproj",
       "projectName": "Hotel-SoftWare2",
-      "projectPath": "C:\\Users\\ICG51\\Desktop\\QLKhachSan\\HotelSoftWare\\Hotel-SoftWare2\\Hotel-SoftWare2.csproj",
-      "packagesPath": "C:\\Users\\ICG51\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\ICG51\\Desktop\\QLKhachSan\\HotelSoftWare\\Hotel-SoftWare2\\obj\\",
+      "projectPath": "D:\\Study\\Thực tập Nhóm\\QLKhachSan\\HotelSoftWare\\Hotel-SoftWare2\\Hotel-SoftWare2.csproj",
+      "packagesPath": "C:\\Users\\khue2\\.nuget\\packages\\",
+      "outputPath": "D:\\Study\\Thực tập Nhóm\\QLKhachSan\\HotelSoftWare\\Hotel-SoftWare2\\obj\\",
       "projectStyle": "PackageReference",
       "skipContentFileWrite": true,
       "configFilePaths": [
-        "C:\\Users\\ICG51\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\khue2\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [

@@ -1,15 +1,15 @@
 {
   "version": 2,
-  "dgSpecHash": "CX8tjL6kUG+0uy3yzwCfE4PR40h88NuEfo0OJ6BmeneP5TVxBMlP+U4G4+P5TPMFRNyweE8PsFowwixKqZ3LNw==",
+  "dgSpecHash": "/gZje2YkNow5bJLx7iHsd+k8lZNz8W4ifukiWnYH32/9WzpSqlZYRRGCDxnvgYkW2VoDQ0uhudNNcJyhFO6POg==",
   "success": true,
-  "projectFilePath": "C:\\Users\\ICG51\\Desktop\\QLKhachSan\\HotelSoftWare\\Hotel-SoftWare2\\Hotel-SoftWare2.csproj",
+  "projectFilePath": "D:\\Study\\Thực tập Nhóm\\QLKhachSan\\HotelSoftWare\\Hotel-SoftWare2\\Hotel-SoftWare2.csproj",
   "expectedPackageFiles": [
-    "C:\\Users\\ICG51\\.nuget\\packages\\entityframework\\6.2.0\\entityframework.6.2.0.nupkg.sha512",
-    "C:\\Users\\ICG51\\.nuget\\packages\\epplus\\5.1.1\\epplus.5.1.1.nupkg.sha512",
-    "C:\\Users\\ICG51\\.nuget\\packages\\fontawesome\\4.7.0\\fontawesome.4.7.0.nupkg.sha512",
-    "C:\\Users\\ICG51\\.nuget\\packages\\fontawesome.sharp\\5.12.1\\fontawesome.sharp.5.12.1.nupkg.sha512",
-    "C:\\Users\\ICG51\\.nuget\\packages\\microsoft.reportingservices.reportviewercontrol.winforms\\150.1404.0\\microsoft.reportingservices.reportviewercontrol.winforms.150.1404.0.nupkg.sha512",
-    "C:\\Users\\ICG51\\.nuget\\packages\\microsoft.sqlserver.types\\14.0.1016.290\\microsoft.sqlserver.types.14.0.1016.290.nupkg.sha512"
+    "C:\\Users\\khue2\\.nuget\\packages\\entityframework\\6.2.0\\entityframework.6.2.0.nupkg.sha512",
+    "C:\\Users\\khue2\\.nuget\\packages\\epplus\\5.1.1\\epplus.5.1.1.nupkg.sha512",
+    "C:\\Users\\khue2\\.nuget\\packages\\fontawesome\\4.7.0\\fontawesome.4.7.0.nupkg.sha512",
+    "C:\\Users\\khue2\\.nuget\\packages\\fontawesome.sharp\\5.12.1\\fontawesome.sharp.5.12.1.nupkg.sha512",
+    "C:\\Users\\khue2\\.nuget\\packages\\microsoft.reportingservices.reportviewercontrol.winforms\\150.1404.0\\microsoft.reportingservices.reportviewercontrol.winforms.150.1404.0.nupkg.sha512",
+    "C:\\Users\\khue2\\.nuget\\packages\\microsoft.sqlserver.types\\14.0.1016.290\\microsoft.sqlserver.types.14.0.1016.290.nupkg.sha512"
   ],
   "logs": []
 }
