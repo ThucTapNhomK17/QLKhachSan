@@ -79,6 +79,7 @@ namespace Hotel_SoftWare2
                 TypeSer.delTypeSer(textBoxMaloaidv.Text);
                 try
                 {
+                
                     MessageBox.Show("Xóa Loại Dịch Vụ Thành Công");
                     TypeSer.SaveChanges();
                     ShowSer(dgvLoaiDV);
