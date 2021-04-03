@@ -1,6 +1,5 @@
 ﻿USE [Hotel_SoftWare]
 GO
-/****** Object:  Table [dbo].[ChiTietPhieuThue]    Script Date: 5/27/2020 8:34:46 PM ******/
 SET ANSI_NULLS ON
 GO
 SET QUOTED_IDENTIFIER ON
