@@ -14,6 +14,7 @@ CREATE TABLE [dbo].[ChiTietPhieuThue](
 	[SoLuongKhach] [char](1) NULL,
 	[MaPhong] [varchar](8) NULL,
 	[MaPhieuThuePhong] [varchar](8) NULL,
+
 PRIMARY KEY CLUSTERED 
 (
 	[MaChiTietPhieuThue] ASC
