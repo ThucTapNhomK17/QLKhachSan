@@ -23,6 +23,7 @@ namespace Hotel_SoftWare2
             //    result += buffer[i].ToString("x2");
             //}
             //int Result = 0;
+            //returnn Result;
             
             return str;
         }
