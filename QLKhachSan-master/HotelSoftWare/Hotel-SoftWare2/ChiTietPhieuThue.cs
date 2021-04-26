@@ -7,6 +7,7 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 // OKe Test
+
 namespace Hotel_SoftWare2
 {
     using System;
