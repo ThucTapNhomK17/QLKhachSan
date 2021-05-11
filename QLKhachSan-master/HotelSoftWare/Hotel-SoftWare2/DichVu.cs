@@ -17,7 +17,6 @@ namespace Hotel_SoftWare2
         public string TenDV { get; set; }
         public Nullable<double> DonGia { get; set; }
         public string MaLoaiDV { get; set; }
-    
         public virtual LoaiDichVu LoaiDichVu { get; set; }
         [System.Diagnostics.CodeAnalysis.SuppressMessage("Microsoft.Usage", "CA2227:CollectionPropertiesShouldBeReadOnly")]
         public virtual ICollection<SuDungDichVu> SuDungDichVus { get; set; }
