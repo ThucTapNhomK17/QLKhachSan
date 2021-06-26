@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\nam3_2\\Thực tập nhóm\\QLKhachSan\\HotelSoftWare\\Hotel-SoftWare2\\Hotel-SoftWare2.csproj": {}
+    "D:\\nam3_2\\Thực tập nhóm\\QLKhachSan\\QLKhachSan-master\\HotelSoftWare\\Hotel-SoftWare2\\Hotel-SoftWare2.csproj": {}
   },
   "projects": {
-    "D:\\nam3_2\\Thực tập nhóm\\QLKhachSan\\HotelSoftWare\\Hotel-SoftWare2\\Hotel-SoftWare2.csproj": {
+    "D:\\nam3_2\\Thực tập nhóm\\QLKhachSan\\QLKhachSan-master\\HotelSoftWare\\Hotel-SoftWare2\\Hotel-SoftWare2.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\nam3_2\\Thực tập nhóm\\QLKhachSan\\HotelSoftWare\\Hotel-SoftWare2\\Hotel-SoftWare2.csproj",
+        "projectUniqueName": "D:\\nam3_2\\Thực tập nhóm\\QLKhachSan\\QLKhachSan-master\\HotelSoftWare\\Hotel-SoftWare2\\Hotel-SoftWare2.csproj",
         "projectName": "Hotel-SoftWare2",
-        "projectPath": "D:\\nam3_2\\Thực tập nhóm\\QLKhachSan\\HotelSoftWare\\Hotel-SoftWare2\\Hotel-SoftWare2.csproj",
+        "projectPath": "D:\\nam3_2\\Thực tập nhóm\\QLKhachSan\\QLKhachSan-master\\HotelSoftWare\\Hotel-SoftWare2\\Hotel-SoftWare2.csproj",
         "packagesPath": "C:\\Users\\Dell\\.nuget\\packages\\",
-        "outputPath": "D:\\nam3_2\\Thực tập nhóm\\QLKhachSan\\HotelSoftWare\\Hotel-SoftWare2\\obj\\",
+        "outputPath": "D:\\nam3_2\\Thực tập nhóm\\QLKhachSan\\QLKhachSan-master\\HotelSoftWare\\Hotel-SoftWare2\\obj\\",
         "projectStyle": "PackageReference",
         "skipContentFileWrite": true,
         "configFilePaths": [

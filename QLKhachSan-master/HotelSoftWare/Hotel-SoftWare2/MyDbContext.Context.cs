@@ -395,14 +395,19 @@ namespace Hotel_SoftWare2
             return ((IObjectContextAdapter)this).ObjectContext.ExecuteFunction<DSLoaiPhong_Result>("DSLoaiPhong");
         }
     
-        public virtual int DSPhieuSDDV()
+        public virtual ObjectResult<DSPhieuSDDV_Result> DSPhieuSDDV()
         {
-            return ((IObjectContextAdapter)this).ObjectContext.ExecuteFunction("DSPhieuSDDV");
+            return ((IObjectContextAdapter)this).ObjectContext.ExecuteFunction<DSPhieuSDDV_Result>("DSPhieuSDDV");
         }
     
         public virtual ObjectResult<DSPhong_Result> DSPhong()
         {
             return ((IObjectContextAdapter)this).ObjectContext.ExecuteFunction<DSPhong_Result>("DSPhong");
+        }
+    
+        public virtual ObjectResult<DsSDDV_Result> DsSDDV()
+        {
+            return ((IObjectContextAdapter)this).ObjectContext.ExecuteFunction<DsSDDV_Result>("DsSDDV");
         }
     
         public virtual ObjectResult<string> DSTenPhongSDDV()
@@ -439,13 +444,13 @@ namespace Hotel_SoftWare2
             return ((IObjectContextAdapter)this).ObjectContext.ExecuteFunction<getCTPT_FrIdPT_Result>("getCTPT_FrIdPT", mptParameter);
         }
     
-        public virtual int getCusFrPhieuThue1(string maphieuthue, ObjectParameter maKH, ObjectParameter tenkh, ObjectParameter soCMND, ObjectParameter diachi, ObjectParameter sdt, ObjectParameter tennv)
+        public virtual int getCusFrPhieuThue3(string maphieuthue, ObjectParameter maKH, ObjectParameter tenkh, ObjectParameter soCMND, ObjectParameter diachi, ObjectParameter sdt, ObjectParameter tennv)
         {
             var maphieuthueParameter = maphieuthue != null ?
                 new ObjectParameter("maphieuthue", maphieuthue) :
                 new ObjectParameter("maphieuthue", typeof(string));
     
-            return ((IObjectContextAdapter)this).ObjectContext.ExecuteFunction("getCusFrPhieuThue1", maphieuthueParameter, maKH, tenkh, soCMND, diachi, sdt, tennv);
+            return ((IObjectContextAdapter)this).ObjectContext.ExecuteFunction("getCusFrPhieuThue3", maphieuthueParameter, maKH, tenkh, soCMND, diachi, sdt, tennv);
         }
     
         public virtual ObjectResult<getDoanhThuTienDV_Result> getDoanhThuTienDV(Nullable<System.DateTime> ngayvaochon, Nullable<System.DateTime> ngayrachon)
@@ -582,6 +587,15 @@ namespace Hotel_SoftWare2
             return ((IObjectContextAdapter)this).ObjectContext.ExecuteFunction<Search_MaCtpt_Result>("Search_MaCtpt", maChiTietPhieuThueParameter);
         }
     
+        public virtual ObjectResult<Search_MaNV_Result> Search_MaNV(string maNV)
+        {
+            var maNVParameter = maNV != null ?
+                new ObjectParameter("MaNV", maNV) :
+                new ObjectParameter("MaNV", typeof(string));
+    
+            return ((IObjectContextAdapter)this).ObjectContext.ExecuteFunction<Search_MaNV_Result>("Search_MaNV", maNVParameter);
+        }
+    
         public virtual ObjectResult<Search_MaPhong_Result> Search_MaPhong(string maPhong)
         {
             var maPhongParameter = maPhong != null ?
@@ -589,6 +603,109 @@ namespace Hotel_SoftWare2
                 new ObjectParameter("MaPhong", typeof(string));
     
             return ((IObjectContextAdapter)this).ObjectContext.ExecuteFunction<Search_MaPhong_Result>("Search_MaPhong", maPhongParameter);
+        }
+    
+        public virtual int sp_alterdiagram(string diagramname, Nullable<int> owner_id, Nullable<int> version, byte[] definition)
+        {
+            var diagramnameParameter = diagramname != null ?
+                new ObjectParameter("diagramname", diagramname) :
+                new ObjectParameter("diagramname", typeof(string));
+    
+            var owner_idParameter = owner_id.HasValue ?
+                new ObjectParameter("owner_id", owner_id) :
+                new ObjectParameter("owner_id", typeof(int));
+    
+            var versionParameter = version.HasValue ?
+                new ObjectParameter("version", version) :
+                new ObjectParameter("version", typeof(int));
+    
+            var definitionParameter = definition != null ?
+                new ObjectParameter("definition", definition) :
+                new ObjectParameter("definition", typeof(byte[]));
+    
+            return ((IObjectContextAdapter)this).ObjectContext.ExecuteFunction("sp_alterdiagram", diagramnameParameter, owner_idParameter, versionParameter, definitionParameter);
+        }
+    
+        public virtual int sp_creatediagram(string diagramname, Nullable<int> owner_id, Nullable<int> version, byte[] definition)
+        {
+            var diagramnameParameter = diagramname != null ?
+                new ObjectParameter("diagramname", diagramname) :
+                new ObjectParameter("diagramname", typeof(string));
+    
+            var owner_idParameter = owner_id.HasValue ?
+                new ObjectParameter("owner_id", owner_id) :
+                new ObjectParameter("owner_id", typeof(int));
+    
+            var versionParameter = version.HasValue ?
+                new ObjectParameter("version", version) :
+                new ObjectParameter("version", typeof(int));
+    
+            var definitionParameter = definition != null ?
+                new ObjectParameter("definition", definition) :
+                new ObjectParameter("definition", typeof(byte[]));
+    
+            return ((IObjectContextAdapter)this).ObjectContext.ExecuteFunction("sp_creatediagram", diagramnameParameter, owner_idParameter, versionParameter, definitionParameter);
+        }
+    
+        public virtual int sp_dropdiagram(string diagramname, Nullable<int> owner_id)
+        {
+            var diagramnameParameter = diagramname != null ?
+                new ObjectParameter("diagramname", diagramname) :
+                new ObjectParameter("diagramname", typeof(string));
+    
+            var owner_idParameter = owner_id.HasValue ?
+                new ObjectParameter("owner_id", owner_id) :
+                new ObjectParameter("owner_id", typeof(int));
+    
+            return ((IObjectContextAdapter)this).ObjectContext.ExecuteFunction("sp_dropdiagram", diagramnameParameter, owner_idParameter);
+        }
+    
+        public virtual ObjectResult<sp_helpdiagramdefinition_Result> sp_helpdiagramdefinition(string diagramname, Nullable<int> owner_id)
+        {
+            var diagramnameParameter = diagramname != null ?
+                new ObjectParameter("diagramname", diagramname) :
+                new ObjectParameter("diagramname", typeof(string));
+    
+            var owner_idParameter = owner_id.HasValue ?
+                new ObjectParameter("owner_id", owner_id) :
+                new ObjectParameter("owner_id", typeof(int));
+    
+            return ((IObjectContextAdapter)this).ObjectContext.ExecuteFunction<sp_helpdiagramdefinition_Result>("sp_helpdiagramdefinition", diagramnameParameter, owner_idParameter);
+        }
+    
+        public virtual ObjectResult<sp_helpdiagrams_Result> sp_helpdiagrams(string diagramname, Nullable<int> owner_id)
+        {
+            var diagramnameParameter = diagramname != null ?
+                new ObjectParameter("diagramname", diagramname) :
+                new ObjectParameter("diagramname", typeof(string));
+    
+            var owner_idParameter = owner_id.HasValue ?
+                new ObjectParameter("owner_id", owner_id) :
+                new ObjectParameter("owner_id", typeof(int));
+    
+            return ((IObjectContextAdapter)this).ObjectContext.ExecuteFunction<sp_helpdiagrams_Result>("sp_helpdiagrams", diagramnameParameter, owner_idParameter);
+        }
+    
+        public virtual int sp_renamediagram(string diagramname, Nullable<int> owner_id, string new_diagramname)
+        {
+            var diagramnameParameter = diagramname != null ?
+                new ObjectParameter("diagramname", diagramname) :
+                new ObjectParameter("diagramname", typeof(string));
+    
+            var owner_idParameter = owner_id.HasValue ?
+                new ObjectParameter("owner_id", owner_id) :
+                new ObjectParameter("owner_id", typeof(int));
+    
+            var new_diagramnameParameter = new_diagramname != null ?
+                new ObjectParameter("new_diagramname", new_diagramname) :
+                new ObjectParameter("new_diagramname", typeof(string));
+    
+            return ((IObjectContextAdapter)this).ObjectContext.ExecuteFunction("sp_renamediagram", diagramnameParameter, owner_idParameter, new_diagramnameParameter);
+        }
+    
+        public virtual int sp_upgraddiagrams()
+        {
+            return ((IObjectContextAdapter)this).ObjectContext.ExecuteFunction("sp_upgraddiagrams");
         }
     
         public virtual ObjectResult<tienDvDetail_Result> tienDvDetail(string maptp)
@@ -616,6 +733,33 @@ namespace Hotel_SoftWare2
                 new ObjectParameter("TENPHONG", typeof(string));
     
             return ((IObjectContextAdapter)this).ObjectContext.ExecuteFunction<string>("TKidCTPTofRoom", tENPHONGParameter);
+        }
+    
+        public virtual ObjectResult<TKKH_Result> TKKH(string cHUOI)
+        {
+            var cHUOIParameter = cHUOI != null ?
+                new ObjectParameter("CHUOI", cHUOI) :
+                new ObjectParameter("CHUOI", typeof(string));
+    
+            return ((IObjectContextAdapter)this).ObjectContext.ExecuteFunction<TKKH_Result>("TKKH", cHUOIParameter);
+        }
+    
+        public virtual ObjectResult<TKND_Result> TKND(string cHUOI)
+        {
+            var cHUOIParameter = cHUOI != null ?
+                new ObjectParameter("CHUOI", cHUOI) :
+                new ObjectParameter("CHUOI", typeof(string));
+    
+            return ((IObjectContextAdapter)this).ObjectContext.ExecuteFunction<TKND_Result>("TKND", cHUOIParameter);
+        }
+    
+        public virtual ObjectResult<TKNV_Result> TKNV(string cHUOI)
+        {
+            var cHUOIParameter = cHUOI != null ?
+                new ObjectParameter("CHUOI", cHUOI) :
+                new ObjectParameter("CHUOI", typeof(string));
+    
+            return ((IObjectContextAdapter)this).ObjectContext.ExecuteFunction<TKNV_Result>("TKNV", cHUOIParameter);
         }
     
         public virtual ObjectResult<TKPhong_Result> TKPhong(string tENPHONG)
@@ -875,46 +1019,6 @@ namespace Hotel_SoftWare2
     
             return ((IObjectContextAdapter)this).ObjectContext.ExecuteFunction("updateTypeSer", mALOAIDVParameter, tENLOAIDVParameter);
         }
-
-        public virtual ObjectResult<string> wellCome(string tenTk, string matKhau)
-        {
-            var tenTkParameter = tenTk != null ?
-                new ObjectParameter("TenTk", tenTk) :
-                new ObjectParameter("TenTk", typeof(string));
-
-            var matKhauParameter = matKhau != null ?
-                new ObjectParameter("MatKhau", matKhau) :
-                new ObjectParameter("MatKhau", typeof(string));
-
-            return ((IObjectContextAdapter)this).ObjectContext.ExecuteFunction<string>("wellCome", tenTkParameter, matKhauParameter);
-        }
-
-        public virtual int getCusFrPhieuThue2(string maphieuthue, ObjectParameter maKH, ObjectParameter tenkh, ObjectParameter soCMND, ObjectParameter diachi, ObjectParameter sdt, ObjectParameter tennv)
-        {
-            var maphieuthueParameter = maphieuthue != null ?
-                new ObjectParameter("maphieuthue", maphieuthue) :
-                new ObjectParameter("maphieuthue", typeof(string));
-    
-            return ((IObjectContextAdapter)this).ObjectContext.ExecuteFunction("getCusFrPhieuThue2", maphieuthueParameter, maKH, tenkh, soCMND, diachi, sdt, tennv);
-        }
-    
-        public virtual int getCusFrPhieuThue3(string maphieuthue, ObjectParameter maKH, ObjectParameter tenkh, ObjectParameter soCMND, ObjectParameter diachi, ObjectParameter sdt, ObjectParameter tennv)
-        {
-            var maphieuthueParameter = maphieuthue != null ?
-                new ObjectParameter("maphieuthue", maphieuthue) :
-                new ObjectParameter("maphieuthue", typeof(string));
-    
-            return ((IObjectContextAdapter)this).ObjectContext.ExecuteFunction("getCusFrPhieuThue3", maphieuthueParameter, maKH, tenkh, soCMND, diachi, sdt, tennv);
-        }
-    
-        public virtual int getCusFrPhieuThue(string maphieuthue, ObjectParameter maKH, ObjectParameter tenkh, ObjectParameter soCMND, ObjectParameter diachi, ObjectParameter sdt, ObjectParameter tennv)
-        {
-            var maphieuthueParameter = maphieuthue != null ?
-                new ObjectParameter("maphieuthue", maphieuthue) :
-                new ObjectParameter("maphieuthue", typeof(string));
-    
-            return ((IObjectContextAdapter)this).ObjectContext.ExecuteFunction("getCusFrPhieuThue", maphieuthueParameter, maKH, tenkh, soCMND, diachi, sdt, tennv);
-        }
     
         public virtual ObjectResult<ViewDoanhThuTheoSoTienNhap_Result> ViewDoanhThuTheoSoTienNhap(Nullable<System.DateTime> ngayvaochon, Nullable<System.DateTime> ngayrachon, string sotien)
         {
@@ -959,9 +1063,17 @@ namespace Hotel_SoftWare2
             return ((IObjectContextAdapter)this).ObjectContext.ExecuteFunction<ViewTienPhong_Result>("ViewTienPhong", ngayvaochonParameter, ngayrachonParameter);
         }
     
-        public virtual ObjectResult<DsSDDV_Result> DsSDDV()
+        public virtual ObjectResult<string> wellCome(string tenTk, string matKhau)
         {
-            return ((IObjectContextAdapter)this).ObjectContext.ExecuteFunction<DsSDDV_Result>("DsSDDV");
+            var tenTkParameter = tenTk != null ?
+                new ObjectParameter("TenTk", tenTk) :
+                new ObjectParameter("TenTk", typeof(string));
+    
+            var matKhauParameter = matKhau != null ?
+                new ObjectParameter("MatKhau", matKhau) :
+                new ObjectParameter("MatKhau", typeof(string));
+    
+            return ((IObjectContextAdapter)this).ObjectContext.ExecuteFunction<string>("wellCome", tenTkParameter, matKhauParameter);
         }
     }
 }

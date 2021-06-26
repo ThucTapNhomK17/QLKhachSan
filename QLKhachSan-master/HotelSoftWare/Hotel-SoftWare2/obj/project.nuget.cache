@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "y4cruaExBOh4UEeoQHne+k/vqotQXS2E3BxCluc2jB+yeJoAeez6zPzC8RMONPyKK5R/So7YPuodhBsHjYZadA==",
+  "dgSpecHash": "yZ/QqmHZmhy8vY2Q2AxQbPIv5xsbLSOEQZ+hMP3qEE1JcHh2XXVWHfWcKkJ2NjzHRSoK4HHTNA4mCr89hwI/7Q==",
   "success": true,
-  "projectFilePath": "D:\\nam3_2\\Thực tập nhóm\\QLKhachSan\\HotelSoftWare\\Hotel-SoftWare2\\Hotel-SoftWare2.csproj",
+  "projectFilePath": "D:\\nam3_2\\Thực tập nhóm\\QLKhachSan\\QLKhachSan-master\\HotelSoftWare\\Hotel-SoftWare2\\Hotel-SoftWare2.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Dell\\.nuget\\packages\\entityframework\\6.2.0\\entityframework.6.2.0.nupkg.sha512",
     "C:\\Users\\Dell\\.nuget\\packages\\epplus\\5.1.1\\epplus.5.1.1.nupkg.sha512",

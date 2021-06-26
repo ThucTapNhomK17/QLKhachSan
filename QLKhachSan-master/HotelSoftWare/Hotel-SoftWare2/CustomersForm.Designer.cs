@@ -45,6 +45,8 @@
             this.labelDiaChi = new System.Windows.Forms.Label();
             this.labelSDT = new System.Windows.Forms.Label();
             this.iconButtonSave = new FontAwesome.Sharp.IconButton();
+            this.labelTim = new System.Windows.Forms.Label();
+            this.textBoxTimKiem = new System.Windows.Forms.TextBox();
             ((System.ComponentModel.ISupportInitialize)(this.dgvCustomers)).BeginInit();
             this.SuspendLayout();
             // 
@@ -143,6 +145,7 @@
             this.btnTimKiem.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.btnTimKiem.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
             this.btnTimKiem.UseVisualStyleBackColor = false;
+            this.btnTimKiem.Click += new System.EventHandler(this.btnTimKiem_Click);
             // 
             // btnX
             // 
@@ -281,12 +284,34 @@
             this.iconButtonSave.UseVisualStyleBackColor = false;
             this.iconButtonSave.Click += new System.EventHandler(this.iconButtonSave_Click);
             // 
+            // labelTim
+            // 
+            this.labelTim.AutoSize = true;
+            this.labelTim.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.labelTim.ForeColor = System.Drawing.Color.Transparent;
+            this.labelTim.Location = new System.Drawing.Point(20, 130);
+            this.labelTim.Name = "labelTim";
+            this.labelTim.Size = new System.Drawing.Size(90, 24);
+            this.labelTim.TabIndex = 68;
+            this.labelTim.Text = "Tìm Kiếm";
+            // 
+            // textBoxTimKiem
+            // 
+            this.textBoxTimKiem.Location = new System.Drawing.Point(188, 130);
+            this.textBoxTimKiem.Multiline = true;
+            this.textBoxTimKiem.Name = "textBoxTimKiem";
+            this.textBoxTimKiem.Size = new System.Drawing.Size(200, 24);
+            this.textBoxTimKiem.TabIndex = 67;
+            this.textBoxTimKiem.TextChanged += new System.EventHandler(this.textBoxTimKiem_TextChanged);
+            // 
             // CustomersForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(34)))), ((int)(((byte)(33)))), ((int)(((byte)(74)))));
             this.ClientSize = new System.Drawing.Size(940, 600);
+            this.Controls.Add(this.labelTim);
+            this.Controls.Add(this.textBoxTimKiem);
             this.Controls.Add(this.iconButtonSave);
             this.Controls.Add(this.textBoxMaKH);
             this.Controls.Add(this.textBoxSDT);
@@ -333,5 +358,7 @@
         private System.Windows.Forms.Label labelDiaChi;
         private System.Windows.Forms.Label labelSDT;
         private FontAwesome.Sharp.IconButton iconButtonSave;
+        private System.Windows.Forms.Label labelTim;
+        private System.Windows.Forms.TextBox textBoxTimKiem;
     }
 }

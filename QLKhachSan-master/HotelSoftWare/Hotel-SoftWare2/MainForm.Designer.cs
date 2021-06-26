@@ -54,15 +54,12 @@
             this.panelTopChill = new System.Windows.Forms.Panel();
             this.textBoxTitle = new System.Windows.Forms.TextBox();
             this.panelBotChildForm = new System.Windows.Forms.Panel();
-            this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.panelMenu.SuspendLayout();
             this.panelQuanLy.SuspendLayout();
             this.panelChucNang.SuspendLayout();
             this.panelHeThong.SuspendLayout();
             this.panelLogo.SuspendLayout();
             this.panelTopChill.SuspendLayout();
-            this.panelBotChildForm.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
             // 
             // panelMenu
@@ -559,23 +556,11 @@
             // panelBotChildForm
             // 
             this.panelBotChildForm.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(34)))), ((int)(((byte)(33)))), ((int)(((byte)(74)))));
-            this.panelBotChildForm.Controls.Add(this.pictureBox1);
             this.panelBotChildForm.Dock = System.Windows.Forms.DockStyle.Fill;
             this.panelBotChildForm.Location = new System.Drawing.Point(200, 44);
             this.panelBotChildForm.Name = "panelBotChildForm";
             this.panelBotChildForm.Size = new System.Drawing.Size(940, 586);
             this.panelBotChildForm.TabIndex = 2;
-            // 
-            // pictureBox1
-            // 
-            this.pictureBox1.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.pictureBox1.Image = global::Hotel_SoftWare2.Properties.Resources.LogoHotel1;
-            this.pictureBox1.Location = new System.Drawing.Point(208, 57);
-            this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(512, 467);
-            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.pictureBox1.TabIndex = 0;
-            this.pictureBox1.TabStop = false;
             // 
             // MainForm
             // 
@@ -598,8 +583,6 @@
             this.panelLogo.PerformLayout();
             this.panelTopChill.ResumeLayout(false);
             this.panelTopChill.PerformLayout();
-            this.panelBotChildForm.ResumeLayout(false);
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.ResumeLayout(false);
 
         }
@@ -632,7 +615,6 @@
         private System.Windows.Forms.Label labelWellCome;
         public System.Windows.Forms.Panel panelBotChildForm;
         private FontAwesome.Sharp.IconButton btnQuanLy;
-        private System.Windows.Forms.PictureBox pictureBox1;
     }
 }
 

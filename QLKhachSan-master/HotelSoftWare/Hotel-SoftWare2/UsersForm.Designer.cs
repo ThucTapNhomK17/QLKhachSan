@@ -47,6 +47,8 @@
             this.textBoxMaNV = new System.Windows.Forms.TextBox();
             this.textBoxhotenNV = new System.Windows.Forms.TextBox();
             this.labelHoTenNV = new System.Windows.Forms.Label();
+            this.labelTim = new System.Windows.Forms.Label();
+            this.textBoxTimKiem = new System.Windows.Forms.TextBox();
             ((System.ComponentModel.ISupportInitialize)(this.dgvUsers)).BeginInit();
             this.groupBoxQuyen.SuspendLayout();
             this.SuspendLayout();
@@ -90,6 +92,7 @@
             this.btnTimKiem.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.btnTimKiem.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
             this.btnTimKiem.UseVisualStyleBackColor = false;
+            this.btnTimKiem.Click += new System.EventHandler(this.btnTimKiem_Click);
             // 
             // btnXoa
             // 
@@ -139,9 +142,9 @@
             // 
             this.dgvUsers.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.dgvUsers.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dgvUsers.Location = new System.Drawing.Point(170, 190);
+            this.dgvUsers.Location = new System.Drawing.Point(170, 223);
             this.dgvUsers.Name = "dgvUsers";
-            this.dgvUsers.Size = new System.Drawing.Size(760, 400);
+            this.dgvUsers.Size = new System.Drawing.Size(760, 367);
             this.dgvUsers.TabIndex = 11;
             this.dgvUsers.CellClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dgvUsers_CellClick);
             // 
@@ -159,7 +162,7 @@
             this.groupBoxQuyen.Controls.Add(this.checkBoxQuanLy);
             this.groupBoxQuyen.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.groupBoxQuyen.ForeColor = System.Drawing.Color.White;
-            this.groupBoxQuyen.Location = new System.Drawing.Point(438, 72);
+            this.groupBoxQuyen.Location = new System.Drawing.Point(444, 111);
             this.groupBoxQuyen.Name = "groupBoxQuyen";
             this.groupBoxQuyen.Size = new System.Drawing.Size(380, 100);
             this.groupBoxQuyen.TabIndex = 45;
@@ -194,7 +197,7 @@
             // 
             // textBoxNhapLaiMK
             // 
-            this.textBoxNhapLaiMK.Location = new System.Drawing.Point(214, 143);
+            this.textBoxNhapLaiMK.Location = new System.Drawing.Point(214, 126);
             this.textBoxNhapLaiMK.Multiline = true;
             this.textBoxNhapLaiMK.Name = "textBoxNhapLaiMK";
             this.textBoxNhapLaiMK.Size = new System.Drawing.Size(200, 24);
@@ -202,7 +205,7 @@
             // 
             // textBoxMK
             // 
-            this.textBoxMK.Location = new System.Drawing.Point(214, 103);
+            this.textBoxMK.Location = new System.Drawing.Point(214, 77);
             this.textBoxMK.Multiline = true;
             this.textBoxMK.Name = "textBoxMK";
             this.textBoxMK.Size = new System.Drawing.Size(200, 24);
@@ -219,12 +222,12 @@
             this.btnSave.IconColor = System.Drawing.Color.White;
             this.btnSave.IconSize = 30;
             this.btnSave.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btnSave.Location = new System.Drawing.Point(850, 132);
+            this.btnSave.Location = new System.Drawing.Point(848, 126);
             this.btnSave.Name = "btnSave";
             this.btnSave.Rotation = 0D;
             this.btnSave.Size = new System.Drawing.Size(80, 40);
             this.btnSave.TabIndex = 43;
-            this.btnSave.Text = "Save";
+            this.btnSave.Text = "Lưu";
             this.btnSave.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.btnSave.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
             this.btnSave.UseVisualStyleBackColor = false;
@@ -246,7 +249,7 @@
             this.labelMK.AutoSize = true;
             this.labelMK.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.labelMK.ForeColor = System.Drawing.Color.Transparent;
-            this.labelMK.Location = new System.Drawing.Point(20, 103);
+            this.labelMK.Location = new System.Drawing.Point(21, 77);
             this.labelMK.Name = "labelMK";
             this.labelMK.Size = new System.Drawing.Size(89, 24);
             this.labelMK.TabIndex = 39;
@@ -257,7 +260,7 @@
             this.labelNhapLaiMK.AutoSize = true;
             this.labelNhapLaiMK.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.labelNhapLaiMK.ForeColor = System.Drawing.Color.Transparent;
-            this.labelNhapLaiMK.Location = new System.Drawing.Point(20, 143);
+            this.labelNhapLaiMK.Location = new System.Drawing.Point(20, 126);
             this.labelNhapLaiMK.Name = "labelNhapLaiMK";
             this.labelNhapLaiMK.Size = new System.Drawing.Size(169, 24);
             this.labelNhapLaiMK.TabIndex = 38;
@@ -268,7 +271,7 @@
             this.labelMaNV.AutoSize = true;
             this.labelMaNV.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.labelMaNV.ForeColor = System.Drawing.Color.Transparent;
-            this.labelMaNV.Location = new System.Drawing.Point(434, 32);
+            this.labelMaNV.Location = new System.Drawing.Point(440, 32);
             this.labelMaNV.Name = "labelMaNV";
             this.labelMaNV.Size = new System.Drawing.Size(131, 24);
             this.labelMaNV.TabIndex = 46;
@@ -276,7 +279,7 @@
             // 
             // textBoxMaNV
             // 
-            this.textBoxMaNV.Location = new System.Drawing.Point(571, 32);
+            this.textBoxMaNV.Location = new System.Drawing.Point(635, 27);
             this.textBoxMaNV.Multiline = true;
             this.textBoxMaNV.Name = "textBoxMaNV";
             this.textBoxMaNV.Size = new System.Drawing.Size(200, 24);
@@ -284,7 +287,7 @@
             // 
             // textBoxhotenNV
             // 
-            this.textBoxhotenNV.Location = new System.Drawing.Point(214, 72);
+            this.textBoxhotenNV.Location = new System.Drawing.Point(635, 72);
             this.textBoxhotenNV.Multiline = true;
             this.textBoxhotenNV.Name = "textBoxhotenNV";
             this.textBoxhotenNV.Size = new System.Drawing.Size(200, 24);
@@ -295,11 +298,31 @@
             this.labelHoTenNV.AutoSize = true;
             this.labelHoTenNV.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.labelHoTenNV.ForeColor = System.Drawing.Color.Transparent;
-            this.labelHoTenNV.Location = new System.Drawing.Point(20, 67);
+            this.labelHoTenNV.Location = new System.Drawing.Point(440, 72);
             this.labelHoTenNV.Name = "labelHoTenNV";
             this.labelHoTenNV.Size = new System.Drawing.Size(169, 24);
             this.labelHoTenNV.TabIndex = 49;
             this.labelHoTenNV.Text = "Họ Tên Nhân Viên";
+            // 
+            // labelTim
+            // 
+            this.labelTim.AutoSize = true;
+            this.labelTim.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.labelTim.ForeColor = System.Drawing.Color.Transparent;
+            this.labelTim.Location = new System.Drawing.Point(21, 177);
+            this.labelTim.Name = "labelTim";
+            this.labelTim.Size = new System.Drawing.Size(90, 24);
+            this.labelTim.TabIndex = 68;
+            this.labelTim.Text = "Tìm Kiếm";
+            // 
+            // textBoxTimKiem
+            // 
+            this.textBoxTimKiem.Location = new System.Drawing.Point(214, 177);
+            this.textBoxTimKiem.Multiline = true;
+            this.textBoxTimKiem.Name = "textBoxTimKiem";
+            this.textBoxTimKiem.Size = new System.Drawing.Size(200, 24);
+            this.textBoxTimKiem.TabIndex = 67;
+            this.textBoxTimKiem.TextChanged += new System.EventHandler(this.textBoxTimKiem_TextChanged);
             // 
             // UsersForm
             // 
@@ -307,6 +330,8 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(34)))), ((int)(((byte)(33)))), ((int)(((byte)(74)))));
             this.ClientSize = new System.Drawing.Size(940, 600);
+            this.Controls.Add(this.labelTim);
+            this.Controls.Add(this.textBoxTimKiem);
             this.Controls.Add(this.labelHoTenNV);
             this.Controls.Add(this.textBoxhotenNV);
             this.Controls.Add(this.labelMaNV);
@@ -357,5 +382,7 @@
         private System.Windows.Forms.TextBox textBoxMaNV;
         private System.Windows.Forms.TextBox textBoxhotenNV;
         private System.Windows.Forms.Label labelHoTenNV;
+        private System.Windows.Forms.Label labelTim;
+        private System.Windows.Forms.TextBox textBoxTimKiem;
     }
 }

@@ -6,7 +6,7 @@
 //     Manual changes to this file will be overwritten if the code is regenerated.
 // </auto-generated>
 //------------------------------------------------------------------------------
-// OKe Test
+
 namespace Hotel_SoftWare2
 {
     using System;

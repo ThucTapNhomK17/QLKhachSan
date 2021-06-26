@@ -4,29 +4,29 @@
   <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
     <!-- Diagram content (shape and connector positions) -->
     <edmx:Diagrams>
-      <Diagram DiagramId="8c16487ef706458ba502515d315b532b" Name="Diagram1">
-        <EntityTypeShape EntityType="MyDbContext.ChiTietPhieuThue" Width="1.5" PointX="5.25" PointY="4.5" IsExpanded="true" />
-        <EntityTypeShape EntityType="MyDbContext.DichVu" Width="1.5" PointX="8.25" PointY="1" IsExpanded="true" />
-        <EntityTypeShape EntityType="MyDbContext.HinhThucThanhToan" Width="1.5" PointX="6" PointY="9.25" IsExpanded="true" />
-        <EntityTypeShape EntityType="MyDbContext.HoaDon" Width="1.5" PointX="8.25" PointY="4.5" IsExpanded="true" />
-        <EntityTypeShape EntityType="MyDbContext.KhachHang" Width="1.5" PointX="0.75" PointY="5" IsExpanded="true" />
-        <EntityTypeShape EntityType="MyDbContext.LoaiDichVu" Width="1.5" PointX="6" PointY="1.375" IsExpanded="true" />
-        <EntityTypeShape EntityType="MyDbContext.LoaiPhong" Width="1.5" PointX="0.75" PointY="9" IsExpanded="true" />
-        <EntityTypeShape EntityType="MyDbContext.NhanVien" Width="1.5" PointX="0.75" PointY="0.75" IsExpanded="true" />
-        <EntityTypeShape EntityType="MyDbContext.PhieuThuePhong" Width="1.5" PointX="3" PointY="4.75" IsExpanded="true" />
-        <EntityTypeShape EntityType="MyDbContext.Phong" Width="1.5" PointX="3" PointY="8.75" IsExpanded="true" />
-        <EntityTypeShape EntityType="MyDbContext.SuDungDichVu" Width="1.5" PointX="10.5" PointY="4.75" IsExpanded="true" />
-        <EntityTypeShape EntityType="MyDbContext.sysdiagram" Width="1.5" PointX="8.75" PointY="8.25" IsExpanded="true" />
-        <AssociationConnector Association="MyDbContext.FK__ChiTietPh__MaPhi__7A3223E8" ManuallyRouted="false" />
-        <AssociationConnector Association="MyDbContext.FK__ChiTietPh__MaPho__7B264821" ManuallyRouted="false" />
-        <AssociationConnector Association="MyDbContext.FK__SuDungDic__MaChi__01D345B0" ManuallyRouted="false" />
-        <AssociationConnector Association="MyDbContext.FK__DichVu__MaLoaiDV__7C1A6C5A" ManuallyRouted="false" />
-        <AssociationConnector Association="MyDbContext.FK__SuDungDich__MaDV__02C769E9" ManuallyRouted="false" />
-        <AssociationConnector Association="MyDbContext.FK__HoaDon__MaHTTT__7E02B4CC" ManuallyRouted="false" />
-        <AssociationConnector Association="MyDbContext.FK__HoaDon__MaPhieuT__7D0E9093" ManuallyRouted="false" />
-        <AssociationConnector Association="MyDbContext.FK__PhieuThueP__MaKH__7EF6D905" ManuallyRouted="false" />
-        <AssociationConnector Association="MyDbContext.FK__Phong__MaLoai__00DF2177" ManuallyRouted="false" />
-        <AssociationConnector Association="MyDbContext.FK__PhieuThueP__MaNV__7FEAFD3E" ManuallyRouted="false" />
+      <Diagram DiagramId="33d539bb6e644027bd1b1be3c6f3afa9" Name="Diagram1">
+        <EntityTypeShape EntityType="Hotel_SoftWare2.ChiTietPhieuThue" Width="1.5" PointX="5.25" PointY="4.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="Hotel_SoftWare2.DichVu" Width="1.5" PointX="8.25" PointY="1" IsExpanded="true" />
+        <EntityTypeShape EntityType="Hotel_SoftWare2.HinhThucThanhToan" Width="1.5" PointX="6" PointY="9.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="Hotel_SoftWare2.HoaDon" Width="1.5" PointX="8.25" PointY="4.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="Hotel_SoftWare2.KhachHang" Width="1.5" PointX="0.75" PointY="5" IsExpanded="true" />
+        <EntityTypeShape EntityType="Hotel_SoftWare2.LoaiDichVu" Width="1.5" PointX="6" PointY="1.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="Hotel_SoftWare2.LoaiPhong" Width="1.5" PointX="0.75" PointY="9" IsExpanded="true" />
+        <EntityTypeShape EntityType="Hotel_SoftWare2.NhanVien" Width="1.5" PointX="0.75" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="Hotel_SoftWare2.PhieuThuePhong" Width="1.5" PointX="3" PointY="4.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="Hotel_SoftWare2.Phong" Width="1.5" PointX="3" PointY="8.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="Hotel_SoftWare2.SuDungDichVu" Width="1.5" PointX="10.5" PointY="4.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="Hotel_SoftWare2.sysdiagram" Width="1.5" PointX="8.75" PointY="8.25" IsExpanded="true" />
+        <AssociationConnector Association="Hotel_SoftWare2.FK__ChiTietPh__MaPhi__37A5467C" ManuallyRouted="false" />
+        <AssociationConnector Association="Hotel_SoftWare2.FK__ChiTietPh__MaPho__38996AB5" ManuallyRouted="false" />
+        <AssociationConnector Association="Hotel_SoftWare2.FK__SuDungDic__MaChi__3F466844" ManuallyRouted="false" />
+        <AssociationConnector Association="Hotel_SoftWare2.FK__DichVu__MaLoaiDV__398D8EEE" ManuallyRouted="false" />
+        <AssociationConnector Association="Hotel_SoftWare2.FK__SuDungDich__MaDV__403A8C7D" ManuallyRouted="false" />
+        <AssociationConnector Association="Hotel_SoftWare2.FK__HoaDon__MaHTTT__3A81B327" ManuallyRouted="false" />
+        <AssociationConnector Association="Hotel_SoftWare2.FK__HoaDon__MaPhieuT__3B75D760" ManuallyRouted="false" />
+        <AssociationConnector Association="Hotel_SoftWare2.FK__PhieuThueP__MaKH__3C69FB99" ManuallyRouted="false" />
+        <AssociationConnector Association="Hotel_SoftWare2.FK__Phong__MaLoai__3E52440B" ManuallyRouted="false" />
+        <AssociationConnector Association="Hotel_SoftWare2.FK__PhieuThueP__MaNV__3D5E1FD2" ManuallyRouted="false" />
       </Diagram>
     </edmx:Diagrams>
   </edmx:Designer>

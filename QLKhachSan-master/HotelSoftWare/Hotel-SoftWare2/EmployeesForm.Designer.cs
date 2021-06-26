@@ -43,6 +43,8 @@
             this.labelSDT = new System.Windows.Forms.Label();
             this.textBoxHoTenNV = new System.Windows.Forms.TextBox();
             this.textBoxMaNV = new System.Windows.Forms.TextBox();
+            this.labelTim = new System.Windows.Forms.Label();
+            this.textBoxTimKiem = new System.Windows.Forms.TextBox();
             ((System.ComponentModel.ISupportInitialize)(this.dgvEmp)).BeginInit();
             this.SuspendLayout();
             // 
@@ -95,6 +97,7 @@
             this.btnTimKiem.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.btnTimKiem.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
             this.btnTimKiem.UseVisualStyleBackColor = false;
+            this.btnTimKiem.Click += new System.EventHandler(this.btnTimKiem_Click);
             // 
             // btnXoa
             // 
@@ -199,7 +202,7 @@
             this.btnSave.Rotation = 0D;
             this.btnSave.Size = new System.Drawing.Size(80, 40);
             this.btnSave.TabIndex = 33;
-            this.btnSave.Text = "Save";
+            this.btnSave.Text = "Lưu";
             this.btnSave.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.btnSave.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
             this.btnSave.UseVisualStyleBackColor = false;
@@ -210,7 +213,7 @@
             this.labelHoTenNV.AutoSize = true;
             this.labelHoTenNV.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.labelHoTenNV.ForeColor = System.Drawing.Color.Transparent;
-            this.labelHoTenNV.Location = new System.Drawing.Point(37, 59);
+            this.labelHoTenNV.Location = new System.Drawing.Point(42, 64);
             this.labelHoTenNV.Name = "labelHoTenNV";
             this.labelHoTenNV.Size = new System.Drawing.Size(74, 24);
             this.labelHoTenNV.TabIndex = 29;
@@ -262,12 +265,34 @@
             this.textBoxMaNV.Size = new System.Drawing.Size(200, 24);
             this.textBoxMaNV.TabIndex = 30;
             // 
+            // labelTim
+            // 
+            this.labelTim.AutoSize = true;
+            this.labelTim.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.labelTim.ForeColor = System.Drawing.Color.Transparent;
+            this.labelTim.Location = new System.Drawing.Point(42, 119);
+            this.labelTim.Name = "labelTim";
+            this.labelTim.Size = new System.Drawing.Size(90, 24);
+            this.labelTim.TabIndex = 66;
+            this.labelTim.Text = "Tìm Kiếm";
+            // 
+            // textBoxTimKiem
+            // 
+            this.textBoxTimKiem.Location = new System.Drawing.Point(210, 119);
+            this.textBoxTimKiem.Multiline = true;
+            this.textBoxTimKiem.Name = "textBoxTimKiem";
+            this.textBoxTimKiem.Size = new System.Drawing.Size(200, 24);
+            this.textBoxTimKiem.TabIndex = 65;
+            this.textBoxTimKiem.TextChanged += new System.EventHandler(this.textBoxTimKiem_TextChanged);
+            // 
             // EmployeesForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(34)))), ((int)(((byte)(33)))), ((int)(((byte)(74)))));
             this.ClientSize = new System.Drawing.Size(940, 600);
+            this.Controls.Add(this.labelTim);
+            this.Controls.Add(this.textBoxTimKiem);
             this.Controls.Add(this.labelMaNV);
             this.Controls.Add(this.dateTimePickerEmp);
             this.Controls.Add(this.btnSave);
@@ -310,5 +335,7 @@
         private System.Windows.Forms.Label labelSDT;
         private System.Windows.Forms.TextBox textBoxHoTenNV;
         private System.Windows.Forms.TextBox textBoxMaNV;
+        private System.Windows.Forms.Label labelTim;
+        private System.Windows.Forms.TextBox textBoxTimKiem;
     }
 }

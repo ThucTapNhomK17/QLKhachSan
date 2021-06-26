@@ -53,7 +53,7 @@
             this.labelTim.AutoSize = true;
             this.labelTim.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.labelTim.ForeColor = System.Drawing.Color.Transparent;
-            this.labelTim.Location = new System.Drawing.Point(59, 149);
+            this.labelTim.Location = new System.Drawing.Point(39, 106);
             this.labelTim.Name = "labelTim";
             this.labelTim.Size = new System.Drawing.Size(90, 24);
             this.labelTim.TabIndex = 64;
@@ -61,7 +61,7 @@
             // 
             // textBoxTimKiem
             // 
-            this.textBoxTimKiem.Location = new System.Drawing.Point(205, 149);
+            this.textBoxTimKiem.Location = new System.Drawing.Point(205, 117);
             this.textBoxTimKiem.Multiline = true;
             this.textBoxTimKiem.Name = "textBoxTimKiem";
             this.textBoxTimKiem.Size = new System.Drawing.Size(200, 24);
@@ -79,7 +79,7 @@
             this.iconButtonSave.IconColor = System.Drawing.Color.White;
             this.iconButtonSave.IconSize = 30;
             this.iconButtonSave.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.iconButtonSave.Location = new System.Drawing.Point(723, 63);
+            this.iconButtonSave.Location = new System.Drawing.Point(534, 117);
             this.iconButtonSave.Name = "iconButtonSave";
             this.iconButtonSave.Rotation = 0D;
             this.iconButtonSave.Size = new System.Drawing.Size(119, 40);
@@ -100,10 +100,10 @@
             // 
             // textBoxGhiChu
             // 
-            this.textBoxGhiChu.Location = new System.Drawing.Point(205, 103);
+            this.textBoxGhiChu.Location = new System.Drawing.Point(657, 63);
             this.textBoxGhiChu.Multiline = true;
             this.textBoxGhiChu.Name = "textBoxGhiChu";
-            this.textBoxGhiChu.Size = new System.Drawing.Size(436, 24);
+            this.textBoxGhiChu.Size = new System.Drawing.Size(254, 24);
             this.textBoxGhiChu.TabIndex = 59;
             // 
             // textBoxTenLoaiPhong
@@ -116,7 +116,7 @@
             // 
             // textBoxSoNguoiMax
             // 
-            this.textBoxSoNguoiMax.Location = new System.Drawing.Point(570, 21);
+            this.textBoxSoNguoiMax.Location = new System.Drawing.Point(657, 21);
             this.textBoxSoNguoiMax.Multiline = true;
             this.textBoxSoNguoiMax.Name = "textBoxSoNguoiMax";
             this.textBoxSoNguoiMax.Size = new System.Drawing.Size(71, 24);
@@ -149,7 +149,7 @@
             this.labelSoNguoiMax.AutoSize = true;
             this.labelSoNguoiMax.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.labelSoNguoiMax.ForeColor = System.Drawing.Color.Transparent;
-            this.labelSoNguoiMax.Location = new System.Drawing.Point(461, 21);
+            this.labelSoNguoiMax.Location = new System.Drawing.Point(530, 21);
             this.labelSoNguoiMax.Name = "labelSoNguoiMax";
             this.labelSoNguoiMax.Size = new System.Drawing.Size(89, 24);
             this.labelSoNguoiMax.TabIndex = 56;
@@ -160,7 +160,7 @@
             this.labelGhiChu.AutoSize = true;
             this.labelGhiChu.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.labelGhiChu.ForeColor = System.Drawing.Color.Transparent;
-            this.labelGhiChu.Location = new System.Drawing.Point(59, 103);
+            this.labelGhiChu.Location = new System.Drawing.Point(530, 63);
             this.labelGhiChu.Name = "labelGhiChu";
             this.labelGhiChu.Size = new System.Drawing.Size(79, 24);
             this.labelGhiChu.TabIndex = 55;

@@ -1,8 +1,8 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
-  <EntityContainerMapping StorageEntityContainer="MyDbContextStoreContainer" CdmEntityContainer="htEntities">
+  <EntityContainerMapping StorageEntityContainer="Hotel_SoftWare2StoreContainer" CdmEntityContainer="htEntities">
     <EntitySetMapping Name="ChiTietPhieuThues">
-      <EntityTypeMapping TypeName="MyDbContext.ChiTietPhieuThue">
+      <EntityTypeMapping TypeName="Hotel_SoftWare2.ChiTietPhieuThue">
         <MappingFragment StoreEntitySet="ChiTietPhieuThue">
           <ScalarProperty Name="MaChiTietPhieuThue" ColumnName="MaChiTietPhieuThue" />
           <ScalarProperty Name="NgayVao" ColumnName="NgayVao" />
@@ -15,7 +15,7 @@
       </EntityTypeMapping>
     </EntitySetMapping>
     <EntitySetMapping Name="DichVus">
-      <EntityTypeMapping TypeName="MyDbContext.DichVu">
+      <EntityTypeMapping TypeName="Hotel_SoftWare2.DichVu">
         <MappingFragment StoreEntitySet="DichVu">
           <ScalarProperty Name="MaDV" ColumnName="MaDV" />
           <ScalarProperty Name="TenDV" ColumnName="TenDV" />
@@ -25,7 +25,7 @@
       </EntityTypeMapping>
     </EntitySetMapping>
     <EntitySetMapping Name="HinhThucThanhToans">
-      <EntityTypeMapping TypeName="MyDbContext.HinhThucThanhToan">
+      <EntityTypeMapping TypeName="Hotel_SoftWare2.HinhThucThanhToan">
         <MappingFragment StoreEntitySet="HinhThucThanhToan">
           <ScalarProperty Name="MaHTTT" ColumnName="MaHTTT" />
           <ScalarProperty Name="TenHTTT" ColumnName="TenHTTT" />
@@ -33,7 +33,7 @@
       </EntityTypeMapping>
     </EntitySetMapping>
     <EntitySetMapping Name="HoaDons">
-      <EntityTypeMapping TypeName="MyDbContext.HoaDon">
+      <EntityTypeMapping TypeName="Hotel_SoftWare2.HoaDon">
         <MappingFragment StoreEntitySet="HoaDon">
           <ScalarProperty Name="MaHoaDon" ColumnName="MaHoaDon" />
           <ScalarProperty Name="TienPhong" ColumnName="TienPhong" />
@@ -47,7 +47,7 @@
       </EntityTypeMapping>
     </EntitySetMapping>
     <EntitySetMapping Name="KhachHangs">
-      <EntityTypeMapping TypeName="MyDbContext.KhachHang">
+      <EntityTypeMapping TypeName="Hotel_SoftWare2.KhachHang">
         <MappingFragment StoreEntitySet="KhachHang">
           <ScalarProperty Name="MaKH" ColumnName="MaKH" />
           <ScalarProperty Name="TenKH" ColumnName="TenKH" />
@@ -58,7 +58,7 @@
       </EntityTypeMapping>
     </EntitySetMapping>
     <EntitySetMapping Name="LoaiDichVus">
-      <EntityTypeMapping TypeName="MyDbContext.LoaiDichVu">
+      <EntityTypeMapping TypeName="Hotel_SoftWare2.LoaiDichVu">
         <MappingFragment StoreEntitySet="LoaiDichVu">
           <ScalarProperty Name="MaLoaiDV" ColumnName="MaLoaiDV" />
           <ScalarProperty Name="TenLoaiDV" ColumnName="TenLoaiDV" />
@@ -66,7 +66,7 @@
       </EntityTypeMapping>
     </EntitySetMapping>
     <EntitySetMapping Name="LoaiPhongs">
-      <EntityTypeMapping TypeName="MyDbContext.LoaiPhong">
+      <EntityTypeMapping TypeName="Hotel_SoftWare2.LoaiPhong">
         <MappingFragment StoreEntitySet="LoaiPhong">
           <ScalarProperty Name="MaLoai" ColumnName="MaLoai" />
           <ScalarProperty Name="TenLoai" ColumnName="TenLoai" />
@@ -76,7 +76,7 @@
       </EntityTypeMapping>
     </EntitySetMapping>
     <EntitySetMapping Name="NhanViens">
-      <EntityTypeMapping TypeName="MyDbContext.NhanVien">
+      <EntityTypeMapping TypeName="Hotel_SoftWare2.NhanVien">
         <MappingFragment StoreEntitySet="NhanVien">
           <ScalarProperty Name="MaNV" ColumnName="MaNV" />
           <ScalarProperty Name="TenTk" ColumnName="TenTk" />
@@ -89,7 +89,7 @@
       </EntityTypeMapping>
     </EntitySetMapping>
     <EntitySetMapping Name="PhieuThuePhongs">
-      <EntityTypeMapping TypeName="MyDbContext.PhieuThuePhong">
+      <EntityTypeMapping TypeName="Hotel_SoftWare2.PhieuThuePhong">
         <MappingFragment StoreEntitySet="PhieuThuePhong">
           <ScalarProperty Name="MaPhieuThuePhong" ColumnName="MaPhieuThuePhong" />
           <ScalarProperty Name="GhiChu" ColumnName="GhiChu" />
@@ -99,7 +99,7 @@
       </EntityTypeMapping>
     </EntitySetMapping>
     <EntitySetMapping Name="Phongs">
-      <EntityTypeMapping TypeName="MyDbContext.Phong">
+      <EntityTypeMapping TypeName="Hotel_SoftWare2.Phong">
         <MappingFragment StoreEntitySet="Phong">
           <ScalarProperty Name="MaPhong" ColumnName="MaPhong" />
           <ScalarProperty Name="TenPhong" ColumnName="TenPhong" />
@@ -111,7 +111,7 @@
       </EntityTypeMapping>
     </EntitySetMapping>
     <EntitySetMapping Name="SuDungDichVus">
-      <EntityTypeMapping TypeName="MyDbContext.SuDungDichVu">
+      <EntityTypeMapping TypeName="Hotel_SoftWare2.SuDungDichVu">
         <MappingFragment StoreEntitySet="SuDungDichVu">
           <ScalarProperty Name="MaSD" ColumnName="MaSD" />
           <ScalarProperty Name="NgaySD" ColumnName="NgaySD" />
@@ -123,7 +123,7 @@
       </EntityTypeMapping>
     </EntitySetMapping>
     <EntitySetMapping Name="sysdiagrams">
-      <EntityTypeMapping TypeName="MyDbContext.sysdiagram">
+      <EntityTypeMapping TypeName="Hotel_SoftWare2.sysdiagram">
         <MappingFragment StoreEntitySet="sysdiagrams">
           <ScalarProperty Name="name" ColumnName="name" />
           <ScalarProperty Name="principal_id" ColumnName="principal_id" />
@@ -133,29 +133,29 @@
         </MappingFragment>
       </EntityTypeMapping>
     </EntitySetMapping>
-    <FunctionImportMapping FunctionImportName="add_CTPT" FunctionName="MyDbContext.Store.add_CTPT" />
-    <FunctionImportMapping FunctionImportName="addCus" FunctionName="MyDbContext.Store.addCus" />
-    <FunctionImportMapping FunctionImportName="addEmp" FunctionName="MyDbContext.Store.addEmp" />
-    <FunctionImportMapping FunctionImportName="addPhieuThuePhong" FunctionName="MyDbContext.Store.addPhieuThuePhong" />
-    <FunctionImportMapping FunctionImportName="addRoom" FunctionName="MyDbContext.Store.addRoom" />
-    <FunctionImportMapping FunctionImportName="addSer" FunctionName="MyDbContext.Store.addSer" />
-    <FunctionImportMapping FunctionImportName="addServiceRoom" FunctionName="MyDbContext.Store.addServiceRoom" />
-    <FunctionImportMapping FunctionImportName="addTypeRoom" FunctionName="MyDbContext.Store.addTypeRoom" />
-    <FunctionImportMapping FunctionImportName="addTypeSer" FunctionName="MyDbContext.Store.addTypeSer" />
-    <FunctionImportMapping FunctionImportName="changePass" FunctionName="MyDbContext.Store.changePass" />
-    <FunctionImportMapping FunctionImportName="changeStatusRoom" FunctionName="MyDbContext.Store.changeStatusRoom" />
-    <FunctionImportMapping FunctionImportName="creatBill" FunctionName="MyDbContext.Store.creatBill" />
-    <FunctionImportMapping FunctionImportName="delCTPT" FunctionName="MyDbContext.Store.delCTPT" />
-    <FunctionImportMapping FunctionImportName="delCus" FunctionName="MyDbContext.Store.delCus" />
-    <FunctionImportMapping FunctionImportName="delEmp" FunctionName="MyDbContext.Store.delEmp" />
-    <FunctionImportMapping FunctionImportName="delRoom" FunctionName="MyDbContext.Store.delRoom" />
-    <FunctionImportMapping FunctionImportName="delSer" FunctionName="MyDbContext.Store.delSer" />
-    <FunctionImportMapping FunctionImportName="delServiceRoom" FunctionName="MyDbContext.Store.delServiceRoom" />
-    <FunctionImportMapping FunctionImportName="delTypeRoom" FunctionName="MyDbContext.Store.delTypeRoom" />
-    <FunctionImportMapping FunctionImportName="delTypeSer" FunctionName="MyDbContext.Store.delTypeSer" />
-    <FunctionImportMapping FunctionImportName="DSDichVu" FunctionName="MyDbContext.Store.DSDichVu">
+    <FunctionImportMapping FunctionImportName="add_CTPT" FunctionName="Hotel_SoftWare2.Store.add_CTPT" />
+    <FunctionImportMapping FunctionImportName="addCus" FunctionName="Hotel_SoftWare2.Store.addCus" />
+    <FunctionImportMapping FunctionImportName="addEmp" FunctionName="Hotel_SoftWare2.Store.addEmp" />
+    <FunctionImportMapping FunctionImportName="addPhieuThuePhong" FunctionName="Hotel_SoftWare2.Store.addPhieuThuePhong" />
+    <FunctionImportMapping FunctionImportName="addRoom" FunctionName="Hotel_SoftWare2.Store.addRoom" />
+    <FunctionImportMapping FunctionImportName="addSer" FunctionName="Hotel_SoftWare2.Store.addSer" />
+    <FunctionImportMapping FunctionImportName="addServiceRoom" FunctionName="Hotel_SoftWare2.Store.addServiceRoom" />
+    <FunctionImportMapping FunctionImportName="addTypeRoom" FunctionName="Hotel_SoftWare2.Store.addTypeRoom" />
+    <FunctionImportMapping FunctionImportName="addTypeSer" FunctionName="Hotel_SoftWare2.Store.addTypeSer" />
+    <FunctionImportMapping FunctionImportName="changePass" FunctionName="Hotel_SoftWare2.Store.changePass" />
+    <FunctionImportMapping FunctionImportName="changeStatusRoom" FunctionName="Hotel_SoftWare2.Store.changeStatusRoom" />
+    <FunctionImportMapping FunctionImportName="creatBill" FunctionName="Hotel_SoftWare2.Store.creatBill" />
+    <FunctionImportMapping FunctionImportName="delCTPT" FunctionName="Hotel_SoftWare2.Store.delCTPT" />
+    <FunctionImportMapping FunctionImportName="delCus" FunctionName="Hotel_SoftWare2.Store.delCus" />
+    <FunctionImportMapping FunctionImportName="delEmp" FunctionName="Hotel_SoftWare2.Store.delEmp" />
+    <FunctionImportMapping FunctionImportName="delRoom" FunctionName="Hotel_SoftWare2.Store.delRoom" />
+    <FunctionImportMapping FunctionImportName="delSer" FunctionName="Hotel_SoftWare2.Store.delSer" />
+    <FunctionImportMapping FunctionImportName="delServiceRoom" FunctionName="Hotel_SoftWare2.Store.delServiceRoom" />
+    <FunctionImportMapping FunctionImportName="delTypeRoom" FunctionName="Hotel_SoftWare2.Store.delTypeRoom" />
+    <FunctionImportMapping FunctionImportName="delTypeSer" FunctionName="Hotel_SoftWare2.Store.delTypeSer" />
+    <FunctionImportMapping FunctionImportName="DSDichVu" FunctionName="Hotel_SoftWare2.Store.DSDichVu">
       <ResultMapping>
-        <ComplexTypeMapping TypeName="MyDbContext.DSDichVu_Result">
+        <ComplexTypeMapping TypeName="Hotel_SoftWare2.DSDichVu_Result">
           <ScalarProperty Name="MaDV" ColumnName="MaDV" />
           <ScalarProperty Name="TenDV" ColumnName="TenDV" />
           <ScalarProperty Name="DonGia" ColumnName="DonGia" />
@@ -163,17 +163,17 @@
         </ComplexTypeMapping>
       </ResultMapping>
     </FunctionImportMapping>
-    <FunctionImportMapping FunctionImportName="DSLoaiDichVu" FunctionName="MyDbContext.Store.DSLoaiDichVu">
+    <FunctionImportMapping FunctionImportName="DSLoaiDichVu" FunctionName="Hotel_SoftWare2.Store.DSLoaiDichVu">
       <ResultMapping>
-        <ComplexTypeMapping TypeName="MyDbContext.DSLoaiDichVu_Result">
+        <ComplexTypeMapping TypeName="Hotel_SoftWare2.DSLoaiDichVu_Result">
           <ScalarProperty Name="MaLoaiDV" ColumnName="MaLoaiDV" />
           <ScalarProperty Name="TenLoaiDV" ColumnName="TenLoaiDV" />
         </ComplexTypeMapping>
       </ResultMapping>
     </FunctionImportMapping>
-    <FunctionImportMapping FunctionImportName="DSLoaiPhong" FunctionName="MyDbContext.Store.DSLoaiPhong">
+    <FunctionImportMapping FunctionImportName="DSLoaiPhong" FunctionName="Hotel_SoftWare2.Store.DSLoaiPhong">
       <ResultMapping>
-        <ComplexTypeMapping TypeName="MyDbContext.DSLoaiPhong_Result">
+        <ComplexTypeMapping TypeName="Hotel_SoftWare2.DSLoaiPhong_Result">
           <ScalarProperty Name="MaLoai" ColumnName="MaLoai" />
           <ScalarProperty Name="TenLoai" ColumnName="TenLoai" />
           <ScalarProperty Name="SoNguoi" ColumnName="SoNguoi" />
@@ -181,10 +181,21 @@
         </ComplexTypeMapping>
       </ResultMapping>
     </FunctionImportMapping>
-    <FunctionImportMapping FunctionImportName="DSPhieuSDDV" FunctionName="MyDbContext.Store.DSPhieuSDDV" />
-    <FunctionImportMapping FunctionImportName="DSPhong" FunctionName="MyDbContext.Store.DSPhong">
+    <FunctionImportMapping FunctionImportName="DSPhieuSDDV" FunctionName="Hotel_SoftWare2.Store.DSPhieuSDDV">
       <ResultMapping>
-        <ComplexTypeMapping TypeName="MyDbContext.DSPhong_Result">
+        <ComplexTypeMapping TypeName="Hotel_SoftWare2.DSPhieuSDDV_Result">
+          <ScalarProperty Name="MaSD" ColumnName="MaSD" />
+          <ScalarProperty Name="NgaySD" ColumnName="NgaySD" />
+          <ScalarProperty Name="SoLuong" ColumnName="SoLuong" />
+          <ScalarProperty Name="GiaTien" ColumnName="GiaTien" />
+          <ScalarProperty Name="MaChiTietPhieuThue" ColumnName="MaChiTietPhieuThue" />
+          <ScalarProperty Name="MaDV" ColumnName="MaDV" />
+        </ComplexTypeMapping>
+      </ResultMapping>
+    </FunctionImportMapping>
+    <FunctionImportMapping FunctionImportName="DSPhong" FunctionName="Hotel_SoftWare2.Store.DSPhong">
+      <ResultMapping>
+        <ComplexTypeMapping TypeName="Hotel_SoftWare2.DSPhong_Result">
           <ScalarProperty Name="MaPhong" ColumnName="MaPhong" />
           <ScalarProperty Name="TenPhong" ColumnName="TenPhong" />
           <ScalarProperty Name="TinhTrang" ColumnName="TinhTrang" />
@@ -194,10 +205,22 @@
         </ComplexTypeMapping>
       </ResultMapping>
     </FunctionImportMapping>
-    <FunctionImportMapping FunctionImportName="DSTenPhongSDDV" FunctionName="MyDbContext.Store.DSTenPhongSDDV" />
-    <FunctionImportMapping FunctionImportName="getAcc1" FunctionName="MyDbContext.Store.getAcc1">
+    <FunctionImportMapping FunctionImportName="DsSDDV" FunctionName="Hotel_SoftWare2.Store.DsSDDV">
       <ResultMapping>
-        <ComplexTypeMapping TypeName="MyDbContext.getAcc1_Result">
+        <ComplexTypeMapping TypeName="Hotel_SoftWare2.DsSDDV_Result">
+          <ScalarProperty Name="MaSD" ColumnName="MaSD" />
+          <ScalarProperty Name="NgaySD" ColumnName="NgaySD" />
+          <ScalarProperty Name="SoLuong" ColumnName="SoLuong" />
+          <ScalarProperty Name="GiaTien" ColumnName="GiaTien" />
+          <ScalarProperty Name="MaChiTietPhieuThue" ColumnName="MaChiTietPhieuThue" />
+          <ScalarProperty Name="MaDV" ColumnName="MaDV" />
+        </ComplexTypeMapping>
+      </ResultMapping>
+    </FunctionImportMapping>
+    <FunctionImportMapping FunctionImportName="DSTenPhongSDDV" FunctionName="Hotel_SoftWare2.Store.DSTenPhongSDDV" />
+    <FunctionImportMapping FunctionImportName="getAcc1" FunctionName="Hotel_SoftWare2.Store.getAcc1">
+      <ResultMapping>
+        <ComplexTypeMapping TypeName="Hotel_SoftWare2.getAcc1_Result">
           <ScalarProperty Name="MaNV" ColumnName="MaNV" />
           <ScalarProperty Name="HoTen" ColumnName="HoTen" />
           <ScalarProperty Name="TenTk" ColumnName="TenTk" />
@@ -206,9 +229,9 @@
         </ComplexTypeMapping>
       </ResultMapping>
     </FunctionImportMapping>
-    <FunctionImportMapping FunctionImportName="getAll_CTPT" FunctionName="MyDbContext.Store.getAll_CTPT">
+    <FunctionImportMapping FunctionImportName="getAll_CTPT" FunctionName="Hotel_SoftWare2.Store.getAll_CTPT">
       <ResultMapping>
-        <ComplexTypeMapping TypeName="MyDbContext.getAll_CTPT_Result">
+        <ComplexTypeMapping TypeName="Hotel_SoftWare2.getAll_CTPT_Result">
           <ScalarProperty Name="MaChiTietPhieuThue" ColumnName="MaChiTietPhieuThue" />
           <ScalarProperty Name="NgayVao" ColumnName="NgayVao" />
           <ScalarProperty Name="hinhthucthue" ColumnName="hinhthucthue" />
@@ -218,9 +241,9 @@
         </ComplexTypeMapping>
       </ResultMapping>
     </FunctionImportMapping>
-    <FunctionImportMapping FunctionImportName="getallCus" FunctionName="MyDbContext.Store.getallCus">
+    <FunctionImportMapping FunctionImportName="getallCus" FunctionName="Hotel_SoftWare2.Store.getallCus">
       <ResultMapping>
-        <ComplexTypeMapping TypeName="MyDbContext.getallCus_Result">
+        <ComplexTypeMapping TypeName="Hotel_SoftWare2.getallCus_Result">
           <ScalarProperty Name="MaKH" ColumnName="MaKH" />
           <ScalarProperty Name="TenKH" ColumnName="TenKH" />
           <ScalarProperty Name="SoCMND" ColumnName="SoCMND" />
@@ -229,9 +252,9 @@
         </ComplexTypeMapping>
       </ResultMapping>
     </FunctionImportMapping>
-    <FunctionImportMapping FunctionImportName="getallEmp" FunctionName="MyDbContext.Store.getallEmp">
+    <FunctionImportMapping FunctionImportName="getallEmp" FunctionName="Hotel_SoftWare2.Store.getallEmp">
       <ResultMapping>
-        <ComplexTypeMapping TypeName="MyDbContext.getallEmp_Result">
+        <ComplexTypeMapping TypeName="Hotel_SoftWare2.getallEmp_Result">
           <ScalarProperty Name="MaNV" ColumnName="MaNV" />
           <ScalarProperty Name="HoTen" ColumnName="HoTen" />
           <ScalarProperty Name="NgaySinh" ColumnName="NgaySinh" />
@@ -239,9 +262,9 @@
         </ComplexTypeMapping>
       </ResultMapping>
     </FunctionImportMapping>
-    <FunctionImportMapping FunctionImportName="getCTPT_FrIdPT" FunctionName="MyDbContext.Store.getCTPT_FrIdPT">
+    <FunctionImportMapping FunctionImportName="getCTPT_FrIdPT" FunctionName="Hotel_SoftWare2.Store.getCTPT_FrIdPT">
       <ResultMapping>
-        <ComplexTypeMapping TypeName="MyDbContext.getCTPT_FrIdPT_Result">
+        <ComplexTypeMapping TypeName="Hotel_SoftWare2.getCTPT_FrIdPT_Result">
           <ScalarProperty Name="MaChiTietPhieuThue" ColumnName="MaChiTietPhieuThue" />
           <ScalarProperty Name="NgayVao" ColumnName="NgayVao" />
           <ScalarProperty Name="NgayRa" ColumnName="NgayRa" />
@@ -252,9 +275,10 @@
         </ComplexTypeMapping>
       </ResultMapping>
     </FunctionImportMapping>
-    <FunctionImportMapping FunctionImportName="getDoanhThuTienDV" FunctionName="MyDbContext.Store.getDoanhThuTienDV">
+    <FunctionImportMapping FunctionImportName="getCusFrPhieuThue3" FunctionName="Hotel_SoftWare2.Store.getCusFrPhieuThue3" />
+    <FunctionImportMapping FunctionImportName="getDoanhThuTienDV" FunctionName="Hotel_SoftWare2.Store.getDoanhThuTienDV">
       <ResultMapping>
-        <ComplexTypeMapping TypeName="MyDbContext.getDoanhThuTienDV_Result">
+        <ComplexTypeMapping TypeName="Hotel_SoftWare2.getDoanhThuTienDV_Result">
           <ScalarProperty Name="TenPhong" ColumnName="TenPhong" />
           <ScalarProperty Name="TenDV" ColumnName="TenDV" />
           <ScalarProperty Name="NgaySD" ColumnName="NgaySD" />
@@ -263,9 +287,9 @@
         </ComplexTypeMapping>
       </ResultMapping>
     </FunctionImportMapping>
-    <FunctionImportMapping FunctionImportName="getDoanhThuTienPhong" FunctionName="MyDbContext.Store.getDoanhThuTienPhong">
+    <FunctionImportMapping FunctionImportName="getDoanhThuTienPhong" FunctionName="Hotel_SoftWare2.Store.getDoanhThuTienPhong">
       <ResultMapping>
-        <ComplexTypeMapping TypeName="MyDbContext.getDoanhThuTienPhong_Result">
+        <ComplexTypeMapping TypeName="Hotel_SoftWare2.getDoanhThuTienPhong_Result">
           <ScalarProperty Name="TenPhong" ColumnName="TenPhong" />
           <ScalarProperty Name="NgayVao" ColumnName="NgayVao" />
           <ScalarProperty Name="NgayRa" ColumnName="NgayRa" />
@@ -274,9 +298,9 @@
         </ComplexTypeMapping>
       </ResultMapping>
     </FunctionImportMapping>
-    <FunctionImportMapping FunctionImportName="getFreeRoom" FunctionName="MyDbContext.Store.getFreeRoom">
+    <FunctionImportMapping FunctionImportName="getFreeRoom" FunctionName="Hotel_SoftWare2.Store.getFreeRoom">
       <ResultMapping>
-        <ComplexTypeMapping TypeName="MyDbContext.getFreeRoom_Result">
+        <ComplexTypeMapping TypeName="Hotel_SoftWare2.getFreeRoom_Result">
           <ScalarProperty Name="MaPhong" ColumnName="MaPhong" />
           <ScalarProperty Name="TenPhong" ColumnName="TenPhong" />
           <ScalarProperty Name="TenLoai" ColumnName="TenLoai" />
@@ -286,13 +310,13 @@
         </ComplexTypeMapping>
       </ResultMapping>
     </FunctionImportMapping>
-    <FunctionImportMapping FunctionImportName="getHTTT" FunctionName="MyDbContext.Store.getHTTT" />
-    <FunctionImportMapping FunctionImportName="getIdEmpFrAcc" FunctionName="MyDbContext.Store.getIdEmpFrAcc" />
-    <FunctionImportMapping FunctionImportName="getIdNV" FunctionName="MyDbContext.Store.getIdNV" />
-    <FunctionImportMapping FunctionImportName="getIdPTFromMaPhong" FunctionName="MyDbContext.Store.getIdPTFromMaPhong" />
-    <FunctionImportMapping FunctionImportName="getlistBill" FunctionName="MyDbContext.Store.getlistBill">
+    <FunctionImportMapping FunctionImportName="getHTTT" FunctionName="Hotel_SoftWare2.Store.getHTTT" />
+    <FunctionImportMapping FunctionImportName="getIdEmpFrAcc" FunctionName="Hotel_SoftWare2.Store.getIdEmpFrAcc" />
+    <FunctionImportMapping FunctionImportName="getIdNV" FunctionName="Hotel_SoftWare2.Store.getIdNV" />
+    <FunctionImportMapping FunctionImportName="getIdPTFromMaPhong" FunctionName="Hotel_SoftWare2.Store.getIdPTFromMaPhong" />
+    <FunctionImportMapping FunctionImportName="getlistBill" FunctionName="Hotel_SoftWare2.Store.getlistBill">
       <ResultMapping>
-        <ComplexTypeMapping TypeName="MyDbContext.getlistBill_Result">
+        <ComplexTypeMapping TypeName="Hotel_SoftWare2.getlistBill_Result">
           <ScalarProperty Name="MaHoaDon" ColumnName="MaHoaDon" />
           <ScalarProperty Name="TienPhong" ColumnName="TienPhong" />
           <ScalarProperty Name="TienDV" ColumnName="TienDV" />
@@ -304,21 +328,21 @@
         </ComplexTypeMapping>
       </ResultMapping>
     </FunctionImportMapping>
-    <FunctionImportMapping FunctionImportName="getMaDVtoTenDV" FunctionName="MyDbContext.Store.getMaDVtoTenDV" />
-    <FunctionImportMapping FunctionImportName="getPermission" FunctionName="MyDbContext.Store.getPermission" />
-    <FunctionImportMapping FunctionImportName="getPhieuThue2" FunctionName="MyDbContext.Store.getPhieuThue2">
+    <FunctionImportMapping FunctionImportName="getMaDVtoTenDV" FunctionName="Hotel_SoftWare2.Store.getMaDVtoTenDV" />
+    <FunctionImportMapping FunctionImportName="getPermission" FunctionName="Hotel_SoftWare2.Store.getPermission" />
+    <FunctionImportMapping FunctionImportName="getPhieuThue2" FunctionName="Hotel_SoftWare2.Store.getPhieuThue2">
       <ResultMapping>
-        <ComplexTypeMapping TypeName="MyDbContext.getPhieuThue2_Result">
+        <ComplexTypeMapping TypeName="Hotel_SoftWare2.getPhieuThue2_Result">
           <ScalarProperty Name="MaPhieuThuePhong" ColumnName="MaPhieuThuePhong" />
           <ScalarProperty Name="MaKH" ColumnName="MaKH" />
           <ScalarProperty Name="TenKH" ColumnName="TenKH" />
         </ComplexTypeMapping>
       </ResultMapping>
     </FunctionImportMapping>
-    <FunctionImportMapping FunctionImportName="GiaTienDV" FunctionName="MyDbContext.Store.GiaTienDV" />
-    <FunctionImportMapping FunctionImportName="Phong_Thue" FunctionName="MyDbContext.Store.Phong_Thue">
+    <FunctionImportMapping FunctionImportName="GiaTienDV" FunctionName="Hotel_SoftWare2.Store.GiaTienDV" />
+    <FunctionImportMapping FunctionImportName="Phong_Thue" FunctionName="Hotel_SoftWare2.Store.Phong_Thue">
       <ResultMapping>
-        <ComplexTypeMapping TypeName="MyDbContext.Phong_Thue_Result">
+        <ComplexTypeMapping TypeName="Hotel_SoftWare2.Phong_Thue_Result">
           <ScalarProperty Name="MaPhong" ColumnName="MaPhong" />
           <ScalarProperty Name="TenPhong" ColumnName="TenPhong" />
           <ScalarProperty Name="MaLoai" ColumnName="MaLoai" />
@@ -326,9 +350,9 @@
         </ComplexTypeMapping>
       </ResultMapping>
     </FunctionImportMapping>
-    <FunctionImportMapping FunctionImportName="Search_MaCtpt" FunctionName="MyDbContext.Store.Search_MaCtpt">
+    <FunctionImportMapping FunctionImportName="Search_MaCtpt" FunctionName="Hotel_SoftWare2.Store.Search_MaCtpt">
       <ResultMapping>
-        <ComplexTypeMapping TypeName="MyDbContext.Search_MaCtpt_Result">
+        <ComplexTypeMapping TypeName="Hotel_SoftWare2.Search_MaCtpt_Result">
           <ScalarProperty Name="MaChiTietPhieuThue" ColumnName="MaChiTietPhieuThue" />
           <ScalarProperty Name="NgayVao" ColumnName="NgayVao" />
           <ScalarProperty Name="NgayRa" ColumnName="NgayRa" />
@@ -339,9 +363,18 @@
         </ComplexTypeMapping>
       </ResultMapping>
     </FunctionImportMapping>
-    <FunctionImportMapping FunctionImportName="Search_MaPhong" FunctionName="MyDbContext.Store.Search_MaPhong">
+    <FunctionImportMapping FunctionImportName="Search_MaNV" FunctionName="Hotel_SoftWare2.Store.Search_MaNV">
       <ResultMapping>
-        <ComplexTypeMapping TypeName="MyDbContext.Search_MaPhong_Result">
+        <ComplexTypeMapping TypeName="Hotel_SoftWare2.Search_MaNV_Result">
+          <ScalarProperty Name="MaNV" ColumnName="MaNV" />
+          <ScalarProperty Name="HoTen" ColumnName="HoTen" />
+          <ScalarProperty Name="Quyen" ColumnName="Quyen" />
+        </ComplexTypeMapping>
+      </ResultMapping>
+    </FunctionImportMapping>
+    <FunctionImportMapping FunctionImportName="Search_MaPhong" FunctionName="Hotel_SoftWare2.Store.Search_MaPhong">
+      <ResultMapping>
+        <ComplexTypeMapping TypeName="Hotel_SoftWare2.Search_MaPhong_Result">
           <ScalarProperty Name="MaChiTietPhieuThue" ColumnName="MaChiTietPhieuThue" />
           <ScalarProperty Name="NgayVao" ColumnName="NgayVao" />
           <ScalarProperty Name="NgayRa" ColumnName="NgayRa" />
@@ -352,9 +385,33 @@
         </ComplexTypeMapping>
       </ResultMapping>
     </FunctionImportMapping>
-    <FunctionImportMapping FunctionImportName="tienDvDetail" FunctionName="MyDbContext.Store.tienDvDetail">
+    <FunctionImportMapping FunctionImportName="sp_alterdiagram" FunctionName="Hotel_SoftWare2.Store.sp_alterdiagram" />
+    <FunctionImportMapping FunctionImportName="sp_creatediagram" FunctionName="Hotel_SoftWare2.Store.sp_creatediagram" />
+    <FunctionImportMapping FunctionImportName="sp_dropdiagram" FunctionName="Hotel_SoftWare2.Store.sp_dropdiagram" />
+    <FunctionImportMapping FunctionImportName="sp_helpdiagramdefinition" FunctionName="Hotel_SoftWare2.Store.sp_helpdiagramdefinition">
       <ResultMapping>
-        <ComplexTypeMapping TypeName="MyDbContext.tienDvDetail_Result">
+        <ComplexTypeMapping TypeName="Hotel_SoftWare2.sp_helpdiagramdefinition_Result">
+          <ScalarProperty Name="version" ColumnName="version" />
+          <ScalarProperty Name="definition" ColumnName="definition" />
+        </ComplexTypeMapping>
+      </ResultMapping>
+    </FunctionImportMapping>
+    <FunctionImportMapping FunctionImportName="sp_helpdiagrams" FunctionName="Hotel_SoftWare2.Store.sp_helpdiagrams">
+      <ResultMapping>
+        <ComplexTypeMapping TypeName="Hotel_SoftWare2.sp_helpdiagrams_Result">
+          <ScalarProperty Name="Database" ColumnName="Database" />
+          <ScalarProperty Name="Name" ColumnName="Name" />
+          <ScalarProperty Name="ID" ColumnName="ID" />
+          <ScalarProperty Name="Owner" ColumnName="Owner" />
+          <ScalarProperty Name="OwnerID" ColumnName="OwnerID" />
+        </ComplexTypeMapping>
+      </ResultMapping>
+    </FunctionImportMapping>
+    <FunctionImportMapping FunctionImportName="sp_renamediagram" FunctionName="Hotel_SoftWare2.Store.sp_renamediagram" />
+    <FunctionImportMapping FunctionImportName="sp_upgraddiagrams" FunctionName="Hotel_SoftWare2.Store.sp_upgraddiagrams" />
+    <FunctionImportMapping FunctionImportName="tienDvDetail" FunctionName="Hotel_SoftWare2.Store.tienDvDetail">
+      <ResultMapping>
+        <ComplexTypeMapping TypeName="Hotel_SoftWare2.tienDvDetail_Result">
           <ScalarProperty Name="TenPhong" ColumnName="TenPhong" />
           <ScalarProperty Name="TenDV" ColumnName="TenDV" />
           <ScalarProperty Name="NgaySD" ColumnName="NgaySD" />
@@ -363,9 +420,9 @@
         </ComplexTypeMapping>
       </ResultMapping>
     </FunctionImportMapping>
-    <FunctionImportMapping FunctionImportName="tienphongDetail" FunctionName="MyDbContext.Store.tienphongDetail">
+    <FunctionImportMapping FunctionImportName="tienphongDetail" FunctionName="Hotel_SoftWare2.Store.tienphongDetail">
       <ResultMapping>
-        <ComplexTypeMapping TypeName="MyDbContext.tienphongDetail_Result">
+        <ComplexTypeMapping TypeName="Hotel_SoftWare2.tienphongDetail_Result">
           <ScalarProperty Name="TenPhong" ColumnName="TenPhong" />
           <ScalarProperty Name="NgayVao" ColumnName="NgayVao" />
           <ScalarProperty Name="NgayRa" ColumnName="NgayRa" />
@@ -374,10 +431,42 @@
         </ComplexTypeMapping>
       </ResultMapping>
     </FunctionImportMapping>
-    <FunctionImportMapping FunctionImportName="TKidCTPTofRoom" FunctionName="MyDbContext.Store.TKidCTPTofRoom" />
-    <FunctionImportMapping FunctionImportName="TKPhong" FunctionName="MyDbContext.Store.TKPhong">
+    <FunctionImportMapping FunctionImportName="TKidCTPTofRoom" FunctionName="Hotel_SoftWare2.Store.TKidCTPTofRoom" />
+    <FunctionImportMapping FunctionImportName="TKKH" FunctionName="Hotel_SoftWare2.Store.TKKH">
       <ResultMapping>
-        <ComplexTypeMapping TypeName="MyDbContext.TKPhong_Result">
+        <ComplexTypeMapping TypeName="Hotel_SoftWare2.TKKH_Result">
+          <ScalarProperty Name="MaKH" ColumnName="MaKH" />
+          <ScalarProperty Name="TenKH" ColumnName="TenKH" />
+          <ScalarProperty Name="SoCMND" ColumnName="SoCMND" />
+          <ScalarProperty Name="DiaChi" ColumnName="DiaChi" />
+          <ScalarProperty Name="SDT" ColumnName="SDT" />
+        </ComplexTypeMapping>
+      </ResultMapping>
+    </FunctionImportMapping>
+    <FunctionImportMapping FunctionImportName="TKND" FunctionName="Hotel_SoftWare2.Store.TKND">
+      <ResultMapping>
+        <ComplexTypeMapping TypeName="Hotel_SoftWare2.TKND_Result">
+          <ScalarProperty Name="MaNV" ColumnName="MaNV" />
+          <ScalarProperty Name="HoTen" ColumnName="HoTen" />
+          <ScalarProperty Name="TenTk" ColumnName="TenTk" />
+          <ScalarProperty Name="MatKhau" ColumnName="MatKhau" />
+          <ScalarProperty Name="Quyen" ColumnName="Quyen" />
+        </ComplexTypeMapping>
+      </ResultMapping>
+    </FunctionImportMapping>
+    <FunctionImportMapping FunctionImportName="TKNV" FunctionName="Hotel_SoftWare2.Store.TKNV">
+      <ResultMapping>
+        <ComplexTypeMapping TypeName="Hotel_SoftWare2.TKNV_Result">
+          <ScalarProperty Name="MaNV" ColumnName="MaNV" />
+          <ScalarProperty Name="HoTen" ColumnName="HoTen" />
+          <ScalarProperty Name="NgaySinh" ColumnName="NgaySinh" />
+          <ScalarProperty Name="SDT" ColumnName="SDT" />
+        </ComplexTypeMapping>
+      </ResultMapping>
+    </FunctionImportMapping>
+    <FunctionImportMapping FunctionImportName="TKPhong" FunctionName="Hotel_SoftWare2.Store.TKPhong">
+      <ResultMapping>
+        <ComplexTypeMapping TypeName="Hotel_SoftWare2.TKPhong_Result">
           <ScalarProperty Name="MaPhong" ColumnName="MaPhong" />
           <ScalarProperty Name="TenPhong" ColumnName="TenPhong" />
           <ScalarProperty Name="TinhTrang" ColumnName="TinhTrang" />
@@ -387,9 +476,9 @@
         </ComplexTypeMapping>
       </ResultMapping>
     </FunctionImportMapping>
-    <FunctionImportMapping FunctionImportName="TKService" FunctionName="MyDbContext.Store.TKService">
+    <FunctionImportMapping FunctionImportName="TKService" FunctionName="Hotel_SoftWare2.Store.TKService">
       <ResultMapping>
-        <ComplexTypeMapping TypeName="MyDbContext.TKService_Result">
+        <ComplexTypeMapping TypeName="Hotel_SoftWare2.TKService_Result">
           <ScalarProperty Name="MaDV" ColumnName="MaDV" />
           <ScalarProperty Name="TenDV" ColumnName="TenDV" />
           <ScalarProperty Name="DonGia" ColumnName="DonGia" />
@@ -397,9 +486,9 @@
         </ComplexTypeMapping>
       </ResultMapping>
     </FunctionImportMapping>
-    <FunctionImportMapping FunctionImportName="TKtypeRoom" FunctionName="MyDbContext.Store.TKtypeRoom">
+    <FunctionImportMapping FunctionImportName="TKtypeRoom" FunctionName="Hotel_SoftWare2.Store.TKtypeRoom">
       <ResultMapping>
-        <ComplexTypeMapping TypeName="MyDbContext.TKtypeRoom_Result">
+        <ComplexTypeMapping TypeName="Hotel_SoftWare2.TKtypeRoom_Result">
           <ScalarProperty Name="MaLoai" ColumnName="MaLoai" />
           <ScalarProperty Name="TenLoai" ColumnName="TenLoai" />
           <ScalarProperty Name="SoNguoi" ColumnName="SoNguoi" />
@@ -407,61 +496,48 @@
         </ComplexTypeMapping>
       </ResultMapping>
     </FunctionImportMapping>
-    <FunctionImportMapping FunctionImportName="TKtypeService" FunctionName="MyDbContext.Store.TKtypeService">
+    <FunctionImportMapping FunctionImportName="TKtypeService" FunctionName="Hotel_SoftWare2.Store.TKtypeService">
       <ResultMapping>
-        <ComplexTypeMapping TypeName="MyDbContext.TKtypeService_Result">
+        <ComplexTypeMapping TypeName="Hotel_SoftWare2.TKtypeService_Result">
           <ScalarProperty Name="MaLoaiDV" ColumnName="MaLoaiDV" />
           <ScalarProperty Name="TenLoaiDV" ColumnName="TenLoaiDV" />
         </ComplexTypeMapping>
       </ResultMapping>
     </FunctionImportMapping>
-    <FunctionImportMapping FunctionImportName="update_CTPT" FunctionName="MyDbContext.Store.update_CTPT" />
-    <FunctionImportMapping FunctionImportName="updateAcc" FunctionName="MyDbContext.Store.updateAcc" />
-    <FunctionImportMapping FunctionImportName="updateCus" FunctionName="MyDbContext.Store.updateCus" />
-    <FunctionImportMapping FunctionImportName="updateEmp" FunctionName="MyDbContext.Store.updateEmp" />
-    <FunctionImportMapping FunctionImportName="updateNgayRa" FunctionName="MyDbContext.Store.updateNgayRa" />
-    <FunctionImportMapping FunctionImportName="updateRoom" FunctionName="MyDbContext.Store.updateRoom" />
-    <FunctionImportMapping FunctionImportName="updateSer" FunctionName="MyDbContext.Store.updateSer" />
-    <FunctionImportMapping FunctionImportName="UpdateServiceRoom" FunctionName="MyDbContext.Store.UpdateServiceRoom" />
-    <FunctionImportMapping FunctionImportName="updateTypeRoom" FunctionName="MyDbContext.Store.updateTypeRoom" />
-    <FunctionImportMapping FunctionImportName="updateTypeSer" FunctionName="MyDbContext.Store.updateTypeSer" />
-    <FunctionImportMapping FunctionImportName="wellCome" FunctionName="MyDbContext.Store.wellCome" />
-    <FunctionImportMapping FunctionImportName="getCusFrPhieuThue3" FunctionName="MyDbContext.Store.getCusFrPhieuThue3" />
-    <FunctionImportMapping FunctionImportName="ViewDoanhThuTheoSoTienNhap" FunctionName="MyDbContext.Store.ViewDoanhThuTheoSoTienNhap">
+    <FunctionImportMapping FunctionImportName="update_CTPT" FunctionName="Hotel_SoftWare2.Store.update_CTPT" />
+    <FunctionImportMapping FunctionImportName="updateAcc" FunctionName="Hotel_SoftWare2.Store.updateAcc" />
+    <FunctionImportMapping FunctionImportName="updateCus" FunctionName="Hotel_SoftWare2.Store.updateCus" />
+    <FunctionImportMapping FunctionImportName="updateEmp" FunctionName="Hotel_SoftWare2.Store.updateEmp" />
+    <FunctionImportMapping FunctionImportName="updateNgayRa" FunctionName="Hotel_SoftWare2.Store.updateNgayRa" />
+    <FunctionImportMapping FunctionImportName="updateRoom" FunctionName="Hotel_SoftWare2.Store.updateRoom" />
+    <FunctionImportMapping FunctionImportName="updateSer" FunctionName="Hotel_SoftWare2.Store.updateSer" />
+    <FunctionImportMapping FunctionImportName="UpdateServiceRoom" FunctionName="Hotel_SoftWare2.Store.UpdateServiceRoom" />
+    <FunctionImportMapping FunctionImportName="updateTypeRoom" FunctionName="Hotel_SoftWare2.Store.updateTypeRoom" />
+    <FunctionImportMapping FunctionImportName="updateTypeSer" FunctionName="Hotel_SoftWare2.Store.updateTypeSer" />
+    <FunctionImportMapping FunctionImportName="ViewDoanhThuTheoSoTienNhap" FunctionName="Hotel_SoftWare2.Store.ViewDoanhThuTheoSoTienNhap">
       <ResultMapping>
-        <ComplexTypeMapping TypeName="MyDbContext.ViewDoanhThuTheoSoTienNhap_Result">
+        <ComplexTypeMapping TypeName="Hotel_SoftWare2.ViewDoanhThuTheoSoTienNhap_Result">
           <ScalarProperty Name="TenPhong" ColumnName="TenPhong" />
           <ScalarProperty Name="TongTien" ColumnName="TongTien" />
         </ComplexTypeMapping>
       </ResultMapping>
     </FunctionImportMapping>
-    <FunctionImportMapping FunctionImportName="ViewTienDV" FunctionName="MyDbContext.Store.ViewTienDV">
+    <FunctionImportMapping FunctionImportName="ViewTienDV" FunctionName="Hotel_SoftWare2.Store.ViewTienDV">
       <ResultMapping>
-        <ComplexTypeMapping TypeName="MyDbContext.ViewTienDV_Result">
+        <ComplexTypeMapping TypeName="Hotel_SoftWare2.ViewTienDV_Result">
           <ScalarProperty Name="TenPhong" ColumnName="TenPhong" />
           <ScalarProperty Name="TongTienDV" ColumnName="TongTienDV" />
         </ComplexTypeMapping>
       </ResultMapping>
     </FunctionImportMapping>
-    <FunctionImportMapping FunctionImportName="ViewTienPhong" FunctionName="MyDbContext.Store.ViewTienPhong">
+    <FunctionImportMapping FunctionImportName="ViewTienPhong" FunctionName="Hotel_SoftWare2.Store.ViewTienPhong">
       <ResultMapping>
-        <ComplexTypeMapping TypeName="MyDbContext.ViewTienPhong_Result">
+        <ComplexTypeMapping TypeName="Hotel_SoftWare2.ViewTienPhong_Result">
           <ScalarProperty Name="TenPhong" ColumnName="TenPhong" />
           <ScalarProperty Name="TongTienPhong" ColumnName="TongTienPhong" />
         </ComplexTypeMapping>
       </ResultMapping>
     </FunctionImportMapping>
-    <FunctionImportMapping FunctionImportName="DsSDDV" FunctionName="MyDbContext.Store.DsSDDV">
-      <ResultMapping>
-        <ComplexTypeMapping TypeName="MyDbContext.DsSDDV_Result">
-          <ScalarProperty Name="MaSD" ColumnName="MaSD" />
-          <ScalarProperty Name="NgaySD" ColumnName="NgaySD" />
-          <ScalarProperty Name="SoLuong" ColumnName="SoLuong" />
-          <ScalarProperty Name="GiaTien" ColumnName="GiaTien" />
-          <ScalarProperty Name="MaChiTietPhieuThue" ColumnName="MaChiTietPhieuThue" />
-          <ScalarProperty Name="MaDV" ColumnName="MaDV" />
-        </ComplexTypeMapping>
-      </ResultMapping>
-    </FunctionImportMapping>
+    <FunctionImportMapping FunctionImportName="wellCome" FunctionName="Hotel_SoftWare2.Store.wellCome" />
   </EntityContainerMapping>
 </Mapping>

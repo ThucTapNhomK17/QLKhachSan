@@ -181,5 +181,20 @@ namespace Hotel_SoftWare2
             }
         }
 
+        private void textBoxTimKiem_TextChanged(object sender, EventArgs e)
+        {
+            btnTimKiem.Enabled = true;
+        }
+
+        private void btnTimKiem_Click(object sender, EventArgs e)
+        {
+            dgvCustomers.DataSource = cus.TKKH(textBoxTimKiem.Text);
+            if (textBoxTimKiem.Text == "")
+            {
+                dgvCustomers.DataSource = cus.getallCus();
+            }
+            clearText();
+            btnTimKiem.Enabled = false;
+        }
     }
 }

@@ -102,6 +102,9 @@
     <Compile Include="DSLoaiPhong_Result.cs">
       <DependentUpon>MyDbContext.tt</DependentUpon>
     </Compile>
+    <Compile Include="DSPhieuSDDV_Result.cs">
+      <DependentUpon>MyDbContext.tt</DependentUpon>
+    </Compile>
     <Compile Include="DSPhong_Result.cs">
       <DependentUpon>MyDbContext.tt</DependentUpon>
     </Compile>
@@ -160,41 +163,11 @@
     <Compile Include="KhachHang.cs">
       <DependentUpon>MyDbContext.tt</DependentUpon>
     </Compile>
-    <Compile Include="ViewMoney.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="ViewMoney.Designer.cs">
-      <DependentUpon>ViewMoney.cs</DependentUpon>
-    </Compile>
     <Compile Include="LoaiDichVu.cs">
       <DependentUpon>MyDbContext.tt</DependentUpon>
     </Compile>
-    <Compile Include="LoaiDichVuForm.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="LoaiDichVuForm.Designer.cs">
-      <DependentUpon>LoaiDichVuForm.cs</DependentUpon>
-    </Compile>
     <Compile Include="LoaiPhong.cs">
       <DependentUpon>MyDbContext.tt</DependentUpon>
-    </Compile>
-    <Compile Include="LoaiPhongForm.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="LoaiPhongForm.Designer.cs">
-      <DependentUpon>LoaiPhongForm.cs</DependentUpon>
-    </Compile>
-    <Compile Include="LoginForm.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="LoginForm.Designer.cs">
-      <DependentUpon>LoginForm.cs</DependentUpon>
-    </Compile>
-    <Compile Include="MainForm.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="MainForm.Designer.cs">
-      <DependentUpon>MainForm.cs</DependentUpon>
     </Compile>
     <Compile Include="MyDbContext.Context.cs">
       <AutoGen>True</AutoGen>
@@ -223,23 +196,20 @@
     <Compile Include="Phong_Thue_Result.cs">
       <DependentUpon>MyDbContext.tt</DependentUpon>
     </Compile>
-    <Compile Include="QLServiceForm.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="QLServiceForm.Designer.cs">
-      <DependentUpon>QLServiceForm.cs</DependentUpon>
-    </Compile>
     <Compile Include="Search_MaCtpt_Result.cs">
+      <DependentUpon>MyDbContext.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Search_MaNV_Result.cs">
       <DependentUpon>MyDbContext.tt</DependentUpon>
     </Compile>
     <Compile Include="Search_MaPhong_Result.cs">
       <DependentUpon>MyDbContext.tt</DependentUpon>
     </Compile>
-    <Compile Include="ServiceRoomForm.cs">
-      <SubType>Form</SubType>
+    <Compile Include="sp_helpdiagramdefinition_Result.cs">
+      <DependentUpon>MyDbContext.tt</DependentUpon>
     </Compile>
-    <Compile Include="ServiceRoomForm.Designer.cs">
-      <DependentUpon>ServiceRoomForm.cs</DependentUpon>
+    <Compile Include="sp_helpdiagrams_Result.cs">
+      <DependentUpon>MyDbContext.tt</DependentUpon>
     </Compile>
     <Compile Include="SuDungDichVu.cs">
       <DependentUpon>MyDbContext.tt</DependentUpon>
@@ -253,6 +223,15 @@
     <Compile Include="tienphongDetail_Result.cs">
       <DependentUpon>MyDbContext.tt</DependentUpon>
     </Compile>
+    <Compile Include="TKKH_Result.cs">
+      <DependentUpon>MyDbContext.tt</DependentUpon>
+    </Compile>
+    <Compile Include="TKND_Result.cs">
+      <DependentUpon>MyDbContext.tt</DependentUpon>
+    </Compile>
+    <Compile Include="TKNV_Result.cs">
+      <DependentUpon>MyDbContext.tt</DependentUpon>
+    </Compile>
     <Compile Include="TKPhong_Result.cs">
       <DependentUpon>MyDbContext.tt</DependentUpon>
     </Compile>
@@ -264,6 +243,51 @@
     </Compile>
     <Compile Include="TKtypeService_Result.cs">
       <DependentUpon>MyDbContext.tt</DependentUpon>
+    </Compile>
+    <Compile Include="ViewDoanhThuTheoSoTienNhap_Result.cs">
+      <DependentUpon>MyDbContext.tt</DependentUpon>
+    </Compile>
+    <Compile Include="ViewMoney.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ViewMoney.Designer.cs">
+      <DependentUpon>ViewMoney.cs</DependentUpon>
+    </Compile>
+    <Compile Include="LoaiDichVuForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="LoaiDichVuForm.Designer.cs">
+      <DependentUpon>LoaiDichVuForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="LoaiPhongForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="LoaiPhongForm.Designer.cs">
+      <DependentUpon>LoaiPhongForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="LoginForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="LoginForm.Designer.cs">
+      <DependentUpon>LoginForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="MainForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MainForm.Designer.cs">
+      <DependentUpon>MainForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="QLServiceForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="QLServiceForm.Designer.cs">
+      <DependentUpon>QLServiceForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ServiceRoomForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ServiceRoomForm.Designer.cs">
+      <DependentUpon>ServiceRoomForm.cs</DependentUpon>
     </Compile>
     <Compile Include="TraPhong.cs">
       <SubType>Form</SubType>
@@ -284,9 +308,6 @@
     </Compile>
     <Compile Include="UsersForm.Designer.cs">
       <DependentUpon>UsersForm.cs</DependentUpon>
-    </Compile>
-    <Compile Include="ViewDoanhThuTheoSoTienNhap_Result.cs">
-      <DependentUpon>MyDbContext.tt</DependentUpon>
     </Compile>
     <Compile Include="ViewTienDV_Result.cs">
       <DependentUpon>MyDbContext.tt</DependentUpon>

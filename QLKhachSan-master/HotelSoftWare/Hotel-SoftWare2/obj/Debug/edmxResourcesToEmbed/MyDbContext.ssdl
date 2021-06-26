@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<Schema Namespace="MyDbContext.Store" Provider="System.Data.SqlClient" ProviderManifestToken="2012" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+<Schema Namespace="Hotel_SoftWare2.Store" Provider="System.Data.SqlClient" ProviderManifestToken="2012" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
   <EntityType Name="ChiTietPhieuThue">
     <Key>
       <PropertyRef Name="MaChiTietPhieuThue" />
@@ -120,7 +120,7 @@
     <Property Name="version" Type="int" />
     <Property Name="definition" Type="varbinary(max)" />
   </EntityType>
-  <Association Name="FK__ChiTietPh__MaPhi__7A3223E8">
+  <Association Name="FK__ChiTietPh__MaPhi__37A5467C">
     <End Role="PhieuThuePhong" Type="Self.PhieuThuePhong" Multiplicity="0..1" />
     <End Role="ChiTietPhieuThue" Type="Self.ChiTietPhieuThue" Multiplicity="*" />
     <ReferentialConstraint>
@@ -132,7 +132,7 @@
       </Dependent>
     </ReferentialConstraint>
   </Association>
-  <Association Name="FK__ChiTietPh__MaPho__7B264821">
+  <Association Name="FK__ChiTietPh__MaPho__38996AB5">
     <End Role="Phong" Type="Self.Phong" Multiplicity="0..1" />
     <End Role="ChiTietPhieuThue" Type="Self.ChiTietPhieuThue" Multiplicity="*" />
     <ReferentialConstraint>
@@ -144,7 +144,7 @@
       </Dependent>
     </ReferentialConstraint>
   </Association>
-  <Association Name="FK__DichVu__MaLoaiDV__7C1A6C5A">
+  <Association Name="FK__DichVu__MaLoaiDV__398D8EEE">
     <End Role="LoaiDichVu" Type="Self.LoaiDichVu" Multiplicity="0..1" />
     <End Role="DichVu" Type="Self.DichVu" Multiplicity="*" />
     <ReferentialConstraint>
@@ -156,7 +156,7 @@
       </Dependent>
     </ReferentialConstraint>
   </Association>
-  <Association Name="FK__HoaDon__MaHTTT__7E02B4CC">
+  <Association Name="FK__HoaDon__MaHTTT__3A81B327">
     <End Role="HinhThucThanhToan" Type="Self.HinhThucThanhToan" Multiplicity="0..1" />
     <End Role="HoaDon" Type="Self.HoaDon" Multiplicity="*" />
     <ReferentialConstraint>
@@ -168,7 +168,7 @@
       </Dependent>
     </ReferentialConstraint>
   </Association>
-  <Association Name="FK__HoaDon__MaPhieuT__7D0E9093">
+  <Association Name="FK__HoaDon__MaPhieuT__3B75D760">
     <End Role="PhieuThuePhong" Type="Self.PhieuThuePhong" Multiplicity="0..1" />
     <End Role="HoaDon" Type="Self.HoaDon" Multiplicity="*" />
     <ReferentialConstraint>
@@ -180,7 +180,7 @@
       </Dependent>
     </ReferentialConstraint>
   </Association>
-  <Association Name="FK__PhieuThueP__MaKH__7EF6D905">
+  <Association Name="FK__PhieuThueP__MaKH__3C69FB99">
     <End Role="KhachHang" Type="Self.KhachHang" Multiplicity="0..1" />
     <End Role="PhieuThuePhong" Type="Self.PhieuThuePhong" Multiplicity="*" />
     <ReferentialConstraint>
@@ -192,7 +192,7 @@
       </Dependent>
     </ReferentialConstraint>
   </Association>
-  <Association Name="FK__PhieuThueP__MaNV__7FEAFD3E">
+  <Association Name="FK__PhieuThueP__MaNV__3D5E1FD2">
     <End Role="NhanVien" Type="Self.NhanVien" Multiplicity="0..1" />
     <End Role="PhieuThuePhong" Type="Self.PhieuThuePhong" Multiplicity="*" />
     <ReferentialConstraint>
@@ -204,7 +204,7 @@
       </Dependent>
     </ReferentialConstraint>
   </Association>
-  <Association Name="FK__Phong__MaLoai__00DF2177">
+  <Association Name="FK__Phong__MaLoai__3E52440B">
     <End Role="LoaiPhong" Type="Self.LoaiPhong" Multiplicity="0..1" />
     <End Role="Phong" Type="Self.Phong" Multiplicity="*" />
     <ReferentialConstraint>
@@ -216,7 +216,7 @@
       </Dependent>
     </ReferentialConstraint>
   </Association>
-  <Association Name="FK__SuDungDic__MaChi__01D345B0">
+  <Association Name="FK__SuDungDic__MaChi__3F466844">
     <End Role="ChiTietPhieuThue" Type="Self.ChiTietPhieuThue" Multiplicity="0..1" />
     <End Role="SuDungDichVu" Type="Self.SuDungDichVu" Multiplicity="*" />
     <ReferentialConstraint>
@@ -228,7 +228,7 @@
       </Dependent>
     </ReferentialConstraint>
   </Association>
-  <Association Name="FK__SuDungDich__MaDV__02C769E9">
+  <Association Name="FK__SuDungDich__MaDV__403A8C7D">
     <End Role="DichVu" Type="Self.DichVu" Multiplicity="0..1" />
     <End Role="SuDungDichVu" Type="Self.SuDungDichVu" Multiplicity="*" />
     <ReferentialConstraint>
@@ -347,6 +347,7 @@
   <Function Name="DSPhong" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo" />
   <Function Name="DsSDDV" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo" />
   <Function Name="DSTenPhongSDDV" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo" />
+  <Function Name="fn_diagramobjects" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="true" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo" ReturnType="int" />
   <Function Name="getAcc1" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo" />
   <Function Name="getAll_CTPT" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo" />
   <Function Name="getallCus" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo" />
@@ -403,9 +404,42 @@
   <Function Name="Search_MaCtpt" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
     <Parameter Name="MaChiTietPhieuThue" Type="varchar" Mode="In" />
   </Function>
+  <Function Name="Search_MaNV" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+    <Parameter Name="MaNV" Type="varchar" Mode="In" />
+  </Function>
   <Function Name="Search_MaPhong" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
     <Parameter Name="MaPhong" Type="varchar" Mode="In" />
   </Function>
+  <Function Name="sp_alterdiagram" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+    <Parameter Name="diagramname" Type="nvarchar" Mode="In" />
+    <Parameter Name="owner_id" Type="int" Mode="In" />
+    <Parameter Name="version" Type="int" Mode="In" />
+    <Parameter Name="definition" Type="varbinary(max)" Mode="In" />
+  </Function>
+  <Function Name="sp_creatediagram" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+    <Parameter Name="diagramname" Type="nvarchar" Mode="In" />
+    <Parameter Name="owner_id" Type="int" Mode="In" />
+    <Parameter Name="version" Type="int" Mode="In" />
+    <Parameter Name="definition" Type="varbinary(max)" Mode="In" />
+  </Function>
+  <Function Name="sp_dropdiagram" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+    <Parameter Name="diagramname" Type="nvarchar" Mode="In" />
+    <Parameter Name="owner_id" Type="int" Mode="In" />
+  </Function>
+  <Function Name="sp_helpdiagramdefinition" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+    <Parameter Name="diagramname" Type="nvarchar" Mode="In" />
+    <Parameter Name="owner_id" Type="int" Mode="In" />
+  </Function>
+  <Function Name="sp_helpdiagrams" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+    <Parameter Name="diagramname" Type="nvarchar" Mode="In" />
+    <Parameter Name="owner_id" Type="int" Mode="In" />
+  </Function>
+  <Function Name="sp_renamediagram" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+    <Parameter Name="diagramname" Type="nvarchar" Mode="In" />
+    <Parameter Name="owner_id" Type="int" Mode="In" />
+    <Parameter Name="new_diagramname" Type="nvarchar" Mode="In" />
+  </Function>
+  <Function Name="sp_upgraddiagrams" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo" />
   <Function Name="tienDvDetail" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
     <Parameter Name="maptp" Type="varchar" Mode="In" />
   </Function>
@@ -414,6 +448,15 @@
   </Function>
   <Function Name="TKidCTPTofRoom" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
     <Parameter Name="TENPHONG" Type="nvarchar" Mode="In" />
+  </Function>
+  <Function Name="TKKH" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+    <Parameter Name="CHUOI" Type="varchar" Mode="In" />
+  </Function>
+  <Function Name="TKND" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+    <Parameter Name="CHUOI" Type="varchar" Mode="In" />
+  </Function>
+  <Function Name="TKNV" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+    <Parameter Name="CHUOI" Type="varchar" Mode="In" />
   </Function>
   <Function Name="TKPhong" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
     <Parameter Name="TENPHONG" Type="varchar" Mode="In" />
@@ -507,7 +550,7 @@
     <Parameter Name="TenTk" Type="varchar" Mode="In" />
     <Parameter Name="MatKhau" Type="varchar" Mode="In" />
   </Function>
-  <EntityContainer Name="MyDbContextStoreContainer">
+  <EntityContainer Name="Hotel_SoftWare2StoreContainer">
     <EntitySet Name="ChiTietPhieuThue" EntityType="Self.ChiTietPhieuThue" Schema="dbo" store:Type="Tables" />
     <EntitySet Name="DichVu" EntityType="Self.DichVu" Schema="dbo" store:Type="Tables" />
     <EntitySet Name="HinhThucThanhToan" EntityType="Self.HinhThucThanhToan" Schema="dbo" store:Type="Tables" />
@@ -520,43 +563,43 @@
     <EntitySet Name="Phong" EntityType="Self.Phong" Schema="dbo" store:Type="Tables" />
     <EntitySet Name="SuDungDichVu" EntityType="Self.SuDungDichVu" Schema="dbo" store:Type="Tables" />
     <EntitySet Name="sysdiagrams" EntityType="Self.sysdiagrams" Schema="dbo" store:Type="Tables" />
-    <AssociationSet Name="FK__ChiTietPh__MaPhi__7A3223E8" Association="Self.FK__ChiTietPh__MaPhi__7A3223E8">
+    <AssociationSet Name="FK__ChiTietPh__MaPhi__37A5467C" Association="Self.FK__ChiTietPh__MaPhi__37A5467C">
       <End Role="PhieuThuePhong" EntitySet="PhieuThuePhong" />
       <End Role="ChiTietPhieuThue" EntitySet="ChiTietPhieuThue" />
     </AssociationSet>
-    <AssociationSet Name="FK__ChiTietPh__MaPho__7B264821" Association="Self.FK__ChiTietPh__MaPho__7B264821">
+    <AssociationSet Name="FK__ChiTietPh__MaPho__38996AB5" Association="Self.FK__ChiTietPh__MaPho__38996AB5">
       <End Role="Phong" EntitySet="Phong" />
       <End Role="ChiTietPhieuThue" EntitySet="ChiTietPhieuThue" />
     </AssociationSet>
-    <AssociationSet Name="FK__DichVu__MaLoaiDV__7C1A6C5A" Association="Self.FK__DichVu__MaLoaiDV__7C1A6C5A">
+    <AssociationSet Name="FK__DichVu__MaLoaiDV__398D8EEE" Association="Self.FK__DichVu__MaLoaiDV__398D8EEE">
       <End Role="LoaiDichVu" EntitySet="LoaiDichVu" />
       <End Role="DichVu" EntitySet="DichVu" />
     </AssociationSet>
-    <AssociationSet Name="FK__HoaDon__MaHTTT__7E02B4CC" Association="Self.FK__HoaDon__MaHTTT__7E02B4CC">
+    <AssociationSet Name="FK__HoaDon__MaHTTT__3A81B327" Association="Self.FK__HoaDon__MaHTTT__3A81B327">
       <End Role="HinhThucThanhToan" EntitySet="HinhThucThanhToan" />
       <End Role="HoaDon" EntitySet="HoaDon" />
     </AssociationSet>
-    <AssociationSet Name="FK__HoaDon__MaPhieuT__7D0E9093" Association="Self.FK__HoaDon__MaPhieuT__7D0E9093">
+    <AssociationSet Name="FK__HoaDon__MaPhieuT__3B75D760" Association="Self.FK__HoaDon__MaPhieuT__3B75D760">
       <End Role="PhieuThuePhong" EntitySet="PhieuThuePhong" />
       <End Role="HoaDon" EntitySet="HoaDon" />
     </AssociationSet>
-    <AssociationSet Name="FK__PhieuThueP__MaKH__7EF6D905" Association="Self.FK__PhieuThueP__MaKH__7EF6D905">
+    <AssociationSet Name="FK__PhieuThueP__MaKH__3C69FB99" Association="Self.FK__PhieuThueP__MaKH__3C69FB99">
       <End Role="KhachHang" EntitySet="KhachHang" />
       <End Role="PhieuThuePhong" EntitySet="PhieuThuePhong" />
     </AssociationSet>
-    <AssociationSet Name="FK__PhieuThueP__MaNV__7FEAFD3E" Association="Self.FK__PhieuThueP__MaNV__7FEAFD3E">
+    <AssociationSet Name="FK__PhieuThueP__MaNV__3D5E1FD2" Association="Self.FK__PhieuThueP__MaNV__3D5E1FD2">
       <End Role="NhanVien" EntitySet="NhanVien" />
       <End Role="PhieuThuePhong" EntitySet="PhieuThuePhong" />
     </AssociationSet>
-    <AssociationSet Name="FK__Phong__MaLoai__00DF2177" Association="Self.FK__Phong__MaLoai__00DF2177">
+    <AssociationSet Name="FK__Phong__MaLoai__3E52440B" Association="Self.FK__Phong__MaLoai__3E52440B">
       <End Role="LoaiPhong" EntitySet="LoaiPhong" />
       <End Role="Phong" EntitySet="Phong" />
     </AssociationSet>
-    <AssociationSet Name="FK__SuDungDic__MaChi__01D345B0" Association="Self.FK__SuDungDic__MaChi__01D345B0">
+    <AssociationSet Name="FK__SuDungDic__MaChi__3F466844" Association="Self.FK__SuDungDic__MaChi__3F466844">
       <End Role="ChiTietPhieuThue" EntitySet="ChiTietPhieuThue" />
       <End Role="SuDungDichVu" EntitySet="SuDungDichVu" />
     </AssociationSet>
-    <AssociationSet Name="FK__SuDungDich__MaDV__02C769E9" Association="Self.FK__SuDungDich__MaDV__02C769E9">
+    <AssociationSet Name="FK__SuDungDich__MaDV__403A8C7D" Association="Self.FK__SuDungDich__MaDV__403A8C7D">
       <End Role="DichVu" EntitySet="DichVu" />
       <End Role="SuDungDichVu" EntitySet="SuDungDichVu" />
     </AssociationSet>

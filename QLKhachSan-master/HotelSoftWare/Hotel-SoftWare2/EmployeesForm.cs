@@ -65,7 +65,7 @@ namespace Hotel_SoftWare2
                 emp.addEmp(textBoxMaNV.Text, textBoxHoTenNV.Text, dateTimePickerEmp.Value, textBoxSDT.Text);
                 try
                 {
-                    MessageBox.Show("Them KH thanh cong");
+                    MessageBox.Show("Them nhan vien thanh cong");
                     emp.SaveChanges();
                     ShowEmp(dgvEmp);
 
@@ -179,6 +179,22 @@ namespace Hotel_SoftWare2
             {
 
             }
+        }
+
+        private void textBoxTimKiem_TextChanged(object sender, EventArgs e)
+        {
+                btnTimKiem.Enabled = true;
+        }
+
+        private void btnTimKiem_Click(object sender, EventArgs e)
+        {
+            dgvEmp.DataSource = emp.TKNV(textBoxTimKiem.Text);
+            if (textBoxTimKiem.Text == "")
+            {
+                dgvEmp.DataSource = emp.getallEmp();
+            }
+            clearText();
+            btnTimKiem.Enabled = false;
         }
     }
 }
