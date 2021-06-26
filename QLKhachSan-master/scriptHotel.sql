@@ -6,6 +6,7 @@ SET QUOTED_IDENTIFIER ON
 GO
 SET ANSI_PADDING ON
 GO
+
 CREATE TABLE [dbo].[ChiTietPhieuThue](
 	[MaChiTietPhieuThue] [varchar](8) NOT NULL,
 	[NgayVao] [date] NULL,
@@ -14,6 +15,7 @@ CREATE TABLE [dbo].[ChiTietPhieuThue](
 	[SoLuongKhach] [char](1) NULL,
 	[MaPhong] [varchar](8) NULL,
 	[MaPhieuThuePhong] [varchar](8) NULL,
+
 PRIMARY KEY CLUSTERED 
 (
 	[MaChiTietPhieuThue] ASC

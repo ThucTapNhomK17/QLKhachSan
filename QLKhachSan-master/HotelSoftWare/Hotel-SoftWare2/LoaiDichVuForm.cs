@@ -72,27 +72,28 @@ namespace Hotel_SoftWare2
             textBoxMaloaidv.Enabled = false;
         }
 
-        private void btnXoa_Click_1(object sender, EventArgs e)
-        {
-            if (MessageBox.Show("Xóa Loại Dịch Vụ Này?", "Warning", MessageBoxButtons.YesNo, MessageBoxIcon.Warning) == DialogResult.Yes)
+        //Xoa dich vu
+            private void btnXoa_Click_1(object sender, EventArgs e)
             {
-                TypeSer.delTypeSer(textBoxMaloaidv.Text);
-                try
+                if (MessageBox.Show("Xóa Loại Dịch Vụ Này?", "Warning", MessageBoxButtons.YesNo, MessageBoxIcon.Warning) == DialogResult.Yes)
                 {
-                
-                    MessageBox.Show("Xóa Loại Dịch Vụ Thành Công");
-                    TypeSer.SaveChanges();
-                    ShowSer(dgvLoaiDV);
+                    TypeSer.delTypeSer(textBoxMaloaidv.Text);
+                    try
+                    {
+
+                        MessageBox.Show("Xóa Loại Dịch Vụ Thành Công");
+                        TypeSer.SaveChanges();
+                        ShowSer(dgvLoaiDV);
+                    }
+                    catch (Exception ex)
+                    {
+                        MessageBox.Show(ex.Message);
+                    }
+                    clearText();
+                    btnXoa.Enabled = false;
+                    textBoxMaloaidv.Text = "";
                 }
-                catch (Exception ex)
-                {
-                    MessageBox.Show(ex.Message);
-                }
-                clearText();
-                btnXoa.Enabled = false;
-                textBoxMaloaidv.Text = "";
             }
-        }
 
         private void btnX_Click_1(object sender, EventArgs e)
         {
