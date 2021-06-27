@@ -183,7 +183,7 @@ namespace Hotel_SoftWare2
         {
             btnTimKiem.Enabled = true;
         }
-
+        //tim kiem loai phong
         private void btnTimKiem_Click(object sender, EventArgs e)
         {
             dgvLoaiPhong.DataSource = TypeRoom.TKtypeRoom(textBoxTimKiem.Text);
